@@ -1,0 +1,25 @@
+[PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
+NerdyWhiteGuy
+Quaternary
+Ivy_
+Jessie Sims
+Jellycraft
+Belathus
+DreamThorn
+Zuniroa
+Ncc1702
+Peregrinus11
+embeddedt
+Pongo Sapiens
+Jordan Pineo
+Spencer Gilbert
+Hooley
+NickT
+Genryu
+Jonathan McManus
+Lucas
+If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
+
+[PREINITIALIZATION][CLIENT][TRACE] Current loaders after merging: [[preinit]]
+[PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
+[PREINITIALIZATION][CLIENT][INFO] ikwid preprocessor is found in 模块化机械.zs, warnings and errors aren't printed to the players' chat.
