@@ -1,0 +1,17 @@
+{
+	title: "时间快进0天",
+	x: -4.5d,
+	y: -4.0d,
+	shape: "diamond",
+	can_repeat: true,
+	tasks: [{
+		uid: "f85c5683",
+		type: "ftbmoney:money",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e1f5dc7a",
+		type: "command",
+		command: "/time add 1"
+	}]
+}

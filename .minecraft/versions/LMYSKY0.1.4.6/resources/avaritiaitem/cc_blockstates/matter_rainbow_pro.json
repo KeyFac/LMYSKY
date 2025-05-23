@@ -1,0 +1,25 @@
+{
+  "ccl_marker": 1,
+  "texture_domain": "avaritiaitem",
+  "defaults": {
+    "transform": "ccl:default-item",
+    "textures": {
+      "layer0": "minecraft:dirt"
+    },
+    "model": "builtin/generated"
+  },
+  "variant_sets": [
+    "type"
+  ],
+  "variants": {
+    "type": {
+      "matter_rainbow_pro": {
+        "textures": {
+          "layer0": "items/matter_rainbow_pro",
+          "layer1": "items/matter_null",
+          "layer2": "items/matter_null1"
+        }
+      }
+    }
+  }
+}

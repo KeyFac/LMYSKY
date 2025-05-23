@@ -1,0 +1,16 @@
+{
+  "modifier": "ctmd_ren",
+  "text": [
+    {
+      "text": "传统美德:仁"
+    }
+  ],
+  "effects": [
+    "每次攻击将会减少被攻击生物的5%生命值上限",
+    "仁者无敌。",
+    "只能强化一次"
+  ],
+  "demoTool": [
+    "tconstruct:broadsword"
+  ]
+}

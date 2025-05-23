@@ -1,0 +1,20 @@
+{
+	title: "禁止天气变化",
+	x: -2.0d,
+	y: -5.0d,
+	shape: "diamond",
+	text: [
+		"非作弊模式无法使用"
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "6470126c",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "2bfc5ff6",
+		type: "command",
+		command: "/gamerule doWeatherCycle false"
+	}]
+}

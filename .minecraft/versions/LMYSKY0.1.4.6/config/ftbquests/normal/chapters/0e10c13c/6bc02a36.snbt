@@ -1,0 +1,12 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "9e77c660",
+		type: "item",
+		items: [{
+			item: "contenttweaker:hikari_nova"
+		}]
+	}]
+}

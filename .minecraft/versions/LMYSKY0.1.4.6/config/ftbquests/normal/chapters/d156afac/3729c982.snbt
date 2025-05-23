@@ -1,0 +1,20 @@
+{
+	x: -6.0d,
+	y: -2.0d,
+	dependencies: [
+		"ca102adf"
+	],
+	tasks: [{
+		uid: "af677cc2",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_crafting_terminal",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

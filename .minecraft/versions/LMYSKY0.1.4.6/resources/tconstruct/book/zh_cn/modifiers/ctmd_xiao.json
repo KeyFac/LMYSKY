@@ -1,0 +1,17 @@
+{
+  "modifier": "ctmd_xiao",
+  "text": [
+    {
+      "text": "传统美德:孝"
+    }
+  ],
+  "effects": [
+    "攻击怪物时将会把半径10格内的怪物传送至被攻击怪物处",
+    "被传送怪物会被施加缓慢buff",
+    "游子行路苦。",
+    "只能强化一次"
+  ],
+  "demoTool": [
+    "tconstruct:broadsword"
+  ]
+}

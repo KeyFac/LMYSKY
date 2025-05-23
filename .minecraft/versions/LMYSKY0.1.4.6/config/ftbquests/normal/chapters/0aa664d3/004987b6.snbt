@@ -1,0 +1,17 @@
+{
+	title: "时间快进3/4天",
+	x: 2.5d,
+	y: -3.5d,
+	shape: "diamond",
+	can_repeat: true,
+	tasks: [{
+		uid: "18d2b6ea",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "13aacc54",
+		type: "command",
+		command: "/time add 18000"
+	}]
+}

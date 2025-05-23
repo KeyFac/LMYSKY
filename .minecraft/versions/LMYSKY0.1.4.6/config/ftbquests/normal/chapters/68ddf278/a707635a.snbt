@@ -1,0 +1,22 @@
+{
+	x: -8.5d,
+	y: -4.0d,
+	text: [
+		"含有一键搭建,背包内有所有材料时手持模块化机械一键搭建手杖右键控制器一键搭建(就算缺少部分材料也会搭建,不过能一次拿完就一次拿完)"
+	],
+	dependencies: [
+		"f0580e6a"
+	],
+	tasks: [{
+		uid: "3d510414",
+		type: "item",
+		items: [{
+			item: "modularmachinery:daxing_fensui_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "76d8a4b0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

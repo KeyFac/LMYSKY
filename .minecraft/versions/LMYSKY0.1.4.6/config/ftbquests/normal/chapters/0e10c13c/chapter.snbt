@@ -1,0 +1,17 @@
+{
+	title: "赞助",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 0.0d,
+		y: 0.0d,
+		width: 3.75d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "assets:afdian-xianbei.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

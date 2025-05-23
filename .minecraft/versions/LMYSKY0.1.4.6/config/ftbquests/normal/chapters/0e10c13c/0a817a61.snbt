@@ -1,0 +1,12 @@
+{
+	x: 1.0d,
+	y: -3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "59ba79c8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:wu_liao_wasd"
+		}]
+	}]
+}

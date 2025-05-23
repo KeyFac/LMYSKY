@@ -1,0 +1,25 @@
+{
+  "ccl_marker": 1,
+  "texture_domain": "avaritiaitem",
+  "defaults": {
+    "transform": "ccl:default-item",
+    "textures": {
+      "layer0": "minecraft:dirt"
+    },
+    "model": "builtin/generated"
+  },
+  "variant_sets": [
+    "type"
+  ],
+  "variants": {
+    "type": {
+      "ingot_rainbow_pro": {
+        "textures": {
+          "layer0": "items/ingot_rainbow_plus",
+          "layer1": "items/ingot_null",
+          "layer2": "items/ingot_null1"
+        }
+      }
+    }
+  }
+}

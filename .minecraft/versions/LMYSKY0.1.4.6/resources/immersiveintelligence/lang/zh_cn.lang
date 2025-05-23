@@ -1,0 +1,2268 @@
+#本汉化由Fnordpigeon3456提供
+#MCMOD空间：https://center.mcmod.cn/361988/
+#本汉化适配0.2.1的沉浸智能，游戏中尚未实装的内容暂不翻译。
+#翻译借助机翻，不喜勿喷。
+#由于模组本身的排版问题，可能出现轻微的文本重叠，但不影响阅读。
+//Items
+itemGroup.immersiveintelligence=沉浸智能
+
+item.immersiveintelligence.material.basic_circuit_board_raw.name=未加工基础电路板
+item.immersiveintelligence.material.basic_circuit_board_etched.name=蚀刻基础电路板
+item.immersiveintelligence.material.basic_electronic_element.name=基础电子元件
+
+item.immersiveintelligence.material.advanced_circuit_board_raw.name=未加工高级电路板
+item.immersiveintelligence.material.advanced_circuit_board_etched.name=蚀刻高级电路板
+item.immersiveintelligence.material.advanced_circuit_board.name=高级电路板
+item.immersiveintelligence.material.advanced_electronic_element.name=高级电子元件
+
+item.immersiveintelligence.material.processor_circuit_board_raw.name=未加工的处理器电路板
+item.immersiveintelligence.material.processor_circuit_board_etched.name=蚀刻处理器电路板
+item.immersiveintelligence.material.processor_circuit_board.name=处理器电路板
+item.immersiveintelligence.material.processor_electronic_element.name=处理器
+item.immersiveintelligence.material.transistor.name=晶体管
+
+item.immersiveintelligence.material.compact_electric_engine.name=电子零件
+item.immersiveintelligence.material.compact_electric_engine_advanced.name=高级电子零件
+item.immersiveintelligence.material.carbon_brush.name=碳刷
+item.immersiveintelligence.material.wire_tungsten.name=钨线
+item.immersiveintelligence.material.glass_fibre_cable.name=玻璃纤维电缆
+
+item.immersiveintelligence.material.advanced_electron_tube.name=高级真空管
+
+item.immersiveintelligence.material.punchtape_empty.name=空的打点纸带
+item.immersiveintelligence.punchtape.name=打点纸带
+
+item.immersiveintelligence.binoculars.binoculars.name=双筒望远镜
+item.immersiveintelligence.binoculars.infrared_binoculars.name=红外望远镜
+
+item.immersiveintelligence.assembly_scheme.name=装配方案
+
+item.immersiveintelligence.press_mold.howitzer.name=金属冲压模具：炮弹外壳
+item.immersiveintelligence.press_mold.light_howitzer.name=金属冲压模具：轻型炮弹外壳
+item.immersiveintelligence.press_mold.mortar.name=金属冲压模具：迫击炮弹外壳
+item.immersiveintelligence.press_mold.autocannon.name=金属冲压模具：机关炮炮弹外壳
+item.immersiveintelligence.press_mold.machinegun.name=金属冲压模具：机枪弹壳
+item.immersiveintelligence.press_mold.assault_rifle.name=金属冲压模具：突击步枪弹壳
+item.immersiveintelligence.press_mold.submachinegun.name=金属冲压模具：冲锋枪弹壳
+item.immersiveintelligence.press_mold.naval_mine.name=金属冲压模具：水雷外壳
+item.immersiveintelligence.press_mold.tripmine.name=金属冲压模具：跳雷外壳
+item.immersiveintelligence.press_mold.tellermine.name=金属冲压模具：地雷外壳
+
+item.immersiveintelligence.vulcanizer_mold.belt.name=硫化模具：橡胶带
+item.immersiveintelligence.vulcanizer_mold.tire.name=硫化模具：轮胎
+
+item.immersiveintelligence.material_ingot.platinum.name=铂锭
+item.immersiveintelligence.material_ingot.zinc.name=锌锭
+item.immersiveintelligence.material_ingot.tungsten.name=钨锭
+item.immersiveintelligence.material_ingot.brass.name=黄铜锭
+item.immersiveintelligence.material_ingot.advanced_electronic_alloy.name=高级电子合金锭
+item.immersiveintelligence.material_ingot.silicon.name=硅锭
+item.immersiveintelligence.material_ingot.magnet.name=磁铁
+item.immersiveintelligence.material_ingot.duraluminium.name=硬铝锭
+
+item.immersiveintelligence.material_rod.brass.name=黄铜棒
+item.immersiveintelligence.material_rod.tungsten.name=钨棒
+item.immersiveintelligence.material_rod.zinc.name=锌棒
+item.immersiveintelligence.material_rod.platinum.name=铂棒
+item.immersiveintelligence.material_rod.duraluminium.name=硬铝棒
+
+item.immersiveintelligence.material_dust.platinum.name=铂粉
+item.immersiveintelligence.material_dust.zinc.name=锌粉
+item.immersiveintelligence.material_dust.tungsten.name=钨粉
+item.immersiveintelligence.material_dust.brass.name=黄铜粉
+item.immersiveintelligence.material_dust.advanced_electronic_alloy.name=高级电子合金粉
+item.immersiveintelligence.material_dust.silicon.name=硅粉
+item.immersiveintelligence.material_dust.fluorite.name=萤石粉
+item.immersiveintelligence.material_dust.quartz.name=石英粉
+item.immersiveintelligence.material_dust.quartz_dirty.name=脏石英粉
+item.immersiveintelligence.material_dust.phosphorus.name=磷粉
+item.immersiveintelligence.material_dust.duraluminium.name=硬铝粉
+
+item.immersiveintelligence.material_plate.platinum.name=铂板
+item.immersiveintelligence.material_plate.zinc.name=锌板
+item.immersiveintelligence.material_plate.tungsten.name=钨板
+item.immersiveintelligence.material_plate.brass.name=黄铜板
+item.immersiveintelligence.material_plate.advanced_electronic_alloy.name=高级电子合金板
+item.immersiveintelligence.material_plate.silicon.name=硅晶圆
+item.immersiveintelligence.material_plate.rubber_raw.name=天然橡胶板
+item.immersiveintelligence.material_plate.duraluminium.name=硬铝板
+
+item.immersiveintelligence.material_nugget.platinum.name=铂粒
+item.immersiveintelligence.material_nugget.zinc.name=锌粒
+item.immersiveintelligence.material_nugget.tungsten.name=钨粒
+item.immersiveintelligence.material_nugget.brass.name=黄铜粒
+item.immersiveintelligence.material_nugget.advanced_electronic_alloy.name=高级点子合金粒
+item.immersiveintelligence.material_nugget.silicon.name=硅粒
+item.immersiveintelligence.material_nugget.duraluminium.name=硬铝粒
+
+item.immersiveintelligence.material_wire.tungsten.name=钨线
+
+item.immersiveintelligence.material_gem.fluorite.name=下界萤石
+#Based on real-life mineral glauconite, though the word phosphorus is easier to remember
+item.immersiveintelligence.material_gem.phosphorus.name=下界磷
+
+item.immersiveintelligence.material_boule.silicon.name=硅块
+
+item.immersiveintelligence.material_spring.brass.name=黄铜弹簧
+item.immersiveintelligence.material_spring.iron.name=铁质弹簧
+item.immersiveintelligence.material_spring.steel.name=钢质弹簧
+
+item.immersiveintelligence.material.dust_rdx.name=RDX炸药粉
+item.immersiveintelligence.material.dust_hmx.name=HMX炸药粉
+item.immersiveintelligence.material.white_phosphorus.name=白磷
+
+item.immersiveintelligence.material.bullet_core_steel.name=钢质弹头
+item.immersiveintelligence.material.bullet_core_brass.name=黄铜弹头
+item.immersiveintelligence.material.bullet_core_uranium.name=铀弹头
+item.immersiveintelligence.material.bullet_core_lead.name=⁮铅弹头
+item.immersiveintelligence.material.bullet_core_tungsten.name=钨弹头
+
+item.immersiveintelligence.material.dust_salt.name=盐
+item.immersiveintelligence.material.dust_wood.name=锯屑
+item.immersiveintelligence.material.pulp_wood.name=木浆
+item.immersiveintelligence.material.pulp_wood_treated.name=湿木浆
+item.immersiveintelligence.material.dust_hexamine.name=六胺粉
+item.immersiveintelligence.material.dust_formaldehyde.name=甲醛粉
+item.immersiveintelligence.material.rubber_compound.name=硫化物
+
+item.immersiveintelligence.material.artificial_leather.name=人造革
+item.immersiveintelligence.material.natural_rubber.name=天然橡胶
+item.immersiveintelligence.material.rubber_belt.name=橡胶带
+item.immersiveintelligence.material.rubber_tire.name=橡胶轮胎
+
+item.immersiveintelligence.circuit_functional.arithmetic.name=算术电路板
+item.immersiveintelligence.circuit_functional.advanced_arithmetic.name=高级算术电路板
+item.immersiveintelligence.circuit_functional.logic.name=逻辑电路板
+item.immersiveintelligence.circuit_functional.comparator.name=比较电路板
+item.immersiveintelligence.circuit_functional.advanced_logic.name=高级逻辑电路板
+item.immersiveintelligence.circuit_functional.text.name=文本处理电路板
+item.immersiveintelligence.circuit_functional.itemstack.name=物品数据电路板
+item.immersiveintelligence.circuit_functional.array.name=阵列操作电路板
+item.immersiveintelligence.circuit_functional.entity.name=实体操作电路板
+item.immersiveintelligence.circuit_functional.document.name=文档操作电路板
+item.immersiveintelligence.circuit_functional.type_conversion.name=种类转换电路板
+
+item.immersiveintelligence.minecart.wooden_crate.name=带木制储存箱的矿车
+item.immersiveintelligence.minecart.reinforced_crate.name=带加固储存箱的矿车
+item.immersiveintelligence.minecart.steel_crate.name=带钢质储存箱的矿车
+item.immersiveintelligence.minecart.wooden_barrel.name=带木桶的矿车
+item.immersiveintelligence.minecart.metal_barrel.name=带金属桶的矿车
+item.immersiveintelligence.minecart.capacitor_lv.name=带低压电容的矿车
+item.immersiveintelligence.minecart.capacitor_mv.name=带中压电容的矿车
+item.immersiveintelligence.minecart.capacitor_hv.name=带高压电容的矿车
+item.immersiveintelligence.minecart.capacitor_creative.name=带创造电容的矿车
+#Immersive Technology Compat
+item.immersiveintelligence.minecart.crate_creative.name=带创造木制储存箱的矿车
+item.immersiveintelligence.minecart.barrel_creative.name=带创造木桶的矿车
+item.immersiveintelligence.minecart.steel_barrel.name=带钢质桶的矿车
+item.immersiveintelligence.minecart.open_barrel.name=带开口金属桶的矿车
+
+item.immersiveintelligence.light_engineer_armor_helmet.name=工程师轻质头盔
+item.immersiveintelligence.light_engineer_armor_chestplate.name=工程师轻质胸甲
+item.immersiveintelligence.light_engineer_armor_leggings.name=工程师轻质护腿
+item.immersiveintelligence.light_engineer_armor_boots.name=工程师轻质靴子
+item.immersiveintelligence.advanced_powerpack.name=改进电容背包
+
+item.immersiveintelligence.lighter.name=工程师打火机
+item.immersiveintelligence.measuring_cup.name=工程师量杯
+item.immersiveintelligence.electric_hammer.name=工程师电动锤
+item.immersiveintelligence.electric_wirecutter.name=工程师电动钳
+item.immersiveintelligence.electric_multitool.name=工程师电动多用工具
+item.immersiveintelligence.radio_configurator.basic.name=基础无线电调谐器
+item.immersiveintelligence.radio_configurator.advanced.name=高级无线电调谐器
+item.immersiveintelligence.trench_shovel.name=土木铲
+item.immersiveintelligence.tripod_periscope.name=三脚架潜望镜（炮队镜）
+item.immersiveintelligence.mine_detector.name=地雷探测器
+item.immersiveintelligence.mortar.name=迫击炮
+item.immersiveintelligence.machinegun.name=机枪
+item.immersiveintelligence.assault_rifle.name=突击步枪
+item.immersiveintelligence.submachinegun.name=冲锋枪
+item.immersiveintelligence.autorevolver.name=自动左轮手枪
+
+#Drillheads
+item.immersiveintelligence.drillhead.tungsten.name=钨质钻头
+item.immersiveintelligence.drillhead.iron_diamond_tip.name=镶钻铁质钻头
+item.immersiveintelligence.drillhead.steel_diamond_tip.name=镶钻钢质钻头
+item.immersiveintelligence.drillhead.tungsten_diamond_tip.name=镶钻钨质钻头
+
+item.immersiveintelligence.weapon_upgrade.water_cooling.name=水冷枪管
+item.immersiveintelligence.weapon_upgrade.heavy_barrel.name=重型枪管
+item.immersiveintelligence.weapon_upgrade.second_magazine.name=副弹匣
+item.immersiveintelligence.weapon_upgrade.belt_fed_loader.name=带式装弹机
+item.immersiveintelligence.weapon_upgrade.precise_bipod.name=精密三脚架
+item.immersiveintelligence.weapon_upgrade.hasty_bipod.name=临时三脚架
+item.immersiveintelligence.weapon_upgrade.scope.name=瞄准镜
+item.immersiveintelligence.weapon_upgrade.infrared_scope.name=红外瞄准镜
+item.immersiveintelligence.weapon_upgrade.shield.name=机枪盾
+item.immersiveintelligence.weapon_upgrade.tripod.name=三脚架
+
+item.immersiveintelligence.weapon_upgrade.sturdy_barrel.name=冲锋枪重型枪管
+item.immersiveintelligence.weapon_upgrade.suppressor.name=消音器
+item.immersiveintelligence.weapon_upgrade.bottom_loading.name=底部装弹器
+item.immersiveintelligence.weapon_upgrade.folding_stock.name=折叠式枪托
+
+item.immersiveintelligence.weapon_upgrade.heavy_springbox.name=重型弹簧盒
+
+item.immersiveintelligence.weapon_upgrade.radio_marker.name=Radio Marker
+item.immersiveintelligence.weapon_upgrade.rifle_grenade_launcher.name=Rifle Grenade Launcher
+item.immersiveintelligence.weapon_upgrade.stereoscopic_rangefinder.name=Stereoscopic Rangefinder
+
+item.immersiveintelligence.armor_upgrade.gasmask.name=防毒面具
+item.immersiveintelligence.armor_upgrade.infiltrator_gear.name=夜视面罩
+item.immersiveintelligence.armor_upgrade.technician_gear.name=技师面罩
+item.immersiveintelligence.armor_upgrade.engineer_gear.name=工程师面罩
+item.immersiveintelligence.armor_upgrade.steel_armor_plates.name=钢质防弹插板
+item.immersiveintelligence.armor_upgrade.composite_armor_plates.name=复合防弹插板
+item.immersiveintelligence.armor_upgrade.hazmat_coating.name=危险品涂层
+item.immersiveintelligence.armor_upgrade.heat_resistant_coating.name=耐热涂层
+item.immersiveintelligence.armor_upgrade.anti_static_mesh.name=防静电伪装网
+item.immersiveintelligence.armor_upgrade.camouflage_mesh.name=伪装网
+item.immersiveintelligence.armor_upgrade.infrared_absorbing_mesh.name=红外吸收网
+item.immersiveintelligence.armor_upgrade.scuba_tank.name=附加氧气罐
+item.immersiveintelligence.armor_upgrade.helipack.name=喷气背包
+item.immersiveintelligence.armor_upgrade.exoskeleton.name=外骨骼
+item.immersiveintelligence.armor_upgrade.boot_reinforcement.name=加固靴子
+item.immersiveintelligence.armor_upgrade.snow_rackets.name=雪拍
+item.immersiveintelligence.armor_upgrade.flippers.name=脚蹼
+item.immersiveintelligence.armor_upgrade.internal_springs.name=附加弹簧
+
+item.immersiveintelligence.tracer_powder.tracer_powder.name=曳光弹粉
+item.immersiveintelligence.tracer_powder.flare_powder.name=照明粉
+
+item.immersiveintelligence.skycrate_mount.mechanical.name=索道载架
+item.immersiveintelligence.skycrate_mount.electric.name=电动索道载架
+
+desc.immersiveintelligence.toolupgrade.item.revolver=左轮手枪
+desc.immersiveintelligence.toolupgrade.item.railgun=电磁炮
+desc.immersiveintelligence.toolupgrade.item.machinegun=机枪
+desc.immersiveintelligence.toolupgrade.item.submachinegun=冲锋枪
+desc.immersiveintelligence.toolupgrade.item.mortar=迫击炮
+desc.immersiveintelligence.toolupgrade.item.assault_rifle=突击步枪
+desc.immersiveintelligence.toolupgrade.item.autorevolver=自动左轮手枪
+
+desc.immersiveintelligence.filled_casing=用火药填充
+desc.immersiveintelligence.explosives_programmed=使用数据包进行编程
+
+desc.immersiveintelligence.toolupgrade.item.light_engineer_helmet=工程师轻质头盔
+desc.immersiveintelligence.toolupgrade.item.light_engineer_chestplate=工程师轻质胸甲
+desc.immersiveintelligence.toolupgrade.item.light_engineer_leggings=工程师轻质护腿
+desc.immersiveintelligence.toolupgrade.item.light_engineer_boots=工程师轻质靴子
+
+desc.immersiveintelligence.toolupgrade.water_cooling=用水冷却机枪，增加机枪所能承受的最大热量。
+desc.immersiveintelligence.toolupgrade.heavy_barrel=显著提高射击速度，但后坐力更大，更容易过热。
+desc.immersiveintelligence.toolupgrade.second_magazine=可使用两个弹匣，需要分别装填。
+desc.immersiveintelligence.toolupgrade.belt_fed_loader=可从玩家下方的弹药箱中取出弹药，但会增加安装时间。 
+desc.immersiveintelligence.toolupgrade.precise_bipod=大幅增加安装时间，大副减少后坐力。
+desc.immersiveintelligence.toolupgrade.hasty_bipod=小幅增加安装时间，小幅减少后坐力。
+desc.immersiveintelligence.toolupgrade.scope=可用于瞄准远处物体
+desc.immersiveintelligence.toolupgrade.infrared_scope=提供夜视能力，需要电源（如电容背包）。
+desc.immersiveintelligence.toolupgrade.shield=使子弹跳弹并保护玩家免受近战伤害，同时增加安装时间。
+desc.immersiveintelligence.toolupgrade.tripod=消除几乎100%的后坐力，也增加了最大射击角度和安装时间。
+desc.immersiveintelligence.toolupgrade.sturdy_barrel=以降低射速为代价，提高子弹速度和穿透力。
+desc.immersiveintelligence.toolupgrade.suppressor=使枪静音，允许快速而隐蔽的行动。
+desc.immersiveintelligence.toolupgrade.bottom_loading=代替手柄，使枪可以从底部装填，允许装载弹鼓。
+desc.immersiveintelligence.toolupgrade.folding_stock=减少装填&瞄准时间，移动时瞄准度更低。
+
+desc.immersiveintelligence.toolupgrade.heavy_springbox=增加子弹速度，赋予其更高的穿透力。同时增加每次射击的间隔。
+
+desc.immersiveintelligence.toolupgrade.radio_marker=允许发送当前玩家位置的数据信号。
+desc.immersiveintelligence.toolupgrade.rifle_grenade_launcher=允许在稍低范围内发射电磁炮弹药。
+desc.immersiveintelligence.toolupgrade.stereoscopic_rangefinder=显示当前目标的范围。结合无线电标记，允许发送敌方阵地数据。
+
+desc.immersiveintelligence.toolupgrade.gasmask=保护玩家免受有害气体的伤害。
+
+desc.immersiveintelligence.toolupgrade.infiltrator_gear=允许夜视和放大，需要能量才能操作。
+desc.immersiveintelligence.toolupgrade.technician_gear=当手中拿着锤子、电压表或扳手的时候显示工具提示。需要能量才能操作。
+desc.immersiveintelligence.toolupgrade.engineer_gear=将夜视面罩和技工面罩的效果组合到一个设备中，同时增加能耗。
+desc.immersiveintelligence.toolupgrade.steel_armor_plates=略微增加盔甲厚度，可使箭矢和子弹跳弹。每件盔甲最多可装3个。
+desc.immersiveintelligence.toolupgrade.composite_armor_plates=显著增加盔甲厚度，当对方未对佩戴者造成足够的伤害可使子弹跳弹并损耗对方近战武器耐久。每件盔甲最多可装3个。
+desc.immersiveintelligence.toolupgrade.hazmat_coating=使盔甲耐辐射和腐蚀。
+desc.immersiveintelligence.toolupgrade.heat_resistant_coating=当与加固靴子结合时，可以使玩家在炽热的液体里游泳。
+desc.immersiveintelligence.toolupgrade.anti_static_mesh=使佩戴者免疫电伤害，并使附近的特斯拉线圈无法瞄准。对电磁脉冲敏感。
+desc.immersiveintelligence.toolupgrade.camouflage_mesh=使佩戴者在接近树叶时隐身，对火敏感。
+desc.immersiveintelligence.toolupgrade.infrared_absorbing_mesh=使红外设备无法发现佩戴者，对电磁脉冲敏感。
+desc.immersiveintelligence.toolupgrade.scuba_tank=充满氧气后可用于水下呼吸，并使电动工具可在水下操作。
+desc.immersiveintelligence.toolupgrade.helipack=允许玩家缓慢而稳定的飞行，需要汽油作为燃料。
+desc.immersiveintelligence.toolupgrade.exoskeleton=允许玩家以更快的速度奔跑，同时消耗能量。
+desc.immersiveintelligence.toolupgrade.boot_reinforcement=使佩戴者免疫火焰伤害。当与耐热涂层结合时，可使佩戴者在炽热的液体里游泳。
+desc.immersiveintelligence.toolupgrade.snow_rackets=可使玩家以更快的速度在雪上面行走，同时也可以起到在冰面上防滑的作用。
+desc.immersiveintelligence.toolupgrade.flippers=允许玩家以更快的速度在水下行走。
+desc.immersiveintelligence.toolupgrade.internal_springs=保护佩戴者免受跌落伤害，同时使脚步静音。
+
+item.immersiveintelligence.data_wire.name=数据线圈
+
+item.immersiveintelligence.trip_wire.name=绊索线圈
+
+item.immersiveintelligence.small_wirecoil.data.name=小型数据线圈
+item.immersiveintelligence.small_wirecoil.redstone.name=小型红石线圈
+desc.immersiveintelligence.small_wirecoil=用于连接精密的电子设备，例如安装电路板。
+
+item.immersiveintelligence.printed_page.blank.name=空白纸页
+item.immersiveintelligence.printed_page.text.name=印刷文本纸页
+item.immersiveintelligence.printed_page.code.name=印刷代码纸页
+item.immersiveintelligence.printed_page.blueprint.name=印制结构方案
+
+item.immersiveintelligence.precission_tool.precission_buzzsaw.name=切割机械臂
+item.immersiveintelligence.precission_tool.precission_drill.name=钻头机械臂
+item.immersiveintelligence.precission_tool.precission_inserter.name=抓取机械臂
+item.immersiveintelligence.precission_tool.precission_solderer.name=焊锡机械臂
+item.immersiveintelligence.precission_tool.precission_welder.name=焊接机械臂
+item.immersiveintelligence.precission_tool.precission_hammer.name=击锤机械臂
+
+item.immersiveintelligence.sawblade.iron.name=铁质锯片
+item.immersiveintelligence.sawblade.steel.name=钢质锯片
+item.immersiveintelligence.sawblade.tungsten.name=钨质锯片
+
+#bCal - Block-Caliber (1/16 Block=1 bCal)
+#Casings
+item.immersiveintelligence.ammo_casing.artillery_8bcal.name=炮弹外壳
+item.immersiveintelligence.artillery_8bCal.core.name=炮弹弹头
+item.immersiveintelligence.artillery_8bCal.bullet.name=炮弹
+
+item.immersiveintelligence.ammo_casing.mortar_6bCal.name=迫击炮弹壳
+item.immersiveintelligence.mortar_6bCal.core.name=迫击炮弹头
+item.immersiveintelligence.mortar_6bCal.bullet.name=迫击炮弹
+
+item.immersiveintelligence.ammo_casing.light_artillery_6bcal.name=轻型炮弹外壳
+item.immersiveintelligence.artillery_6bCal.core.name=轻型炮弹弹头
+item.immersiveintelligence.artillery_6bCal.bullet.name=轻型炮弹
+
+item.immersiveintelligence.ammo_casing.mg_2bcal.name=机枪弹壳
+item.immersiveintelligence.mg_2bCal.core.name=机枪弹头
+item.immersiveintelligence.mg_2bCal.bullet.name=机枪子弹
+
+item.immersiveintelligence.ammo_casing.stg_1bcal.name=突击步枪弹壳
+item.immersiveintelligence.stg_1bCal.core.name=突击步枪弹头
+item.immersiveintelligence.stg_1bCal.bullet.name=突击步枪子弹
+
+item.immersiveintelligence.ammo_casing.smg_1bcal.name=冲锋枪弹壳
+item.immersiveintelligence.smg_1bCal.core.name=冲锋枪弹头
+item.immersiveintelligence.smg_1bCal.bullet.name=冲锋枪子弹
+
+item.immersiveintelligence.revolver_1bCal.core.name=左轮手枪弹头
+item.immersiveintelligence.revolver_1bCal.bullet.name=左轮手枪子弹
+
+item.immersiveintelligence.ammo_casing.autocannon_3bcal.name=机关炮弹壳
+item.immersiveintelligence.autocannon_3bCal.core.name=机关炮弹头
+item.immersiveintelligence.autocannon_3bCal.bullet.name=机关炮炮弹
+
+item.immersiveintelligence.grenade_5bCal.core.name=手榴弹弹头
+item.immersiveintelligence.grenade_5bCal.bullet.name=手雷
+
+item.immersiveintelligence.railgun_grenade_4bCal.core.name=电磁炮炮弹弹头
+item.immersiveintelligence.railgun_grenade_4bCal.bullet.name=电磁炮炮弹
+
+#Components
+
+item.immersiveintelligence.bullet.component.tnt.name=TNT（三硝基甲苯）
+item.immersiveintelligence.bullet.component.rdx.name=RDX（黑索金（环三亚甲基三硝胺））
+item.immersiveintelligence.bullet.component.hmx.name=HMX（奥克托今（环四亚甲基四硝胺））
+item.immersiveintelligence.bullet.component.white_phosphorus.name=白磷
+item.immersiveintelligence.bullet.component.firework.name=烟花
+item.immersiveintelligence.bullet.component.tesla.name=特斯拉线圈
+item.immersiveintelligence.bullet.component.tracer_powder.name=曳光弹粉
+item.immersiveintelligence.bullet.component.flare_powder.name=照明粉
+item.immersiveintelligence.bullet.component.propaganda.name=Propaganda
+#shh! it's a secret!
+item.immersiveintelligence.bullet.component.fish.name=鱼（？？？）
+item.immersiveintelligence.bullet.component.nuke.name=核弹头
+
+#Cores
+
+item.immersiveintelligence.bullet.component.core_steel.name=钢弹头
+item.immersiveintelligence.bullet.component.core_brass.name=黄铜弹头
+item.immersiveintelligence.bullet.component.core_tungsten.name=钨弹头
+item.immersiveintelligence.bullet.component.core_lead.name=铅弹头
+item.immersiveintelligence.bullet.component.core_uranium.name=铀弹头
+
+item.immersiveintelligence.bullet_magazine.machinegun.name=机枪弹匣
+item.immersiveintelligence.bullet_magazine.submachinegun.name=冲锋枪弹匣
+item.immersiveintelligence.bullet_magazine.submachinegun_drum.name=冲锋枪弹鼓
+item.immersiveintelligence.bullet_magazine.automatic_revolver.name=自动左轮弹匣
+item.immersiveintelligence.bullet_magazine.assault_rifle.name=突击步枪弹匣
+item.immersiveintelligence.bullet_magazine.autocannon.name=机关炮弹匣
+item.immersiveintelligence.bullet_magazine.cpds_drum.name=CPDS近防炮弹鼓
+
+item.immersiveintelligence.motor_gear.copper.name=铜质齿轮
+item.immersiveintelligence.motor_gear.brass.name=黄铜齿轮
+item.immersiveintelligence.motor_gear.iron.name=铁质齿轮
+item.immersiveintelligence.motor_gear.steel.name=钢质齿轮
+item.immersiveintelligence.motor_gear.tungsten.name=钨质齿轮
+
+item.immersiveintelligence.motor_belt.cloth.name=皮质传动带
+item.immersiveintelligence.motor_belt.steel.name=钢质传动带
+item.immersiveintelligence.motor_belt.rubber.name=橡胶传动带
+
+item.immersiveintelligence.wrench.name=工程师扳手
+item.immersiveintelligence.electric_wrench.name=工程师电扳手
+
+item.immersiveintelligence.tachometer.name=工程师转速计
+item.immersiveintelligence.torque_meter.name=工程师扭矩计
+
+#Blocks
+
+tile.immersiveintelligence.ore.platinum.name=铂矿
+tile.immersiveintelligence.sheetmetal.platinum.name=铂板方块
+tile.immersiveintelligence.storage.platinum.name=铂块
+tile.immersiveintelligence.sheetmetal_slab.platinum.name=铂板方块台阶
+tile.immersiveintelligence.storage_slab.platinum.name=铂块台阶
+
+tile.immersiveintelligence.ore.zinc.name=锌矿
+tile.immersiveintelligence.sheetmetal.zinc.name=锌板方块
+tile.immersiveintelligence.storage.zinc.name=锌块
+tile.immersiveintelligence.sheetmetal_slab.zinc.name=锌板方块台阶
+tile.immersiveintelligence.storage_slab.zinc.name=锌块台阶
+
+tile.immersiveintelligence.ore.tungsten.name=钨矿
+tile.immersiveintelligence.sheetmetal.tungsten.name=钨板方块
+tile.immersiveintelligence.storage.tungsten.name=钨块
+tile.immersiveintelligence.sheetmetal_slab.tungsten.name=钨板方块台阶
+tile.immersiveintelligence.storage_slab.tungsten.name=钨块台阶
+
+tile.immersiveintelligence.ore.salt.name=盐矿
+
+tile.immersiveintelligence.ore.fluorite.name=下界萤石矿
+tile.immersiveintelligence.ore.phosphorus.name=下界磷矿
+
+tile.immersiveintelligence.sheetmetal.brass.name=黄铜板方块
+tile.immersiveintelligence.storage.brass.name=黄铜块
+tile.immersiveintelligence.sheetmetal_slab.brass.name=黄铜板方块台阶
+tile.immersiveintelligence.storage_slab.brass.name=黄铜块台阶
+
+tile.immersiveintelligence.sheetmetal.duraluminium.name=硬铝板方块
+tile.immersiveintelligence.storage.duraluminium.name=硬铝块
+tile.immersiveintelligence.sheetmetal_slab.duraluminium.name=硬铝板方块台阶
+tile.immersiveintelligence.storage_slab.duraluminium.name=硬铝块台阶
+
+tile.immersiveintelligence.fence_brass.name=黄铜栅栏
+tile.immersiveintelligence.fence_tungsten.name=钨质栅栏
+tile.immersiveintelligence.fence_zinc.name=锌质栅栏
+tile.immersiveintelligence.fence_platinum.name=铂栅栏
+tile.immersiveintelligence.fence_duraluminium.name=硬铝栅栏
+
+tile.immersiveintelligence.rubber_log.raw.name=橡胶树原木
+tile.immersiveintelligence.rubber_log.rebbur.name=有乳胶的橡胶树原木
+tile.immersiveintelligence.rubber_log.stripped.name=剥了皮的有乳胶的橡胶树原木
+tile.immersiveintelligence.rubber_leaves.rubber.name=橡胶树树叶
+tile.immersiveintelligence.rubber_sapling.rubber.name=橡胶树树苗
+tile.immersiveintelligence.charred_log.main.name=烧焦的原木
+
+tile.immersiveintelligence.concrete_decoration.concrete_bricks.name=混凝土砖
+tile.immersiveintelligence.concrete_decoration_slab.concrete_bricks.name=混凝土砖台阶
+tile.immersiveintelligence.concrete_decoration_stairs_concrete_bricks.name=混凝土砖楼梯
+tile.immersiveintelligence.concrete_decoration.sturdy_concrete_bricks.name=装甲混凝土砖
+tile.immersiveintelligence.concrete_decoration_slab.sturdy_concrete_bricks.name=装甲混凝土砖台阶
+tile.immersiveintelligence.concrete_decoration_stairs_sturdy_concrete_bricks.name=装甲混凝土砖楼梯
+
+tile.immersiveintelligence.concrete_decoration.uberconcrete.name=超强混凝土砖
+tile.immersiveintelligence.concrete_decoration_slab.uberconcrete.name=超强混凝土砖台阶
+tile.immersiveintelligence.concrete_decoration_stairs_uberconcrete.name=超强混凝土砖楼梯
+
+tile.immersiveintelligence.metal_decoration.electronic_engineering.name=电子工程块
+tile.immersiveintelligence.metal_decoration.advanced_electronic_engineering.name=高级电子工程块
+tile.immersiveintelligence.metal_decoration.computer_engineering.name=电脑工程块
+tile.immersiveintelligence.metal_decoration.mechanical_engineering.name=机械工程块
+tile.immersiveintelligence.metal_decoration.heavy_mechanical_engineering.name=高级机械工程块
+
+tile.immersiveintelligence.metal_decoration.coil_data.name=数据线圈
+tile.immersiveintelligence.metal_decoration.coil_steel_motor_belt.name=钢质传动带圈
+
+tile.immersiveintelligence.cloth_decoration.coil_rope.name=麻绳线块
+tile.immersiveintelligence.cloth_decoration.coil_cloth_motor_belt.name=皮质传动带圈
+tile.immersiveintelligence.cloth_decoration.coil_rubber_motor_belt.name=橡胶传动带圈
+
+tile.immersiveintelligence.mine_sign.mine_sign.name=地雷警告牌
+tile.immersiveintelligence.mine_sign.mine_sign.desc=小心地雷！    
+
+tile.immersiveengineering.conveyor.immersiveintelligence:rubber_conveyor.name=橡胶传送带
+tile.immersiveengineering.conveyor.immersiveintelligence:rubber_uncontrolled.name=橡胶传送带
+tile.immersiveengineering.conveyor.immersiveintelligence:rubber_uncontrolled.flavour=忽略红石控制
+tile.immersiveengineering.conveyor.immersiveintelligence:rubber_dropper.name=卸货橡胶传送带
+tile.immersiveengineering.conveyor.immersiveintelligence:rubber_droppercovered.name=绝缘卸货橡胶传送带
+tile.immersiveengineering.conveyor.immersiveintelligence:rubber_vertical.name=垂直橡胶传送带
+tile.immersiveengineering.conveyor.immersiveintelligence:rubber_splitter.name=分流橡胶传送带
+tile.immersiveengineering.conveyor.immersiveintelligence:rubber_covered.name=绝缘橡胶传送带
+tile.immersiveengineering.conveyor.immersiveintelligence:rubber_verticalcovered.name=绝缘垂直橡胶传送带
+tile.immersiveengineering.conveyor.immersiveintelligence:rubber_extract.name=抽取橡胶传送带
+tile.immersiveengineering.conveyor.immersiveintelligence:rubber_extractcovered.name=绝缘抽取橡胶传送带
+
+#due to how IE's base classes are designed, I had to use a "main" as only value in IIBlockTypes_Mine
+#redundant? yes, works? yes
+tile.immersiveintelligence.tripmine.main.name=跳雷
+tile.immersiveintelligence.tripmine.core.name=跳雷核心
+#Same as above (for the landmine and explosives), this is due to how the projectile workshop gets the translation
+item.immersiveintelligence.tripmine.core.name=跳雷核心
+item.immersiveintelligence.ammo_casing.tripmine.name=跳雷外壳
+tile.immersiveintelligence.tripwire_connector.main.name=绊线连接器
+
+tile.immersiveintelligence.tellermine.main.name=地雷
+tile.immersiveintelligence.tellermine.core.name=地雷核心
+item.immersiveintelligence.tellermine.core.name=地雷核心
+item.immersiveintelligence.ammo_casing.tellermine.name=地雷外壳 
+
+tile.immersiveintelligence.radio_explosives.main.name=遥控炸弹
+tile.immersiveintelligence.radio_explosives.core.name=遥控炸弹核心
+item.immersiveintelligence.radio_explosives.core.name=遥控炸弹核心
+item.immersiveintelligence.ammo_casing.radio_explosives.name=遥控炸弹外壳
+
+item.immersiveintelligence.naval_mine.bullet.name=水雷
+item.immersiveintelligence.naval_mine.core.name=水雷核心
+item.immersiveintelligence.ammo_casing.naval_mine.name=水雷外壳
+
+tile.immersiveintelligence.stone_decoration.sandbags.name=沙包
+
+tile.immersiveintelligence.metal_device.metal_crate.name=钢质储存箱
+tile.immersiveintelligence.metal_device.small_data_buffer.name=小型数据缓冲器
+tile.immersiveintelligence.metal_device.item_buffer.name=物品缓冲器
+tile.immersiveintelligence.metal_device.timed_buffer.name=定时缓冲器
+tile.immersiveintelligence.metal_device.redstone_buffer.name=红石缓冲器
+tile.immersiveintelligence.metal_device.punchtape_reader.name=打点纸带阅读器
+tile.immersiveintelligence.metal_device.data_router.name=数据路由器
+tile.immersiveintelligence.metal_device.data_merger.name=数据合并器
+
+tile.immersiveintelligence.metal_device.ammunition_crate.name=弹药箱
+tile.immersiveintelligence.metal_device.medical_crate.name=医疗箱
+tile.immersiveintelligence.metal_device.repair_crate.name=修理箱
+
+tile.immersiveintelligence.metal_device.latex_collector.name=橡胶提取器
+
+tile.immersiveintelligence.metal_device1.co2_filter.name=二氧化碳过滤器
+
+tile.immersiveintelligence.gearbox.wooden_gearbox.name=木制齿轮箱
+tile.immersiveintelligence.mechanical_device.wooden_transmission_box.name=木制变速箱
+tile.immersiveintelligence.mechanical_device.creative_transmission_box.name=创造变速箱
+tile.immersiveintelligence.mechanical_device1.mechanical_pump.name=机械泵
+
+tile.immersiveintelligence.mechanical_connector.wooden_wheel.name=木制传动轮
+
+tile.immersiveintelligence.small_crate.wooden_crate_box.name=小型木制储存箱（盒状）
+tile.immersiveintelligence.small_crate.wooden_crate_cube.name=小型木制储存箱 (块状)
+tile.immersiveintelligence.small_crate.wooden_crate_wide.name=小型木制储存箱 (扁状)
+tile.immersiveintelligence.small_crate.metal_crate_box.name=小型金属储存箱 (盒状)
+tile.immersiveintelligence.small_crate.metal_crate_cube.name=小型金属储存箱 (块状)
+tile.immersiveintelligence.small_crate.metal_crate_wide.name=小型金属储存箱 (扁状)
+
+tile.immersiveintelligence.metal_fortification.steel_chain_fence.name=钢质链条围栏
+tile.immersiveintelligence.metal_fortification.brass_chain_fence.name=黄铜链条围栏
+tile.immersiveintelligence.metal_fortification.aluminium_chain_fence.name=铝质链条围栏
+
+tile.immersiveintelligence.wooden_fortification.wooden_steel_chain_fence.name=木桩-钢质链条围栏
+tile.immersiveintelligence.wooden_fortification.wooden_brass_chain_fence.name=木桩-黄铜链条围栏
+
+tile.immersiveintelligence.metal_fortification1.tank_trap.name=反坦克陷阱
+
+tile.immersiveintelligence.metal_multiblock.data_input_machine.storage=数据输入机 - 存储
+tile.immersiveintelligence.metal_multiblock.data_input_machine.programming=数据输入机 - 编程
+tile.immersiveintelligence.metal_multiblock.data_input_machine.edit=数据输入机 - 编辑变量
+tile.immersiveintelligence.metal_multiblock.data_input_machine.label_punchtapes=打点纸带存储器
+
+tile.immersiveintelligence.metal_multiblock.redstone_interface.data=红石数据接口 - 数据
+tile.immersiveintelligence.metal_multiblock.redstone_interface.redstone=红石数据接口 - 红石
+
+tile.immersiveintelligence.metal_multiblock.redstone_interface.modes.0=空值
+tile.immersiveintelligence.metal_multiblock.redstone_interface.modes.1=布尔值
+tile.immersiveintelligence.metal_multiblock.redstone_interface.modes.2=整数(0-15)
+tile.immersiveintelligence.metal_multiblock.redstone_interface.modes.3=整数(0-255)
+tile.immersiveintelligence.metal_multiblock.redstone_interface.modes.4=整数(0-100)
+tile.immersiveintelligence.metal_multiblock.redstone_interface.modes.5=字符串
+
+tile.immersiveintelligence.metal_multiblock.arithmetic_logic_machine.storage=算术逻辑机 - 存储
+tile.immersiveintelligence.metal_multiblock.arithmetic_logic_machine.programming=算术逻辑机 - 编程
+tile.immersiveintelligence.metal_multiblock.arithmetic_logic_machine.edit=算术逻辑机 - 编辑表达式
+
+tile.immersiveintelligence.data_connector.data_connector.name=数据接线器
+tile.immersiveintelligence.data_connector.data_relay.name=数据中继器
+tile.immersiveintelligence.data_connector.data_callback_connector.name=数据回调接线器
+tile.immersiveintelligence.data_connector.chemical_dispenser.name=化学喷洒机
+
+tile.immersiveintelligence.data_connector.alarm_siren.name=警报器
+tile.immersiveintelligence.data_connector.programmable_speaker.name=可编程扬声器
+
+tile.immersiveintelligence.data_connector.inserter.name=物品抓取机械臂
+tile.immersiveintelligence.data_connector.advanced_inserter.name=高级抓取机械臂
+tile.immersiveintelligence.data_connector.fluid_inserter.name=流体输入器
+tile.immersiveintelligence.data_connector.advanced_fluid_inserter.name=高级流体输入器
+
+tile.immersiveintelligence.data_connector.data_debugger.name=数据调试器
+
+tile.immersiveintelligence.circuit_socket.basic.name=基础电路插板
+tile.immersiveintelligence.circuit_socket.advanced.name=高级电路插板
+tile.immersiveintelligence.circuit_socket.processor.name=处理器电路插板
+
+#Multiblock names
+
+tile.immersiveintelligence.wooden_multiblock.skycrate_station.name=索道站
+tile.immersiveintelligence.wooden_multiblock.skycart_station.name=缆车站
+tile.immersiveintelligence.wooden_multiblock.skycrate_post.name=索道中继点
+tile.immersiveintelligence.wooden_multiblock.sawmill.name=锯床
+tile.immersiveintelligence.metal_multiblock.data_input_machine.name=数据输入机
+tile.immersiveintelligence.metal_multiblock.arithmetic_logic_machine.name=算术逻辑机
+tile.immersiveintelligence.metal_multiblock.radio_station.name=无线电基站
+tile.immersiveintelligence.metal_multiblock.printing_press.name=打印机
+tile.immersiveintelligence.metal_multiblock.chemical_bath.name=化学浸洗器
+tile.immersiveintelligence.metal_multiblock.electrolyzer.name=电解器
+tile.immersiveintelligence.metal_multiblock.precission_assembler.name=精密装配台
+tile.immersiveintelligence.metal_multiblock.periscope.name=潜望镜
+tile.immersiveintelligence.metal_multiblock.artillery_howitzer.name=榴弹炮
+tile.immersiveintelligence.metal_multiblock.ballistic_computer.name=弹道计算机
+tile.immersiveintelligence.metal_multiblock.missile_silo.name=导弹发射井
+tile.immersiveintelligence.metal_multiblock.conveyor_scanner.name=传送带扫描仪
+tile.immersiveintelligence.metal_multiblock.packer.name=封装机
+tile.immersiveintelligence.metal_multiblock.minecart_packer.name=轨道封装机
+
+tile.immersiveintelligence.metal_multiblock1.redstone_data_interface.name=红石接口
+tile.immersiveintelligence.metal_multiblock1.vehicle_workshop.name=载具车间
+tile.immersiveintelligence.metal_multiblock1.vulcanizer.name=硫化机
+tile.immersiveintelligence.metal_multiblock1.coagulator.name=胶乳凝固机
+
+tile.immersiveintelligence.metal_multiblock1.fuel_station.name=燃料站
+tile.immersiveintelligence.metal_multiblock1.emplacement.name=炮位
+tile.immersiveintelligence.metal_multiblock1.radar.name=雷达
+
+tile.immersiveintelligence.gate_multiblock.wooden.name=木制大型栅栏门
+tile.immersiveintelligence.gate_multiblock.steel.name=钢质大型栅栏门
+tile.immersiveintelligence.gate_multiblock.aluminium.name=铝质大型栅栏门
+tile.immersiveintelligence.gate_multiblock.wooden_chain.name=木制大型链条栅栏门
+tile.immersiveintelligence.gate_multiblock.steel_chain.name=钢链大型栅栏门
+tile.immersiveintelligence.gate_multiblock.aluminium_chain.name=铝链大型栅栏门
+desc.immersiveintelligence.metal_multiblock1.emplacement.storage=炮位 - 存储
+desc.immersiveintelligence.metal_multiblock1.emplacement.tasks=炮位 - 任务
+desc.immersiveintelligence.metal_multiblock1.emplacement.status=炮位 - 状态
+desc.immersiveintelligence.metal_multiblock1.emplacement.base_inventory=炮位物品栏
+desc.immersiveintelligence.metal_multiblock1.emplacement.weapon=安装进度: %s
+desc.immersiveintelligence.metal_multiblock1.emplacement.weapon_none=空
+desc.immersiveintelligence.metal_multiblock1.emplacement.upgrades=安装升级
+desc.immersiveintelligence.metal_multiblock1.emplacement.settings=设定
+desc.immersiveintelligence.metal_multiblock1.emplacement.redstone_control=红石控制
+desc.immersiveintelligence.metal_multiblock1.emplacement.data_control=数据控制
+desc.immersiveintelligence.metal_multiblock1.emplacement.send_attack_signal=通过数据输出目标信息
+desc.immersiveintelligence.metal_multiblock1.emplacement.auto_repair_threshold=武器耐久低于多少时自动修复：
+desc.immersiveintelligence.metal_multiblock1.emplacement.selector_preset=选择器预设
+desc.immersiveintelligence.metal_multiblock1.emplacement.filter=过滤器
+desc.immersiveintelligence.metal_multiblock1.emplacement.task_enabled=启用
+desc.immersiveintelligence.metal_multiblock1.emplacement.task_negation=禁用
+desc.immersiveintelligence.metal_multiblock1.emplacement.add=添加
+desc.immersiveintelligence.metal_multiblock1.emplacement.remove=移除
+desc.immersiveintelligence.metal_multiblock1.emplacement.duplicate=复制指令
+desc.immersiveintelligence.metal_multiblock1.emplacement.clear=清空
+
+desc.immersiveintelligence.metal_multiblock1.packer.task.pack=封装
+desc.immersiveintelligence.metal_multiblock1.packer.task.unpack=解包
+desc.immersiveintelligence.metal_multiblock1.packer.task.charge=装弹
+desc.immersiveintelligence.metal_multiblock1.packer.task.discharge=卸弹
+desc.immersiveintelligence.metal_multiblock1.packer.task.fill=填充
+desc.immersiveintelligence.metal_multiblock1.packer.task.drain=排出
+
+desc.immersiveintelligence.metal_multiblock1.packer.mode.amount=数量
+desc.immersiveintelligence.metal_multiblock1.packer.mode.slot=物品格
+desc.immersiveintelligence.metal_multiblock1.packer.mode.all_possible=可用的空间
+
+desc.immersiveintelligence.metal_multiblock1.emplacement.target.mobs=生物
+desc.immersiveintelligence.metal_multiblock1.emplacement.target.animals=动物
+desc.immersiveintelligence.metal_multiblock1.emplacement.target.players=玩家
+desc.immersiveintelligence.metal_multiblock1.emplacement.target.npcs=NPC
+desc.immersiveintelligence.metal_multiblock1.emplacement.target.vehicles=载具
+desc.immersiveintelligence.metal_multiblock1.emplacement.target.shells=Shells
+desc.immersiveintelligence.metal_multiblock1.emplacement.target.team=队伍
+desc.immersiveintelligence.metal_multiblock1.emplacement.target.name=名称
+
+tile.immersiveintelligence.metal_multiblock1.flagpole.name=旗杆
+    
+tile.immersiveintelligence.gate_multiblock.wooden_fence_gate.name=大型木制栅栏门
+tile.immersiveintelligence.gate_multiblock.wooden_chain_fence_gate.name=大型木制链条栅栏门
+tile.immersiveintelligence.gate_multiblock.steel_fence_gate.name=大型钢质栅栏门
+tile.immersiveintelligence.gate_multiblock.steel_chain_fence_gate.name=大型钢链栅栏门
+tile.immersiveintelligence.gate_multiblock.aluminium_fence_gate.name=大型铝质栅栏门
+tile.immersiveintelligence.gate_multiblock.aluminium_chain_fence_gate.name=大型铝链栅栏门
+
+tile.immersiveintelligence.metal_multiblock1.filler.name=火药装填机
+tile.immersiveintelligence.metal_multiblock1.ammunition_workshop.name=弹药车间
+tile.immersiveintelligence.metal_multiblock1.projectile_workshop.name=弹头车间
+tile.immersiveintelligence.metal_multiblock1.chemical_painter.name=化学喷涂机
+desc.immersiveintelligence.metal_multiblock1.chemical_painter.color.rgb=以RGB格式显示
+desc.immersiveintelligence.metal_multiblock1.chemical_painter.color.rgb.r=红色
+desc.immersiveintelligence.metal_multiblock1.chemical_painter.color.rgb.g=绿色
+desc.immersiveintelligence.metal_multiblock1.chemical_painter.color.rgb.b=蓝色
+
+desc.immersiveintelligence.metal_multiblock1.chemical_painter.color.cmyk=以CMYK格式显示
+desc.immersiveintelligence.metal_multiblock1.chemical_painter.color.cmyk.c=青色
+desc.immersiveintelligence.metal_multiblock1.chemical_painter.color.cmyk.m=品红
+desc.immersiveintelligence.metal_multiblock1.chemical_painter.color.cmyk.y=黄色
+desc.immersiveintelligence.metal_multiblock1.chemical_painter.color.cmyk.k=红色
+
+desc.immersiveintelligence.metal_multiblock1.chemical_painter.color.hsv=以HSV格式显示
+desc.immersiveintelligence.metal_multiblock1.chemical_painter.color.hsv.h=色调
+desc.immersiveintelligence.metal_multiblock1.chemical_painter.color.hsv.s=饱和度
+desc.immersiveintelligence.metal_multiblock1.chemical_painter.color.hsv.v=明度
+desc.immersiveintelligence.metal_multiblock1.chemical_painter.color_copied=复制颜色！
+
+desc.immersiveengineering.info.multiblock.II:SkyCrateStation=索道站
+desc.immersiveengineering.info.multiblock.II:SkyCartStation=缆车站
+desc.immersiveengineering.info.multiblock.II:SkyCratePost=索道站中继点
+desc.immersiveengineering.info.multiblock.II:Sawmill=锯床
+desc.immersiveengineering.info.multiblock.II:DataInputMachine=数据输入机
+desc.immersiveengineering.info.multiblock.II:ArithmeticLogicMachine=算数逻辑机
+desc.immersiveengineering.info.multiblock.II:RadioStation=无线电基站
+desc.immersiveengineering.info.multiblock.II:PrintingPress=打印机
+desc.immersiveengineering.info.multiblock.II:ChemicalBath=化学浸洗器
+desc.immersiveengineering.info.multiblock.II:Electrolyzer=电解器
+desc.immersiveengineering.info.multiblock.II:PrecissionAssembler=精密装配台
+desc.immersiveengineering.info.multiblock.II:Periscope=潜望镜
+desc.immersiveengineering.info.multiblock.II:ArtilleryHowitzer=榴弹炮
+desc.immersiveengineering.info.multiblock.II:BallisticComputer=弹道计算机
+desc.immersiveengineering.info.multiblock.II:MissileSilo=导弹发射井
+desc.immersiveengineering.info.multiblock.II:ConveyorScanner=传送带扫描仪
+desc.immersiveengineering.info.multiblock.II:Packer=封装机
+desc.immersiveengineering.info.multiblock.II:MinecartPacker=轨道封装机
+
+desc.immersiveengineering.info.multiblock.II:RedstoneDataInterface=红石接口
+
+desc.immersiveengineering.info.multiblock.II:VehicleWorkshop=载具车间
+desc.immersiveengineering.info.multiblock.II:FuelStation=燃料站
+desc.immersiveengineering.info.multiblock.II:Vulcanizer=硫化机
+desc.immersiveengineering.info.multiblock.II:Coagulator=乳胶凝固机
+
+desc.immersiveengineering.info.multiblock.II:Emplacement=炮位
+desc.immersiveengineering.info.multiblock.II:Radar=雷达
+desc.immersiveengineering.info.multiblock.II:Flagpole=旗杆
+
+desc.immersiveengineering.info.multiblock.II:Filler=火药填充机
+desc.immersiveengineering.info.multiblock.II:AmmunitionWorkshop=弹药车间
+desc.immersiveengineering.info.multiblock.II:ProjectileWorkshop=弹头车间
+desc.immersiveengineering.info.multiblock.II:ChemicalPainter=化学喷涂机
+
+desc.immersiveengineering.info.multiblock.II:WoodenFenceGate=大型木制栅栏门
+desc.immersiveengineering.info.multiblock.II:WoodenChainFenceGate=大型木制链条栅栏门
+desc.immersiveengineering.info.multiblock.II:SteelFenceGate=钢质大型栅栏门
+desc.immersiveengineering.info.multiblock.II:SteelChainFenceGate=大型钢链栅栏门
+desc.immersiveengineering.info.multiblock.II:AluminiumFenceGate=大型铝质栅栏门
+desc.immersiveengineering.info.multiblock.II:AluminiumChainFenceGate=大型铝链栅栏门
+
+#Fluids
+fluid.ink=墨水
+fluid.ink_cyan=青色墨水
+fluid.ink_magenta=品红色墨水
+fluid.ink_yellow=黄色墨水
+
+fluid.etching_acid=蚀刻酸
+fluid.hydrofluoric_acid=氢氟酸
+fluid.sulfuric_acid=硫酸
+fluid.nitric_acid=硝酸
+fluid.formic_acid=甲酸
+
+fluid.oxygen=氧气
+fluid.hydrogen=氢气
+fluid.chlorine=氯气
+fluid.carbon_dioxide=二氧化碳
+fluid.carbon_monoxide=一氧化碳
+fluid.mustard_gas=芥子气
+
+fluid.brine=卤水
+
+fluid.ammonia=氨
+fluid.hexamine=六胺
+fluid.methanol=甲醇
+
+fluid.latex=乳胶
+
+#Dusts
+dust.gunpowder=火药粉
+dust.sulfur=硫粉
+
+
+#Sounds
+
+subtitle.immersiveintelligence.siren=警报鸣叫
+subtitle.immersiveintelligence.printing_press=打印机工作
+subtitle.immersiveintelligence.paper_eject=纸张下落
+
+subtitle.immersiveintelligence.machinegun_shot_def=机枪声
+subtitle.immersiveintelligence.machinegun_shot_hb=重型枪管机枪声
+subtitle.immersiveintelligence.machinegun_shot_wc=水冷枪管机枪声
+subtitle.immersiveintelligence.machinegun_reload=机枪装弹
+
+subtitle.immersiveintelligence.submachinegun_shot=冲锋枪射击
+subtitle.immersiveintelligence.submachinegun_reload=冲锋枪换弹
+
+subtitle.immersiveintelligence.howitzer_shot=榴弹炮射击
+subtitle.immersiveintelligence.howitzer_load=榴弹炮装填
+subtitle.immersiveintelligence.howitzer_unload=榴弹炮抛壳
+subtitle.immersiveintelligence.howitzer_rotating=榴弹炮移动
+subtitle.immersiveintelligence.howitzer_door_open=榴弹炮门打开
+subtitle.immersiveintelligence.howitzer_door_close=榴弹炮门关闭
+
+subtitle.immersiveintelligence.inserter=机械臂噪音
+
+subtitle.immersiveintelligence.radio_beep=短波电台滴答声
+subtitle.immersiveintelligence.radio_noise=电台噪音
+
+subtitle.immersiveintelligence.impact_metal=子弹射穿金属
+subtitle.immersiveintelligence.ricochet_metal=子弹跳弹
+
+subtitle.immersiveintelligence.bullet_impact=弹药冲击声
+subtitle.immersiveintelligence.bullet_ricochet=弹药跳弹
+
+subtitle.immersiveintelligence.motorbike_start=摩托车启动声
+subtitle.immersiveintelligence.motorbike_engine=摩托引擎噪声
+subtitle.immersiveintelligence.motorbike_horn=摩托车鸣笛声
+
+subtitle.immersiveintelligence.fuel_station=燃料泵出声
+subtitle.immersiveintelligence.welding=焊接声
+subtitle.immersiveintelligence.sawmill=锯子锯木声
+
+subtitle.immersiveintelligence.vulcanizer_heating=硫化机加热声
+subtitle.immersiveintelligence.vulcanizer_motor=硫化机旋转声
+
+subtitle.immersiveintelligence.drawer_open=抽屉打开
+subtitle.immersiveintelligence.drawer_close=抽屉关闭
+subtitle.immersiveintelligence.metal_locker_open=储物柜门打开
+subtitle.immersiveintelligence.metal_locker_close=储物柜门关闭
+
+subtitle.immersiveintelligence.chemical_painter_lights=紫外光灯噪音
+subtitle.immersiveintelligence.chemical_painter_lift_up=传送带上升
+subtitle.immersiveintelligence.chemical_painter_lift_down=传送带下降
+
+subtitle.immersiveintelligence.autocannon_shot=机关炮开火
+subtitle.immersiveintelligence.autocannon_reload=机关炮换弹
+
+subtitle.immersiveintelligence.explosion_flare=部署照明弹
+subtitle.immersiveintelligence.explosion_incendiary=燃烧弹爆炸
+subtitle.immersiveintelligence.explosion_nuke=核弹爆炸
+
+subtitle.immersiveintelligence.mortar_shot=迫击炮开火
+subtitle.immersiveintelligence.mortar_load=迫击炮装弹
+
+subtitle.immersiveintelligence.mine_detector=地雷探测器蜂鸣
+
+subtitle.immersiveintelligence.construction=电动锤辅助施工
+subtitle.immersiveintelligence.hammer_construction=
+
+subtitle.immersiveintelligence.emplacement_rotation=炮位武器旋转
+subtitle.immersiveintelligence.emplacement_platform=炮位平台移动
+subtitle.immersiveintelligence.emplacement_door_open=炮位打开
+subtitle.immersiveintelligence.emplacement_door_close=炮位关闭
+
+#Entities
+
+entity.minecart_wooden_crate.name=带木质储存箱的矿车
+entity.minecart_reinforced_crate.name=带加固储存箱的矿车
+entity.minecart_steel_crate.name=带钢质储存箱的矿车
+entity.minecart_wooden_barrel.name=带木桶的矿车
+entity.minecart_metal_barrel.name=带金属桶的矿车
+entity.minecart_capacitor_lv.name=带低压电容的矿车
+entity.minecart_capacitor_mv.name=带中压电容的矿车
+entity.minecart_capacitor_hv.name=带高压电容的矿车
+entity.minecart_capacitor_creative.name=带创造电容的矿车
+#Immersive Technology Compat
+entity.minecart_crate_creative.name=带创造木制储存箱的矿车
+entity.minecart_barrel_creative.name=带创造木桶的矿车
+entity.minecart_steel_barrel.name=带金属桶的矿车
+entity.minecart_open_barrel.name=带开口金属桶的矿车
+
+entity.skycrate.name=索道
+
+entity.bullet.name=子弹
+entity.shrapnel.name=弹片
+entity.flare.name=信号弹
+entity.gas_cloud.name=毒气云
+entity.white_phosphorus.name=白磷弹
+entity.atomic_boom.name=核弹
+
+entity.machinegun.name=机枪
+entity.mortar.name=迫击炮
+entity.motorbike.name=摩托车
+entity.wheel.name=轮子
+entity.seat.name=座位
+entity.field_howitzer.name=榴弹炮
+entity.tripod_periscope.name=炮队镜
+
+entity.hans.name=Hans
+
+#Skins
+skin.immersiveintelligence.anno_1880.name=Anno 1880
+skin.immersiveintelligence.anno_1880.desc=Refined, precise, ornamental
+skin.immersiveintelligence.anno_1880.text=Rewarded to BluSunrize and Hazard for their great work on Immersive Engineering.
+
+skin.immersiveintelligence.royal.name=Royal
+skin.immersiveintelligence.royal.desc=A relic from an old empire
+skin.immersiveintelligence.royal.text=An retrofuturistic imperial skin. Originally meant to be a skin for the Patreons, now granted as a reward for contribution.
+
+skin.immersiveintelligence.old_glory.name=Old Glory
+skin.immersiveintelligence.old_glory.desc=Glory to Heroes
+skin.immersiveintelligence.old_glory.text=A Poland themed skin, granted as a reward for contribution.
+
+skin.immersiveintelligence.vaterland.name=Vaterland
+skin.immersiveintelligence.vaterland.desc=And all that sacrifice just for an Iron Cross...
+skin.immersiveintelligence.vaterland.text=A Germany themed skin, granted as a reward for contribution.
+
+skin.immersiveintelligence.pershing.name=Pershing
+skin.immersiveintelligence.pershing.desc=Whatever the weather, we'll win this war together
+skin.immersiveintelligence.pershing.text=A Western Allies themed skin, granted as a reward for contribution.
+
+skin.immersiveintelligence.zvezda.name=Zvezda
+skin.immersiveintelligence.zvezda.desc=Reward for the great sacrifice
+skin.immersiveintelligence.zvezda.text=A Soviet themed skin, granted as a reward for contribution.
+
+skin.immersiveintelligence.stormwind.name=Stormwind
+skin.immersiveintelligence.stormwind.desc=A tribute to defenders of the sea fortress
+skin.immersiveintelligence.stormwind.text=A skin inspired by the old awesome flash game "Storm Winds"
+
+skin.immersiveintelligence.flakmeister.name=Flakmeister
+skin.immersiveintelligence.flakmeister.desc=For a renown artillerist
+skin.immersiveintelligence.flakmeister.text=A skin granted to Carver, who contributed a lot and howitzized a bit more.
+
+skin.immersiveintelligence.blackdragon.name=Blackdragon
+skin.immersiveintelligence.blackdragon.desc=For contribution, effort and content, an award
+skin.immersiveintelligence.blackdragon.text=A skin granted to Blackdragon, who made great II tutorial videos on YouTube.
+
+skin.immersiveintelligence.eisenheim.name=Eisenheim
+skin.immersiveintelligence.eisenheim.desc=The warpaint of heroes from the mountain fortress
+skin.immersiveintelligence.eisenheim.text=A skin themed with Engineer faction of the upcoming Engineered Adventures: Tales from the Front modpack.
+
+skin.immersiveintelligence.vanguard.name=Vanguard
+skin.immersiveintelligence.vanguard.desc=For the elite of engineering supporters
+skin.immersiveintelligence.vanguard.text=A skin rewarded for donating $1 or more on Patreon.
+
+skin.immersiveintelligence.magnate.name=Magnate
+skin.immersiveintelligence.magnate.desc=For noble support of engineering progress
+skin.immersiveintelligence.magnate.text=A skin rewarded for donating $5 or more on Patreon.
+
+skin.immersiveintelligence.investor.name=Investor
+skin.immersiveintelligence.investor.desc=A little reward for big generosity
+skin.immersiveintelligence.investor.text=A skin rewarded for donating $15 on Patreon.
+
+#Machine Upgrades
+machineupgrade.immersiveintelligence.inserter=机械臂
+machineupgrade.immersiveintelligence.inserter.desc=在箱子上添加一个机械臂，如果供电，它可以在 3 个方块半径内自动抓取物品   。
+
+machineupgrade.immersiveintelligence.mg_loader=供弹器
+machineupgrade.immersiveintelligence.mg_loader.desc=扩大弹药箱并允许将子弹直接送入机枪。弹药箱必须打开才能提供弹药。
+
+machineupgrade.immersiveintelligence.improved_gearbox=改良齿轮箱
+machineupgrade.immersiveintelligence.improved_gearbox.desc=改进版本的变速箱替换原有的变速箱以显著提高机器速度，同时消耗更多的能量。
+
+machineupgrade.immersiveintelligence.saw_unregulator=Saw Unregulator
+machineupgrade.immersiveintelligence.saw_unregulator.desc=Unregulating the saw leads to higher sawdust output in cost of main output amount.
+
+machineupgrade.immersiveintelligence.emplacement_grenades=Emergency Smoke Dischargers
+machineupgrade.immersiveintelligence.emplacement_grenades.desc=When emplacement's weapon is heavily damaged, smoke will be discharged to provide cover.
+
+machineupgrade.immersiveintelligence.emplacement_bearings=Sturdy Bearings
+machineupgrade.immersiveintelligence.emplacement_bearings.desc=Higher quality bearings increase the maximum weapon rotation speed, to work at full capacity lubrication is required
+
+machineupgrade.immersiveintelligence.infrared_observer=红外观测器
+machineupgrade.immersiveintelligence.infrared_observer.desc=红外观察器可以监视远处的敌人并通过数据线缆发送其坐标。
+
+machineupgrade.immersiveintelligence.cpds=CPDS近防炮
+machineupgrade.immersiveintelligence.cpds.desc=CPDS近防炮是一种先进的地对空武器，能够在半空中摧毁来袭的炮弹。
+
+machineupgrade.immersiveintelligence.autocannon=机关炮
+machineupgrade.immersiveintelligence.autocannon.desc=四门3bCal机关炮提供强大的火力，使该武器成为打击空中&地面目标的通用武器。
+
+machineupgrade.immersiveintelligence.heavy_chemthrower=重型化学喷射器
+machineupgrade.immersiveintelligence.heavy_chemthrower.desc=化学喷射器的Plus版本，更高的压力可以在比普通化学喷射器长 4 倍范围内烧焦敌人。
+
+machineupgrade.immersiveintelligence.heavy_railgun=重型磁轨炮
+machineupgrade.immersiveintelligence.heavy_railgun.desc=重型磁轨炮可以高速发射金属棒和手榴弹，同时对敌人造成伤害。
+
+machineupgrade.immersiveintelligence.machinegun=大型机枪
+machineupgrade.immersiveintelligence.machinegun.desc=机枪可以提供压制性的自动射击，也可以手动控制。但由于其结构问题，它无法打击空中目标。
+
+machineupgrade.immersiveintelligence.mg_heavy_barrel=重型枪管
+machineupgrade.immersiveintelligence.mg_heavy_barrel.desc=重型枪管允许更快射速的射击，并略微增加允许的最大过热值。
+
+machineupgrade.immersiveintelligence.mg_watercooled=水冷枪管
+machineupgrade.immersiveintelligence.mg_watercooled.desc=安装后，提供冷却液时，枪管不会过热。
+
+machineupgrade.immersiveintelligence.mg_bunker=额外防御工事
+machineupgrade.immersiveintelligence.mg_bunker.desc=在机枪周围放置额外的沙袋可为其提供额外的装甲并提高其耐久。
+
+machineupgrade.immersiveintelligence.mortar=迫击炮
+machineupgrade.immersiveintelligence.mortar.desc=迫击炮在近距离提供间接火力支援，垂直的射击角度和大口径炮弹使其能够穿透屋顶并从上方摧毁敌人。
+
+machineupgrade.immersiveintelligence.light_howitzer=轻型榴弹炮
+machineupgrade.immersiveintelligence.light_howitzer.desc=轻型榴弹炮在中程提供间接火力支援，其机动性使其能够快速又精确地攻击敌方阵地。
+
+machineupgrade.immersiveintelligence.tesla=特斯拉线圈
+machineupgrade.immersiveintelligence.tesla.desc=特斯拉线圈使用超高的电压来消灭其半径内的敌人，它对摧毁电子设备特别有效。
+
+machineupgrade.immersiveintelligence.core_filler=弹头填充模式
+machineupgrade.immersiveintelligence.core_filler.desc=为弹头车间配备机械臂可以使其精确地装填弹头所需的组件，可以用来制作高爆弹、燃烧弹等。
+
+machineupgrade.immersiveintelligence.unpacker_conversion=解包反转
+machineupgrade.immersiveintelligence.unpacker_conversion.desc=反转机器的功能，使其可以从容器中卸载物品并从容器中卸载液体和电力（需要额外升级）
+
+
+machineupgrade.immersiveintelligence.packer_fluid=液体泵组件
+machineupgrade.immersiveintelligence.packer_fluid.desc=安装液体罐使得封装机可以装载液体，同时减少一半的物品存储空间，但由于安全原因，充电组件无法与此组件一起安装。
+
+machineupgrade.immersiveintelligence.packer_energy=充电组件
+machineupgrade.immersiveintelligence.packer_energy.desc=安装液体罐允许使用 IF 为物品充电，同时减少一半的物品存储空间，但由于安全原因，泵组件无法与此组件一起安装
+
+#Descriptions
+desc.immersiveintelligence.radio_configurator_basic=允许设置基本无线电设备的频率。
+desc.immersiveintelligence.radio_configurator_advanced=用于设置更高频率的升级。
+desc.immersiveintelligence.radio_configurator_frequency=频率: %s
+desc.immersiveintelligence.radio_configurator_max_frequency=最大频率: %s
+desc.immersiveintelligence.naval_mine_chain_length=最大链条长度: %s
+desc.immersiveintelligence.measuring_cup_size=最大频率: %s
+desc.immersiveintelligence.measuring_cup_cant_resize=内含流体时无法更改大小
+desc.immersiveintelligence.functional_circuit=允许机器执行以下操作：
+desc.immersiveintelligence.upgrade_toolbox=可用于升级机器
+desc.immersiveintelligence.cost=耗材：
+
+desc.immersiveintelligence.printed_page.blank=可被打印的空白页
+desc.immersiveintelligence.printed_page.text=含有文本的一页
+desc.immersiveintelligence.printed_page.code=含有程序语言编写的代码的一页
+desc.immersiveintelligence.printed_page.blueprint=含有关于如何构建结构的信息的一页。
+
+desc.immersiveintelligence.infrared_enabled=§4§l红外§r§e视觉激活！
+desc.immersiveintelligence.infrared_disabled=§4红外§r§e视觉关闭！
+
+desc.immersiveintelligence.assembly_scheme.used_to_create=被用于合成: %s
+desc.immersiveintelligence.assembly_scheme.items_created=物品合成中: %s
+
+desc.immersiveengineering.info.holdControl=§4§l按住Ctrl§r
+desc.immersiveengineering.info.holdControlForInfo=§c§l按住Ctrl显示更多信息§r
+
+
+desc.immersiveintelligence.assembly_scheme.info_hold1=§6按住Shift§r - 所需原料
+desc.immersiveintelligence.assembly_scheme.info_hold2=§4按住Ctrl§r - 所需机械臂
+desc.immersiveintelligence.assembly_scheme.materials=所需原料：
+desc.immersiveintelligence.assembly_scheme.tools=所需机械臂：
+
+
+desc.immersiveintelligence.storage_module=存储
+desc.immersiveintelligence.variables_module=变量
+desc.immersiveintelligence.data_module=数据
+desc.immersiveintelligence.redstone_module=红石
+desc.immersiveintelligence.data_to_redstone_module=数据→红石
+desc.immersiveintelligence.redstone_to_data_module=红石→数据
+desc.immersiveintelligence.tasks_module=任务
+desc.immersiveintelligence.status_module=状态
+
+desc.immersiveintelligence.tooltip.armor=武器完整度 %f%%
+
+desc.immersiveintelligence.upgrade_gui.title=升级机器
+desc.immersiveintelligence.upgrade_gui.info=简介
+desc.immersiveintelligence.upgrade_gui.install=安装
+desc.immersiveintelligence.upgrade_gui.remove=移除
+desc.immersiveintelligence.upgrade_gui.back=返回
+
+desc.immersiveintelligence.variable_type=种类：
+desc.immersiveintelligence.variable_add_desc=添加一个新变量
+desc.immersiveintelligence.variable_set=设置
+desc.immersiveintelligence.variable_set_desc=改变变量的值
+desc.immersiveintelligence.variable_send_packet=发送数据包
+desc.immersiveintelligence.variable_send_packet_desc=将当前数据包发送至数据网络
+desc.immersiveintelligence.hide_manual_widget=隐藏工程师手册
+desc.immersiveintelligence.show_manual_widget=显示工程师手册
+desc.immersiveintelligence.variable_remove=删除
+desc.immersiveintelligence.variable_remove_desc=删除一个变量
+desc.immersiveintelligence.variable_properties=属性
+desc.immersiveintelligence.variable_apply=应用
+desc.immersiveintelligence.variable_value=值：
+desc.immersiveintelligence.operation=操作：
+desc.immersiveintelligence.conditional_variable=条件变量：
+desc.immersiveintelligence.no_variable=无变量
+desc.immersiveintelligence.variable=变量：
+
+#Bullets
+
+desc.immersiveintelligence.bullet_type.general_purpose=普通弹
+desc.immersiveintelligence.bullet_type.shrapnel=榴弹
+desc.immersiveintelligence.bullet_type.piercing=穿甲弹
+desc.immersiveintelligence.bullet_type.explosive=高爆弹
+desc.immersiveintelligence.bullet_type.incendiary=燃烧弹
+desc.immersiveintelligence.bullet_type.tracer=曳光弹
+desc.immersiveintelligence.bullet_type.flare=照明弹
+desc.immersiveintelligence.bullet_type.chemical=化学弹
+desc.immersiveintelligence.bullet_type.special=特种弹
+
+desc.immersiveintelligence.bullet_core_type.softpoint=软尖弹
+desc.immersiveintelligence.bullet_core_type.shaped=塑形
+desc.immersiveintelligence.bullet_core_type.piercing=穿甲弹
+desc.immersiveintelligence.bullet_core_type.piercing_sabot=Sabot
+desc.immersiveintelligence.bullet_core_type.canister=榴霰弹
+
+desc.immersiveintelligence.bullet_fuse.contact=接触
+desc.immersiveintelligence.bullet_fuse.timed=延时
+desc.immersiveintelligence.bullet_fuse.proximity=近距离爆炸
+
+desc.immersiveintelligence.bullets.core=配备：%s
+desc.immersiveintelligence.bullets.fuse=引信：%s
+desc.immersiveintelligence.bullets.mass=质量：%s
+desc.immersiveintelligence.bullets.caliber=口径：%s bCal
+
+desc.immersiveintelligence.data_merger.0=中间输出
+desc.immersiveintelligence.data_merger.1=左侧输出
+desc.immersiveintelligence.data_merger.2=右侧输出
+
+desc.immersiveintelligence.medical_crate.heal=治疗受伤实体
+desc.immersiveintelligence.medical_crate.boost=对受伤实体添加效果
+
+desc.immersiveintelligence.repair_crate.repair_armor=修复破损盔甲
+desc.immersiveintelligence.repair_crate.repair_vehicles=修复载具
+
+desc.immersiveintelligence.jei.washing_recipe=化学洗涤
+
+#Potion effects
+
+potion.immersiveintelligence.suppression=压制
+potion.immersiveintelligence.broken_armor=穿甲
+potion.immersiveintelligence.corrosion=腐蚀
+potion.immersiveintelligence.infrared_vision=红外视野
+potion.immersiveintelligence.iron_will=铁之意志
+potion.immersiveintelligence.well_supplied=充足供应
+potion.immersiveintelligence.concealed=隐蔽
+potion.immersiveintelligence.exposed=暴露
+potion.immersiveintelligence.medical_treatment=治疗
+potion.immersiveintelligence.undergoing_repairs=维修中
+potion.immersiveintelligence.radiation=核辐射
+potion.immersiveintelligence.nuclear_heat=核高温
+potion.immersiveintelligence.movement_assist=运动辅助
+
+#Chat info / debug
+info.immersiveintelligence.frequency_set=无线电频率设置为：%s
+info.immersiveintelligence.frequency_invalid=无效频率，基础级设备最高频率为：%s!
+info.immersiveintelligence.current_frequency=当前频率：%s
+
+info.immersiveintelligence.requires_advanced_hammer=工欲善其事必先利其器，高级的工程需要高级的工具。§b§l你需要一个电动锤来制造这台机器。
+
+info.immersiveintelligence.gear_durability=耐久：%1$s / %2$s
+
+info.immersiveintelligence.yaw=偏角：%s
+info.immersiveintelligence.pitch=仰角: %s
+info.immersiveintelligence.distance=距离: %s
+info.immersiveintelligence.distance_unknown=未知
+
+info.immersiveintelligence.debugger_mode=调试模式：%s
+info.immersiveintelligence.debugger_mode.0=收发两用机
+info.immersiveintelligence.debugger_mode.1=发射器
+info.immersiveintelligence.debugger_mode.2=接收器
+
+info.immersiveintelligence.punchtape_reader_mode=阅读模式: %s
+info.immersiveintelligence.punchtape_reader_mode.0=无视红石
+info.immersiveintelligence.punchtape_reader_mode.1=数据包→红石
+info.immersiveintelligence.punchtape_reader_mode.2=红石→数据包
+
+info.immersiveintelligence.redstone_buffer_mode=缓存模式: %s
+info.immersiveintelligence.redstone_buffer_mode.passtrough=通过
+info.immersiveintelligence.redstone_buffer_mode.signal=开启信号
+
+info.immersiveintelligence.tachometer_message.basic=内部: 转速 %s RPM / 扭矩 %s Nm.
+info.immersiveintelligence.tachometer_message.advanced=内部: 转速 %s RPM / 扭矩 %s Nm. External: 转速 %s RPM / 扭矩 %s Nm.
+info.immersiveintelligence.tachometer.internal_torque=内部扭矩: %s
+info.immersiveintelligence.tachometer.external_torque=外部扭矩: %s
+info.immersiveintelligence.tachometer.internal_speed=内部转速: %s
+info.immersiveintelligence.tachometer.external_speed=外部转速: %s
+info.immersiveintelligence.tachometer.torque=扭矩: %s
+info.immersiveintelligence.tachometer.speed=转速: %s
+
+info.immersiveintelligence.machineupgrade.name=安装中: %s
+info.immersiveintelligence.machineupgrade.progress=进度: %1$s / %2$s IF
+
+info.immersiveintelligence.machineupgrade.mg_loader.gui_tooltip=MG
+
+info.immersiveintelligence.towing.no=找不到可牵引的车辆
+info.immersiveintelligence.towing.towed=牵引成功!
+info.immersiveintelligence.towing.untowed=解除牵引成功!
+#Do not translate, it's a Factorio reference ^^
+info.immersiveintelligence.towing.no_easter_egg=Nie można rozsprzęgać taboru nie będąc w pojeździe!
+
+#Rotational Energy
+
+rotary.immersiveintelligence.belt_system.wrongCable=无法将传动带连接到接线器上
+rotary.immersiveintelligence.belt_system.wrongCable1=§l不能简单地把传动带系在电线系统上
+rotary.immersiveintelligence.belt_system.wrongCable2=§e§l我说过了，连不上的，别试了
+rotary.immersiveintelligence.belt_system.wrongCable3=§6§l听着，你要是再敢连一次…….
+rotary.immersiveintelligence.belt_system.wrongCable4=§c§l连！不！上！你到底哪个字听不明白？！
+rotary.immersiveintelligence.belt_system.wrongCable5=§4§l蠢货！让我静静……现在，向后转，然后给我tmd滚蛋！
+rotary.immersiveintelligence.belt_system.itsBoringGetALife=§b§l你真的很无聊，即使是我，MotorBeltUtils.java，也是有感受的，好吗？
+rotary.immersiveintelligence.belt_system.wrongBelt=无法将传动带连接到此处
+
+rotary.immersiveintelligence.belt_system.wrongDimension=不能在此世界进行
+rotary.immersiveintelligence.belt_system.sameConnection=不能将传动带连接到同一点上
+rotary.immersiveintelligence.belt_system.tooFar=离上一个连接点太远
+rotary.immersiveintelligence.belt_system.cantSee=连接受阻
+rotary.immersiveintelligence.belt_system.connectionExists=连接已经存在了
+rotary.immersiveintelligence.belt_system.invalidPoint=存在无效的连接点
+
+rotary.immersiveintelligence.mechanical.speed=转速
+rotary.immersiveintelligence.mechanical.speed_unit=RPM
+rotary.immersiveintelligence.mechanical.torque=扭矩
+rotary.immersiveintelligence.mechanical.torque_unit=Nm
+
+#Data System Descriptions
+datasystem.immersiveintelligence.function.add=加
+datasystem.immersiveintelligence.function.subtract=减
+datasystem.immersiveintelligence.function.multiply=乘
+datasystem.immersiveintelligence.function.divide=除
+datasystem.immersiveintelligence.function.modulo=求余
+datasystem.immersiveintelligence.function.power=乘方
+datasystem.immersiveintelligence.function.root=开方
+datasystem.immersiveintelligence.function.max=取最大
+datasystem.immersiveintelligence.function.min=取最小
+
+datasystem.immersiveintelligence.function.and=与
+datasystem.immersiveintelligence.function.or=或
+datasystem.immersiveintelligence.function.not=非
+datasystem.immersiveintelligence.function.nand=与非
+datasystem.immersiveintelligence.function.nor=或非
+datasystem.immersiveintelligence.function.xor=异或
+datasystem.immersiveintelligence.function.xnor=同或
+
+datasystem.immersiveintelligence.function.greater=大于
+datasystem.immersiveintelligence.function.less=小于
+datasystem.immersiveintelligence.function.greater_or_equal=大于等于
+datasystem.immersiveintelligence.function.less_or_equal=小于等于
+datasystem.immersiveintelligence.function.equal=等于
+
+datasystem.immersiveintelligence.function.string_join=合并字符串
+datasystem.immersiveintelligence.function.string_equal=等于
+datasystem.immersiveintelligence.function.string_split=拆分字符串
+datasystem.immersiveintelligence.function.string_length=读取字符串长度
+datasystem.immersiveintelligence.function.string_char_at=添加字符于某处...
+datasystem.immersiveintelligence.function.string_substring=截取子字符串
+datasystem.immersiveintelligence.function.string_trim=修改字符串
+datasystem.immersiveintelligence.function.string_hexcol=使用Hexcol进行格式化
+datasystem.immersiveintelligence.function.string_format=使用TextFormatting进行格式化
+datasystem.immersiveintelligence.function.string_contains=存储文本
+datasystem.immersiveintelligence.function.string_contains_count=存储数量值
+datasystem.immersiveintelligence.function.string_lowercase=将字符串改为小写...
+datasystem.immersiveintelligence.function.string_uppercase=将字符串改为大写...
+datasystem.immersiveintelligence.function.string_snake_case=将字符串改为蛇形命名法...
+datasystem.immersiveintelligence.function.string_camel_case=将字符串改为驼峰命名法...
+datasystem.immersiveintelligence.function.string_reverse=翻转字符串
+
+datasystem.immersiveintelligence.function.get_quantity=读取物品数量
+datasystem.immersiveintelligence.function.set_quantity=设置物品数量
+datasystem.immersiveintelligence.function.get_durability=读取物品耐久
+datasystem.immersiveintelligence.function.set_durability=设置物品耐久
+datasystem.immersiveintelligence.function.get_nbt=读取NBT
+datasystem.immersiveintelligence.function.set_nbt=设置NBT
+datasystem.immersiveintelligence.function.get_itemstack=根据ID创建物品
+datasystem.immersiveintelligence.function.get_item_id=读取物品ID
+datasystem.immersiveintelligence.function.can_stack_with=堆叠物品
+datasystem.immersiveintelligence.function.matches_oredict=对比物品的矿词
+
+datasystem.immersiveintelligence.function.array_get=Get
+datasystem.immersiveintelligence.function.array_push=Push
+datasystem.immersiveintelligence.function.array_pop=Pop
+
+datasystem.immersiveintelligence.function.entity_get_id=读取生物ID
+datasystem.immersiveintelligence.function.entity_get_type=读取生物种类
+datasystem.immersiveintelligence.function.entity_get_name=读取生物名称
+datasystem.immersiveintelligence.function.entity_get_dimension_id=读取维度ID
+datasystem.immersiveintelligence.function.entity_get_x=读取生物X坐标
+datasystem.immersiveintelligence.function.entity_get_y=读取生物Y坐标
+datasystem.immersiveintelligence.function.entity_get_z=读取生物Z坐标
+
+datasystem.immersiveintelligence.function.document_read_page=阅读文档
+datasystem.immersiveintelligence.function.document_read_all_pages_array=阅读所有页数的文档(Array)
+datasystem.immersiveintelligence.function.document_read_all_pages_string=阅读所有页数的文档(String)
+datasystem.immersiveintelligence.function.document_get_author=读取文档作者
+datasystem.immersiveintelligence.function.document_get_title=读取文档标题
+
+datasystem.immersiveintelligence.function.is_null=读取为空值
+datasystem.immersiveintelligence.function.to_integer=修改变量为整数
+datasystem.immersiveintelligence.function.to_string=修改变量为字符串
+datasystem.immersiveintelligence.function.to_boolean=修改变量为布尔值
+datasystem.immersiveintelligence.function.to_null=修改变量为空值
+
+datasystem.immersiveintelligence.datatype.null=空值
+datasystem.immersiveintelligence.datatype.boolean=布尔值
+datasystem.immersiveintelligence.datatype.integer=整数
+datasystem.immersiveintelligence.datatype.string=字符串
+datasystem.immersiveintelligence.datatype.expression=表达式
+datasystem.immersiveintelligence.datatype.accessor=读写
+datasystem.immersiveintelligence.datatype.itemstack=物品数据
+datasystem.immersiveintelligence.datatype.array=数组
+datasystem.immersiveintelligence.datatype.entity=实体
+
+datasystem.immersiveintelligence.datatype.boolean.true=是
+datasystem.immersiveintelligence.datatype.boolean.false=否
+
+#Blueprints
+
+desc.immersiveengineering.info.blueprint.basic_circuits=基础电路板
+desc.immersiveengineering.info.blueprint.advanced_circuits=高级电路板
+desc.immersiveengineering.info.blueprint.processors=处理器
+
+desc.immersiveengineering.info.blueprint.basic_functional_circuits=基础工作电路板
+desc.immersiveengineering.info.blueprint.advanced_functional_circuits=高级工作电路板
+desc.immersiveengineering.info.blueprint.processor_functional_circuits=编程处理器
+
+desc.immersiveengineering.info.blueprint.metal_springs=弹簧
+desc.immersiveengineering.info.blueprint.ammo_molds=弹药模具
+desc.immersiveengineering.info.blueprint.vulcanizer_molds=硫化模具
+
+#Keybindings
+key.immersiveintelligence.manualReload=重新加载工程师手册
+key.immersiveintelligence.mgScope=机枪瞄准
+key.immersiveintelligence.engineWorking=启动引擎
+key.immersiveintelligence.motorbikeTowing=拖拽载具
+
+#Advancements
+advancement.immersiveintelligence.root=沉浸智能
+advancement.immersiveintelligence.root.desc=§c§lRead         The          Fucking      Manual！
+
+advancement.immersiveintelligence.connect_belt=强力输送
+advancement.immersiveintelligence.connect_belt.desc=用传动带圈连接两个机械轮
+
+#Reference to Tiger 1 tank memes
+advancement.immersiveintelligence.craft_steel_belt=Hans, ze Transmission Works!
+advancement.immersiveintelligence.craft_steel_belt.desc=制作一个钢质传动带
+
+advancement.immersiveintelligence.secret_connect_wire=勇者胜
+advancement.immersiveintelligence.secret_connect_wire.desc=够了吗？现在让我休息一下吧。
+
+advancement.immersiveintelligence.advanced_circuit_board=更好！更强！更快！
+advancement.immersiveintelligence.advanced_circuit_board.desc=生产一块高级电路板
+
+advancement.immersiveintelligence.artillery_howitzer=“大贝莎”的妹妹
+advancement.immersiveintelligence.artillery_howitzer.desc=建造一门榴弹炮
+
+advancement.immersiveintelligence.chemical_bath=有地方洗澡了
+advancement.immersiveintelligence.chemical_bath.desc=建造一台化学浸洗器
+
+advancement.immersiveintelligence.circuit_board=哔卟哔卟
+advancement.immersiveintelligence.circuit_board.desc=生产一块电路板
+
+#Ay you, yes you @CrimsonTwilight, we know you want the inserters in IG :D
+advancement.immersiveintelligence.craft_advanced_inserter=是深红色的
+advancement.immersiveintelligence.craft_advanced_inserter.desc=制作抓取机械手的升级版
+
+advancement.immersiveintelligence.craft_binoculars=战术观察
+advancement.immersiveintelligence.craft_binoculars.desc=制作双筒望远镜
+
+advancement.immersiveintelligence.craft_chemdispenser=黑夜中的焰火
+advancement.immersiveintelligence.craft_chemdispenser.desc=建造化学喷洒机
+
+advancement.immersiveintelligence.craft_inserter=没有黄色的，对不起！
+advancement.immersiveintelligence.craft_inserter.desc=制作一只抓取机械手
+
+#Long story short, in Company of Heroes 2 on Wikinger Mod, there is a special unit type - the infiltrators
+#Those guys often have superior firepower and accuracy, German units are using the Sturmgewehrs with infrared sights
+#That's why all the infiltration stuff in II is related to Infrared Vision
+advancement.immersiveintelligence.craft_ir_binoculars=渗透者
+advancement.immersiveintelligence.craft_ir_binoculars.desc=合成一个红外望远镜
+
+#Reference to Fullmetal Alchemist: Brotherhood (Lust death scene)
+advancement.immersiveintelligence.craft_lighter=之宝牌打火机
+advancement.immersiveintelligence.craft_lighter.desc=合成一个打火机   §e不知道之宝是啥？    Zippo总知道了吧，没错它们是指同一个东西：）
+
+advancement.immersiveintelligence.craft_mg=德三快乐枪
+advancement.immersiveintelligence.craft_mg.desc=建造一架臭名昭著的机枪
+
+#Reference to Industrialcraft2's alarm siren addon
+advancement.immersiveintelligence.craft_siren=反应堆一切正常吗？
+advancement.immersiveintelligence.craft_siren.desc=建造一个警报器
+
+#Reference to a sidenote on one of Choroman's concept drawings
+advancement.immersiveintelligence.craft_speaker=反应堆：6
+advancement.immersiveintelligence.craft_speaker.desc=制作一个可编程扬声器
+
+advancement.immersiveintelligence.electrolyzer=流体休克疗法
+advancement.immersiveintelligence.electrolyzer.desc=建造一台电解器
+
+advancement.immersiveintelligence.hans_9000=汉斯9000
+advancement.immersiveintelligence.hans_9000.desc=固定好机枪进行防御
+
+#A reference to the well known engineer and weapon maker Jörg Sprave
+advancement.immersiveintelligence.let_me_show_you_its_features=让你看看它的能耐！
+advancement.immersiveintelligence.let_me_show_you_its_features.desc=用红外瞄准镜、重型枪管和副弹匣升级机枪
+
+#A JoJo reference
+advancement.immersiveintelligence.make_platinum=白金之星！
+advancement.immersiveintelligence.make_platinum.desc=得到铂锭
+
+#A Dr. Stone reference
+advancement.immersiveintelligence.make_tungsten=用高温击败怪物
+advancement.immersiveintelligence.make_tungsten.desc=得到钨锭
+
+advancement.immersiveintelligence.make_tungsten_drillhead=比矮人还快
+advancement.immersiveintelligence.make_tungsten_drillhead.desc=合成一个钨质钻头
+
+#Reference to a well known mod
+advancement.immersiveintelligence.make_tungsten_drillhead_diamond=修补工具
+advancement.immersiveintelligence.make_tungsten_drillhead_diamond.desc=合成一个镶钻钨质钻头
+
+advancement.immersiveintelligence.prec_assembler=质量：精品
+advancement.immersiveintelligence.prec_assembler.desc=建造一台精密装配机
+
+advancement.immersiveintelligence.printing_press=墨水不足
+advancement.immersiveintelligence.printing_press.desc=建造一台打印机
+
+#Ah, the good old Crysis 3
+advancement.immersiveintelligence.processor_circuit_board=能玩孤岛危机吗？
+advancement.immersiveintelligence.processor_circuit_board.desc=生产一块处理器电路板
+
+advancement.immersiveintelligence.radio_station=远程控制
+advancement.immersiveintelligence.radio_station.desc=建造一个无线电基站
+
+#Tripod Periscope
+advancement.immersiveintelligence.craft_tripod_periscope=棍棒上的眼睛
+advancement.immersiveintelligence.craft_tripod_periscope.desc=合成一个炮队镜
+
+#Reference to a chat with Carver
+advancement.immersiveintelligence.craft_mine_detector=不是！不是！不是真空吸尘器！
+advancement.immersiveintelligence.craft_mine_detector.desc=合成一个地雷探测器
+
+#Ground Zero is a centre of a nuclear explosion
+advancement.immersiveintelligence.secret_nuclear_tripmine=在归零地上播种
+advancement.immersiveintelligence.secret_nuclear_tripmine.desc=放置核地雷
+
+#Reference to C&C
+advancement.immersiveintelligence.rad_cannon=传播厄运和消灭
+advancement.immersiveintelligence.rad_cannon.desc=成为环境平衡的敌人
+
+#Reference to an old Polish meme, in which a certain cocoa brand is actually a story-rich book!
+#The cocoa was once put into a shop's shelf, mistaken as a book, that's where it started.
+advancement.immersiveintelligence.secret_cocoa=德科·莫雷诺的故事
+advancement.immersiveintelligence.secret_cocoa.desc=达到了顶级质量
+
+#Reference to Carver and C&C, though I left the mind control feature optional, was kinda op
+advancement.immersiveintelligence.secret_carvers_revenge=Carver's Revenge
+advancement.immersiveintelligence.secret_carvers_revenge.desc=你的意思是，我们不能拥有精神控制的核发射井？
+
+#URA! Reference to a youtube video by HRejterzy, check it out ^^
+advancement.immersiveintelligence.create_motorbike=Za vas, za nas, za neft' i gaz!
+advancement.immersiveintelligence.create_motorbike.desc=建造摩托车
+
+#Reference to a certain discord chat
+advancement.immersiveintelligence.secret_sorry_for_ceiling=对你家天花板说声抱歉！
+advancement.immersiveintelligence.secret_sorry_for_ceiling.desc=体验一枚榴弹炮炮弹击破屋顶。
+
+#Manual Categories
+
+ie.manual.category.ii_data.name=数据传输
+ie.manual.category.ii_warfare.name=战争
+ie.manual.category.ii_logi.name=逻辑
+ie.manual.category.ii_intel.name=情报
+ie.manual.category.ii_motorworks.name=载具
+
+#Data and Electronics
+
+#Reference to... flow control... yeah, really, that boring
+ie.manual.entry.data_main.name=数据
+ie.manual.entry.data_main.subtext=控制生产
+ie.manual.entry.data_main0=当你想控制一个自动化工厂，发电厂或其他复杂的机器，你就会需要某种控制系统。<br>红石是一个很好的开始，但是随着机器越来越多，它的混乱开始显现出来，而这正是引入数据系统的合适时机。
+ie.manual.entry.data_main1=与红石信号不同的是，数据是通过数据包以异步方式发送的。这意味着，信号不是一直发送的，而是只发一次。每个数据包可以包含36个不同类型的<link;data_variable_types;§n§o变量§r;>，用26个字母和数字0-9中的一个来标记。这些数据包发送后被立即接收，使它们能够在没有任何数据丢失的情况下远程传输。
+
+#Reference to possibly a box of foodstuffs
+ie.manual.entry.data_variable_types.name=变量类型
+ie.manual.entry.data_variable_types.subtext=结果可能不同
+ie.manual.entry.data_variable_types=一个数据包可以包含多种类型的变量，每个变量都有一个默认值和其他特定于其类型的参数。<br>(不要对这个感到困惑：<link;data_variable_types_null;§o§nNull§r;>)。<br>基本变量类型有：<link;data_variable_types_null;§o§nNull§r;>, <link;data_variable_types_int;§o§nInteger§r;>, <link;data_variable_types_string;§o§nString§r;>, <link;data_variable_types_bool;§o§nBoolean§r;>，也有一些更高级的变量类型，比如： <link;data_variable_types_itemstack;§o§nItemStack§r;>, <link;data_variable_types_array;§o§nArray§r;>, <link;data_variable_types_pair;§o§nPair§r;> 和 <link;data_variable_types_range;§o§nRange§r;>.
+
+ie.manual.entry.data_variable_types_null=Null（空值）是一种特殊的变量类型，它没有值。它是未定义变量的默认类型。
+ie.manual.entry.data_variable_types_integer=Integer（整数）（通常简称为Int）是一种数字变量类型，主要用于计算和比较。
+ie.manual.entry.data_variable_types_string=String（字符串）是一种文本变量类型，它可以容纳各种不同的字符。
+ie.manual.entry.data_variable_types_boolean=Boolean（布尔值）（通常简称为Bool）是一种逻辑变量类型，它可以保存两个值中的一个（是或否），并可用于逻辑函数中。
+ie.manual.entry.data_variable_types_itemstack=物品数据是一种高级变量类型，可以保存有关特定物品（而不是物品类型）的信息，如id、元数据（伤害）和NBT。
+ie.manual.entry.data_variable_types_array=Array（数组）是变量的集合，变量按其序号（从0开始）排序，它可以保存除另一个数组之外的任何变量类型。
+ie.manual.entry.data_variable_types_pair=Pair是一种变量类型，由两种基本变量类型组成，常用于比较。
+ie.manual.entry.data_variable_types_range=Range（范围）是一种变量类型，由两个<link;data_variable_types_int;§o§nIntegers§r;>组成，最常用于比较数字或在某个范围内设置数字。
+
+ie.manual.entry.def_value=默认值
+ie.manual.entry.min_value=最小值
+ie.manual.entry.max_value=最大值
+ie.manual.entry.min_index=最小序号
+ie.manual.entry.max_index=最大序号
+ie.manual.entry.empty=空
+ie.manual.entry.accepted_values=允许值
+ie.manual.entry.max_length=最大长度
+ie.manual.entry.tf=是/否
+ie.manual.entry.false=否
+ie.manual.entry.true=是
+
+ie.manual.entry.variables_input=输入变量：
+ie.manual.entry.variables_output=输出变量：
+ie.manual.entry.variables_callback=回调变量:
+
+ie.manual.entry.circuit_production.name=电路板
+ie.manual.entry.circuit_production.subtext=哔卟哔卟
+ie.manual.entry.circuit_production0=电路板是最重要和最常用的电子部件之一。有三种电路板：<link;circuit_production_basic;§n§o基础电路板§r;>（即沉浸工程的电路板）——使用真空管和红石制成，<link;circuit_production_advanced;§o§n高级电路板§r;>——使用高级电子合金™ 和升级的真空管制造。最复杂的是<link;circuit_production_processor;§o§n处理器电路板§r;>，主要由硅制成，采用复杂的<link;precision_assembler;§o§n精密装配机§r;>工艺。电路板是最重要和最常用的电子部件之一。有三种电路板：<link;circuit_production_basic;§n§o基础电路板§r;>（即沉浸工程的电路板）——使用真空管和红石制成，<link;circuit_production_advanced;§o§n高级电路板§r;>——使用高级电子合金™ 和升级的真空管制造。最复杂的是<link;circuit_production_processor;§o§n处理器电路板§r;>，主要由硅制成，采用复杂的<link;precision_assembler;§o§n精密装配机§r;>工艺。电路板是最重要和最常用的电子部件之一。有三种电路板：<link;circuit_production_basic;§n§o基础电路板§r;>（即沉浸工程的电路板）——使用真空管和红石制成，<link;circuit_production_advanced;§o§n高级电路板§r;>——使用高级电子合金™ 和升级的真空管制造。最复杂的是<link;circuit_production_processor;§o§n处理器电路板§r;>，主要由硅制成，采用复杂的<link;precision_assembler;§o§n精密装配机§r;>工艺。
+ie.manual.entry.circuit_production_basic=基础电路板是普通的、初级的、廉价的。它们可以通过改装来进行简单的算术、逻辑和文本操作，但主要用途还是建造各种机器。为了生产一个基础电路板，需要将一块未加工的电路板放进<chemical_bath;§o§n化学浸洗器§r;>进行蚀刻，然后在上面安装一个在<link;precission_assembler;§o§n精密装配台§r;>中由真空管制成的芯片。
+ie.manual.entry.circuit_production_basic_usages=基础电路板用于制造基础级的电子设备和机器，如印刷机，<link;arithmetic_logic_machine;§o§n算术逻辑机§r;> 和 <link;data_input_machine;§o§n数据输入机§r;>。
+ie.manual.entry.circuit_production_advanced=高级电路板是对基础电路的直接升级，它们仍然使用真空管，但由于使用了新的合金，它们的性能要好得多。它们是由升级的电路板和升级的真空管组成的芯片制成的。
+ie.manual.entry.circuit_production_advanced_usages=由于其传输速率快，所以可以改装来执行更高级的算术、逻辑、文本甚至物品处理操作。其杰出的速度让它们被广泛用于无线传输和高级计算机器。
+ie.manual.entry.circuit_production_processor=处理器电路板是世界上最先进、最强大的电路板，采用硅、高级电子合金和其他材料经过多步骤组装制造而成。
+ie.manual.entry.circuit_production_processor_usages=目前处理器不能用于用于合成任何东西，所以造出处理器不像一个实际需要的项目，更像是一个挑战。
+
+#Reference to a Polish tinkerer/Baumeister slang word meaning doohickey, thingamabob, but in exact meaning a device that makes the "bul bul" (splash splash?) noise
+ie.manual.entry.chemical_bath.name=化学浸洗器
+ie.manual.entry.chemical_bath.subtext=有地方洗澡了
+ie.manual.entry.chemical_bath0=化学浸洗器是一种机器，由一个大号的浸洗缸和一个带握爪的滑动托架构成，这台机器通常用于蚀刻未加工电路板。用锤子右击中间的金属板来完成建造。
+
+#Reference to Dr.Stone
+ie.manual.entry.precission_assembler.name=精密装配台
+ie.manual.entry.precission_assembler.subtext=虔诚的工匠
+ie.manual.entry.precission_assembler0=精密装配台是一种先进的机器，用于加工高精度的物品，它需要一个装配方案和精密的操作机械臂。用工程师锤右击木制脚手架来完成建造。
+ie.manual.entry.precission_assembler1=精密装配台只使用它所需的原料，并在输出产品的同时输出废料。它最常见的用途是生产电子元件。
+
+ie.manual.entry.electrolyzer.name=电解器
+ie.manual.entry.electrolyzer.subtext=流体休克疗法
+ie.manual.entry.electrolyzer0=电解器是一种将流体电解分成两种不同流体的机器。它能把水分解成氢和氧，把盐水分解成氯和氢。它需要电才能运转。使用工程师锤右击机器前面的重型工程块来完成建造。
+ie.manual.entry.electrolyzer1=流体必须提供给机器的侧面，在过程完成后，产生的两个流体将被输出到前面。虽然机器的内部储罐允许储存少量液体，但请考虑建造<link;tank;§o§n储罐§r;>用于工业规模的电解。
+
+ie.manual.entry.filler.name=火药填充机
+ie.manual.entry.filler.subtext=搅拌全部的粉尘！
+ie.manual.entry.filler0=火药填充机是一种用于向容器内填充粉末的设备，它最主要的用途是向弹壳中填充火药。使用工程师锤敲击机器中间的传送带来完成建造。
+ie.manual.entry.filler1=操作填充机需要电力、一个用于填充的容器和适量的粉末。当粉末存入填充机的储罐中时，存储的粉末总量会以mB为单位显示，而且填充机一次只能存储一种粉末。除非将容器内的粉末消耗完，只有破坏机器才能将机器内的粉末清除。
+
+ie.manual.entry.chemical_painter.name=化学喷涂机
+ie.manual.entry.chemical_painter.subtext=胜过千把刷！
+ie.manual.entry.chemical_painter0=化学喷涂机是利用墨水将物品精准地染成指定颜色的设备。使用工程师锤敲击机器中间的轻型工程块来完成建造。
+ie.manual.entry.chemical_painter1=手动绘制物品很乏味且颜色不是很精确，同时为了获得想要的颜色可能会浪费大量染料。化学喷涂机就解决了这个问题。青色、品红、黄色、黑色四种墨水从设备后面的四个储罐输入，电则从顶端的接口输入。物品可以被手动放进机器中，也可以通过传送带送进去。
+ie.manual.entry.chemical_painter2=设定颜色可以通过其自带的界面或通过数据系统。界面上的三个按钮用来切换颜色格式: R- RGB, C -CMYK以及H - HSV。<br>化学喷涂机可用于给炮弹上色以标记其用途。顺便一提大部分物品可以通过<link;chemical_bath;§o§n化学浸洗器§r;>洗去所染的颜色。
+#Chemical Painter output variables
+ie.manual.entry.filler.vars_in.p.main=输出模式
+#Chemical Painter callback variables
+ie.manual.entry.filler.vars_callback.get_color=以 RGB 整数形式输出当前使用的颜色
+ie.manual.entry.filler.vars_callback.get_color_hex=以hex字符串形式输出当前使用的颜色
+ie.manual.entry.filler.vars_callback.get_ink=输出黑色墨水储量
+ie.manual.entry.filler.vars_callback.get_ink_cyan=输出青色墨水储量
+ie.manual.entry.filler.vars_callback.get_ink_yellow=输出黄色墨水储量
+ie.manual.entry.filler.vars_callback.get_ink_magenta=输出品红色墨水储量
+ie.manual.entry.filler.vars_callback.get_energy=输出电能储量
+
+ie.manual.entry.printing_press.name=打印机
+ie.manual.entry.printing_press.subtext=工程师的书和笔
+ie.manual.entry.printing_press0=打印机是一种印刷机器，当它收到一个数据包时，它可以按数据打印出文本。印刷机需要墨水和纸张。使用工程师锤右击机器前面的轻型工程块来完成建造。
+ie.manual.entry.printing_press1= 印刷纸是书籍中使用的标准纸张的一种特殊的薄版，通过在金属冲压机中压制纸张制成。根据当前打印颜色的CMYK值，机器会需要不同的墨水颜色。
+ie.manual.entry.printing_press2=所需墨水取决于当前打印字符的颜色。输出的印刷页应立即移开，因为印刷机里只能存放12页纸。
+
+#Printing Press output variables
+ie.manual.entry.printing_press.vars_in.m.main=输出模式
+ie.manual.entry.printing_press.vars_in.m.sub=可用的值: "text", "code", "blueprint"
+ie.manual.entry.printing_press.vars_in.a.main=纸张数量
+ie.manual.entry.printing_press.vars_in.a.sub=
+ie.manual.entry.printing_press.vars_in.t.main=打印文本
+ie.manual.entry.printing_press.vars_in.t.sub=只有在"text"模式下可用
+#Printing Press callback variables
+ie.manual.entry.printing_press.vars_callback.get_ink=输出黑色墨水储量
+ie.manual.entry.printing_press.vars_callback.get_ink_cyan=输出青色墨水储量
+ie.manual.entry.printing_press.vars_callback.get_ink_yellow=输出黄色墨水储量
+ie.manual.entry.printing_press.vars_callback.get_ink_magenta=输出品红墨水储量
+ie.manual.entry.printing_press.vars_callback.get_energy=输出电能储量
+ie.manual.entry.printing_press.vars_callback.get_paper=输出空白纸张页数
+
+ie.manual.entry.data_input_machine.name=数据输入机
+ie.manual.entry.data_input_machine.subtext=输入输出
+ie.manual.entry.data_input_machine0=数据输入机是一种电子设备，它由一个带键盘的木桌和一个钢制机壳组成，用户可以在其中输入数据并通过红石信号发送。在发送数据包后，变量会被保留，机器可以再次使用。这个设备需要电力。使用工程师锤右击左边的轻型工程块来完成建造。
+ie.manual.entry.data_input_machine1=机器的操作界面由两部分组成。“存储部分”用于存储“存有数据的打点纸带”和“数据部分”。打点纸带可以通过插入插槽来读取数据（如果里面有数据的话），也可以将机器的数据包写入其中（当打点纸带为空白时）。在数据部分，可以使用“+”按钮添加变量，然后可以对变量进行编辑或（按住shift键）删除。
+ie.manual.entry.data_input_machine2=编辑变量时，可以使用向上和向下箭头更改其字母，或在单击变量时更改其类型。
+
+#Reference to a song
+ie.manual.entry.arithmetic_logic_machine.name=算术逻辑机
+ie.manual.entry.arithmetic_logic_machine.subtext=算快快！
+ie.manual.entry.arithmetic_logic_machine0=算术逻辑机是一种电子设备，其主要任务是处理和修改数据。它需要电力来运行。
+ie.manual.entry.arithmetic_logic_machine1=当在机器的左侧接收到数据包时，它使用放置在机架中4个插槽中的功能电路来相应地更改变量。机器遍历所有电路，然后按字母顺序遍历变量，并将它们的值设置为给定表达式的结果。表达式由2个值和一个运算符（+、-、*等）组成。每个回路都有可用表达式的列表。表达式也可以有一个条件变量（布尔值），
+ie.manual.entry.arithmetic_logic_machine2=该机器还提供了一个非标准的数据类型”引用值“，它本身不保存任何值，但可以从接收到的数据包中的变量获取值。通过单击“@”按钮，可以将表达式中的变量切换成引用值。
+ie.manual.entry.arithmetic_logic_machine_fcircuit_arithmetic=算术电路板<br>该电路板用于计算加法、减法、乘法和除法等基本数学表达式。
+ie.manual.entry.arithmetic_logic_machine_fcircuit_advanced_arithmetic=高级算术电路板<br> 这个电路板允许计算更高级的数学表达式，例如求平方、求平方根或从2个数中得到较小或较大的数字。
+ie.manual.entry.arithmetic_logic_machine_fcircuit_logic=Logic Circuit<br> 逻辑电路板<br> 此电路板用于基本逻辑表达式（如逻辑门），如与、或、非。
+ie.manual.entry.arithmetic_logic_machine_fcircuit_comparator=比较电路板<br>此电路板允许比较两个整数并返回布尔值。
+ie.manual.entry.arithmetic_logic_machine_fcircuit_advanced_logic=高级逻辑电路板<br> 该电路板可以进行高级逻辑运算，如与非、或非、异或、同或及基本运算。
+ie.manual.entry.arithmetic_logic_machine_fcircuit_advanced_text=文本处理电路板<br> 这个电路板可以做基本的文本处理，目前只允许合并两个字符串。
+ie.manual.entry.arithmetic_logic_machine_fcircuit_advanced_itemstack=物品数据电路板<br> 该电路板可以获取和操作物品的属性，也可以用于获取/设置物品的NBT、meta和id，还可以与其他电路结合使用来控制逻辑系统。
+
+#Reference to Fullmetal Alchemist
+ie.manual.entry.redstone_interface.name=红石接口
+ie.manual.entry.redstone_interface.subtext=等价变换
+ie.manual.entry.redstone_interface0=红石接口是连接旧的红石系统和新的数据系统的桥梁。它可以将数据从红石信号转换为新的红石信号。因为它只是一个转换器，所以这台机器不需要任何电力。
+ie.manual.entry.redstone_interface1=这台机器由一些线圈，一堆钢板和几根电子管组成，但最重要的是数据输入端口，需要在这个端口上放置一个继电器和一个内置的红石接线器，你可以在上面连接一根线圈。在操作界面中有两个部分，从数据信号转为红石信号或反之。添加条目后，必须指定变量字母和相应的红石颜色。
+
+#Reference to a meme
+ie.manual.entry.conveyor_scanner.name=传送带扫描仪
+ie.manual.entry.conveyor_scanner.subtext=拿着摄像机！
+ie.manual.entry.conveyor_scanner0=传送带扫描仪是由传送带、带特殊镜头的照相机和处理信息的电子装置组成的装置。一个物品通过传送带扫描仪，它的属性被读取并发送到数据包内的物品数据类型变量's'。这台机器需要消耗电力。用工程师锤右击传送带来完成建造。
+ie.manual.entry.conveyor_scanner1=这玩意同样需要电力才能运转。用工程师锤右击与你通向的传送带来完成建造。<br>传送带扫描仪并不能自己单独处理信号，你可以通过安装具有合适电路的ALM来处理信号。它最常用作物品计数器或触发器的一部分，由特定物品激活。
+
+ie.manual.entry.conveyor_scanner.vars_out.s.main=扫描物品
+ie.manual.entry.conveyor_scanner.vars_out.s.sub=扫描物品(扫描其ID、耐久和NBT),用物品数据电路板处理信号。
+
+#Reference to Factorio
+ie.manual.entry.inserters.name=物品输入器
+ie.manual.entry.inserters.subtext=这次不要黄色的！
+ie.manual.entry.inserters0=高精度输入设备，也称为输入器，用于将物品从一个地方转移到另一个地方。物品抓取机械臂包括一个手臂和电机，用于旋转和拾取物品。流体限流器使用管道和自动阀。抓取机械臂和流体限流器能够从周围任一侧获取和输入物品。
+ie.manual.entry.inserters1=可以用工程师锤右击机械臂来设定哪边是侧面（偷偷设置输出:D）。抓取机械臂需要电力来运行，需要数据来提供指令。
+ie.manual.entry.inserters_basic=基础抓取机械臂用于简单可控的物品转移。它由基础电路和机械零件组成，是一种可以将确定数目的物品从一个地方传到另一个地方的既便宜又简单的方法。
+ie.manual.entry.inserters_basic_desc=变量<br>字符串'm' - 物品抓取模式（设置/添加）<br>整数'c' - 物品数量<br>
+ie.manual.entry.inserters_advanced_desc=变量<br>字符串'm' - 物品抓取模式（设置/添加）<br>整数'c' - 物品数量<br>布尔值'b' - 是否可从矿车内抓取方块<br>字符串'f' -过滤模式（白名单、黑名单、无）<br>字符串'g' - 高级过滤模式（特殊要求、物品或矿词）<br>字符串'w' - 矿车抓取模式（抓取物品/方块）<br>物品数据'1'-'0' - 物品过滤器
+ie.manual.entry.inserters_fluid_desc=变量<br>字符串'm' -物品抓取模式（设置/添加）<br>整数'c' - 输送流体的量 (mB)<br>
+
+ie.manual.entry.inserters_basic.vars_in.c.main=指令
+ie.manual.entry.inserters_basic.vars_in.c.sub=可用的值: "add", "remove", "clear"
+ie.manual.entry.inserters_basic.vars_in.a.main=功能(由"add"使用, 也可改为"remove")
+ie.manual.entry.inserters_basic.vars_in.a.sub=可用的值: "item", "place_block", "from_minecart", "into_minecart"
+ie.manual.entry.inserters_basic.vars_in.s.main=物品数据
+ie.manual.entry.inserters_basic.vars_in.s.sub=可选变量。物品必须匹配"ItemStack" 或者 "OreDict"字符串。 
+ie.manual.entry.inserters_basic.vars_in.e.main=Expire after (由"add"使用)
+ie.manual.entry.inserters_basic.vars_in.e.sub=可选变量。在抓取多少物品后结束任务。
+ie.manual.entry.inserters_basic.vars_in.t.main=物品抓取数量(由"add"使用)
+ie.manual.entry.inserters_basic.vars_in.t.sub=可选变量。设定每次抓取物品的数量。
+
+ie.manual.entry.inserters_basic.vars_in.i.main=输入方向
+ie.manual.entry.inserters_basic.vars_in.i.sub=可选变量。字符串("north", "east", "south", "west")或者整数 2-4.
+ie.manual.entry.inserters_basic.vars_in.o.main=输出方向
+ie.manual.entry.inserters_basic.vars_in.o.sub=可选变量。字符串("north", "east", "south", "west")或者整数 2-4.
+ie.manual.entry.inserters_basic.vars_in.1.main=输入距离
+ie.manual.entry.inserters_basic.vars_in.1.sub=可选变量。整数 1-2.
+ie.manual.entry.inserters_basic.vars_in.0.main=输出距离
+ie.manual.entry.inserters_basic.vars_in.0.sub=可选变量。整数 1-2
+
+
+ie.manual.entry.inserter_obsolete.vars_in.m.main=物品抓取模式(已弃用)
+ie.manual.entry.inserter_obsolete.vars_in.m.sub=可能的变量: "set", "add"
+ie.manual.entry.inserter_obsolete.vars_in.c.main=物品数量(已弃用)
+ie.manual.entry.inserter_obsolete.vars_in.c.sub=...... 你看nm呢
+
+ie.manual.entry.inserters_advanced=高级抓取机械臂是一个升级版本，它可以过滤拣选物品，并可以从矿车上拾起储存箱和桶。高级抓取机械臂操作更快，但也会消耗更多的能量。
+ie.manual.entry.inserters_fluid=流体限流器是精确限制流体输送量的机器。有时您只想输入特定的流体量，此设备就可以做到这一点。
+
+ie.manual.entry.inserters_fluid.vars_in.m.main=流体抽入模式
+ie.manual.entry.inserters_fluid.vars_in.m.sub=可能的变量: "set", "add"
+ie.manual.entry.inserters_fluid.vars_in.c.main=抽入液体的量
+ie.manual.entry.inserters_fluid.vars_in.c.sub=以mB为单位
+
+#Reference to IndustrialCraft's siren addon
+ie.manual.entry.alarm_siren.name=警报器
+ie.manual.entry.alarm_siren.subtext=反应堆还好，至少刚刚是
+ie.manual.entry.alarm_siren0=警报器是一种警报装置，当提供红石信号时会发出很大的噪音。红石线可以从任何一边连接。警报器和每个红石接线器一样，可以重新配置为使用不同的红石颜色通道（默认为白色）。
+
+#Reference to Choroman's radar concept drawings
+ie.manual.entry.programmable_speaker.name=可编程扬声器
+ie.manual.entry.programmable_speaker.subtext=反应堆：6
+ie.manual.entry.programmable_speaker0=可编程扬声器也是一种警报装置，当提供红石信号时一样会发出很大的噪音。红石线和数据线可以在扬声器的任何一面输入。数据线可以控制扬声器的声音和音高，红石线则可以控制音量。
+
+ie.manual.entry.programmable_speaker.vars_in.o.main=单次播放
+ie.manual.entry.programmable_speaker.vars_in.o.sub=如果被设定为true，那么声音只会播放一次，无论是否有红石信号。
+ie.manual.entry.programmable_speaker.vars_in.s.main=所播放声音的ID
+ie.manual.entry.programmable_speaker.vars_in.s.sub=例如"immersiveintelligence:siren"
+ie.manual.entry.programmable_speaker.vars_in.v.main=音量
+ie.manual.entry.programmable_speaker.vars_in.v.sub=值必须在0 - 100之间。
+ie.manual.entry.programmable_speaker.vars_in.t.main=音调/音高
+ie.manual.entry.programmable_speaker.vars_in.t.sub=值必须在-100 - 100之间。
+
+#Reference to an event from my life
+ie.manual.entry.radio_station.name=无线电基站
+ie.manual.entry.radio_station.subtext=无线电线™
+ie.manual.entry.radio_station0=无线电基站是一种无线发送和接收数据的设备。无线电台只能在距离范围内（恶劣天气下的射程较低）、工作频率相同且两个发射塔都有足够的电能时才能进行通信。
+ie.manual.entry.radio_station1=无线电台是一个先进的多方块结构，它只能用工程师电动锤完成建造，并且分两步。第一阶段，建造多方块结构，然后在上面的高级电子工程块上使用电动锤，第二阶段需要使用电动锤不断右击来完成建造，会消耗电动锤的能量（注：耗电量大，有电容背包的话最好带上）。
+ie.manual.entry.radio_station2=可以使用无线电调谐器来设置电台的频率。有2个版本的调谐器，分别具有不同的频率范围。电台只能使用基础范围。
+
+#Reference to... Immersive Engineering's Curse Description
+ie.manual.entry.small_data_devices.name=小型数据设备
+ie.manual.entry.small_data_devices.subtext=灰色的未来方块
+ie.manual.entry.data_merger=数据合并器是一种可以将来自侧面的两个数据输入合并到前端进行输出的机器。从机器的一个变量上取一个参数。每个变量也有一个侧面覆盖模式，绿色是左侧，红色是右侧，如果最新的数据包不包含该变量，则较暗的颜色会删除该变量。
+ie.manual.entry.data_router=数据路由器允许将一个数据包输出到一个特定的面，这个面由包的一个变量定义（可以通过使用工程师锤在路由器上进行设置）。变量必须是整数。<br>Top - 0<br>Bottom - 1<br>North - 2<br>South - 3<br>East - 4<br>West - 5
+ie.manual.entry.redstone_buffer=红石缓冲器是一种设备，它可以保存传入的数据包，直到它不再接收到红石信号为止。
+ie.manual.entry.timed_buffer=定时缓冲器是一种设备，它可以在给定的时间内传入数据包。持续时间由变量'0'（需要等待的tick数）设置。
+ie.manual.entry.small_data_buffer=小型数据缓冲区是一种设备，最多可容纳4个数据包，并在给定红石信号时按照先进先出的顺序释放这些数据包。
+
+ie.manual.entry.data_wires.name=数据布线
+ie.manual.entry.data_wires.subtext=不是电线
+ie.manual.entry.data_wires0=通过这些电线，数据会被即时发送和接收。在某些情况下，使用 <link;radio_station;§o§n无线电基站§r;> 可能更好，但电线可以在恶劣天气下提供更好的稳定性，而且更便宜。
+ie.manual.entry.data_wires1=数据线和大多数线缆一样，都有自己的继电器和接线器，可以连接机器。这些可以用来建立强大的后勤、战争、情报和生产网络。
+
+#别管下面这个，这玩意似乎并没有出现在手册上。  
+ie.manual.entry.tools.name=Data Wiring
+ie.manual.entry.tools.subtext=Not really powerlines
+ie.manual.entry.tools0=Trough the wires, data is sent and received immediately. In some cases using <link;radio_station;§o§nWireless §o§nTransmission§r;> might be better, but wires offer better stability during harsh weather and are cheaper.
+ie.manual.entry.tools1=Data wires like most cabling have their own relays and connectors, which split and connect machines. These can be used to create great logistic, warfare, intelligence and production networks.
+
+
+#Intelligence
+
+#Reference to Dr. Stone
+ie.manual.entry.intel_main.name=情报
+ie.manual.entry.intel_main.subtext=科学最强大的武器
+ie.manual.entry.intel_main0=情报是工程学的一个分支，专注于间谍、渗透、破坏和侦察。<br>情报提供多种工具和机器来观察和预测敌人的动向。其中包括简单的双筒望远镜、先进的红外望远镜和战略指挥台。                
+
+#Reference to Dr. Stone
+ie.manual.entry.binoculars.name=双筒望远镜
+ie.manual.entry.binoculars.subtext=科学之眼
+ie.manual.entry.binoculars0=双筒望远镜是一种光学工具，可以让人看到更远的东西。它与 <link;railgun;§o§n磁轨枪§r;> 基于相同的放大原理。
+ie.manual.entry.binoculars1=红外双筒望远镜是普通望远镜的升级版。当由 <link;powerpack;§o§n电容背包§r;> 供能时可用于夜视，不要在明亮区域使用，否则可能会导致失明。
+
+ie.manual.entry.tripod_periscope.name=炮队镜
+ie.manual.entry.tripod_periscope.subtext=棍棒上的眼睛
+ie.manual.entry.tripod_periscope0=三脚架潜望镜（炮队镜）是一种由双筒望远镜、放大管、旋转机构和三脚架组成的观察装置。三脚架潜望镜允许从壕沟或墙壁向外窥视，而不会有被击中的风险。
+ie.manual.entry.tripod_periscope1=与标准的双筒望远镜相比，三脚架潜望镜具有卓越的变焦能力，允许人们更进一步地侦察并在极远的距离上看到物体<br>炮队镜的部署类似于机枪，需要你将物品放在地面上，然后在空手时与之交互。如果要拆除它，潜行对它右击即可。
+
+#Reference to the Battle of Britain in WW2
+ie.manual.entry.radar.name=雷达
+ie.manual.entry.radar.subtext=来自多佛的遗物
+ie.manual.entry.radar0=雷达是一种大型探测设备，能够在难以置信的长距离内探测直线上的实体，包括（尤其是）所有金属物体和炮弹。使用工程师锤敲击左侧的木质脚手架来完成建造。
+ie.manual.entry.radar1=雷达有多种用途。它可以与定位武器（如CPDS近防炮）联系起来，用于远程拦截炮弹。它也可以与战略指挥台[WIP]链接。<br>如果加装了§6三角仪§r，雷达还可以检测到其范围内的无线电信号并确定其位置，这使得炮火可以精确地偷袭不知情的敌人。同时，为了操作雷达，需要持续供电。
+
+#Reference to a book by Sun Tzu
+ie.manual.entry.strategic_command_table.name=战略指挥台 [WorkInPorgess]
+ie.manual.entry.strategic_command_table.subtext=《The Art of War》
+ie.manual.entry.strategic_command_table0=别看了，这玩意压根就没实装。    PS：The Art Of War翻译过来就是《孙子兵法》
+
+#Warfare
+
+#Reference to an RTS game
+ie.manual.entry.warfare_main.name=战争
+ie.manual.entry.warfare_main.subtext=工程与征服
+ie.manual.entry.warfare_main0=战争也是工程学的一个分支，专注于对敌人的防御和进攻。现代工程彻底改变了作战方式，刀剑和盾牌已经过时，投射武器的时代已经到来。现代战争以精确和快速的攻击为基础，其射程远超以往任何武器。
+
+
+ie.manual.entry.contributor_skins.name=贡献者皮肤
+ie.manual.entry.contributor_skins.subtext=对工程事业的支持！
+ie.manual.entry.contributor_skins=沉浸智能MOD的贡献者，无论是通过提供资产、代码、翻译、录制教程视频的直接帮助，还是通过Patreon的捐赠，还是仅仅为沉浸智能的社区做出贡献，都不能忽视，必须得到奖励。<br>为此，游戏中添加了一系列皮肤，这些皮肤适用于各种武器，从机枪到榴弹炮。非常感谢你们所有人，如果没有你们，这个项目不会那么快的完成。
+
+#Reference to the well known meme
+ie.manual.entry.machinegun.name=机枪
+ie.manual.entry.machinegun.subtext=德三快乐枪
+ie.manual.entry.machinegun0=机枪是一个开拓性的发明，它可以有效地防御各种威胁。与大多数武器不同，机枪不能随时发射，它必须安置在一个有足够空间的方块上才能开火。机枪需要使用弹匣，弹匣可以在 <link;packer;§o§n封装机§r;> 里填充子弹。
+ie.manual.entry.machinegun1=在射击时，弹壳会掉在地上，可以捡起回收。机枪容易过热，过热情况取决于射速。和大多数现代装备一样，机枪可以通过升级组件来实现不同的配置，比如水冷、瞄准镜、新的双脚架等等。
+
+ie.manual.entry.machinegun_upgrade_heavy_barrel=§6重型枪管§r可大大提高机枪的射击速度，但也会增加机枪过热。使用此升级的最佳策略是短点射。
+ie.manual.entry.machinegun_upgrade_water_cooling=§6水冷枪管§r允许在枪管下面的水箱中注入冷却液（如水），这几乎消除了枪管过热的问题。用这个升级来进行火力压制是个好主意，但是你必须以精确的频率进行射击才能确保压制，因为枪的射击速度变慢了。
+ie.manual.entry.machinegun_upgrade_belt_fed_loader=§6带式装弹机§r可以从发射位置下方的弹药箱提供的皮带上装载弹药。（前提是弹药箱安装了对应升级）
+ie.manual.entry.machinegun_upgrade_second_magazine=§6副弹匣升级§r可以在枪里装入两个弹匣，第二个弹匣可以随意装填。
+ie.manual.entry.machinegun_upgrade_hasty_bipod=§6临时双脚架§r是匆忙制造的，可替代默认的双脚架，小幅降低机枪的部署速度，同时小幅降低后坐力。
+ie.manual.entry.machinegun_upgrade_precise_bipod=§6精密双脚架§r是默认双脚架的替代品，高精度制造，大幅增加机枪的部署速度，同时大幅降低后坐力。
+ie.manual.entry.machinegun_upgrade_scope=§6机枪瞄准镜§r是由 <link;railgun;§o§n磁轨枪§r;> 改装而来的，可以放大远程目标。
+ie.manual.entry.machinegun_upgrade_infrared_scope=§6红外望远镜§r是其前身的升级版，它还可以使用红外反射器和一个特殊的滤光片来提供夜视功能，工作时需要一个电容背包提供能量。
+ie.manual.entry.machinegun_upgrade_shield=§6机枪盾§r是一种简单有效的保护炮手正面免受炮弹和近战伤害的方法。它们可以抵抗有限数量的子弹而不会造成任何损伤。盾牌的抵抗力会随着时间的推移而恢复，直到完全恢复。附加升级同时也会增加枪的设置时间。
+ie.manual.entry.machinegun_upgrade_tripod=§6三脚架§r是普通机枪两脚架的替代品。它将水平射击角度增加到165度，几乎消除了全部的后座力。它很重，使的机枪架设起来很慢，这使得它成为固定防御的理想选择。
+
+ie.manual.entry.submachinegun.name=冲锋枪
+ie.manual.entry.submachinegun.subtext=Tommy's Toy
+
+ie.manual.entry.submachinegun0=冲锋枪，通常被称为§6SMG§r，是一种步兵武器，用于近距离和中程交战。冲锋枪制造和生产弹药相对便宜，这使得它成为需要快速机动和高射速、近距离作战的理想选择。
+ie.manual.entry.submachinegun1=SMG可以修改为安装弹鼓，并且可以将<link;revolver;§o§n左轮手枪§r;3>附在其上，在近距离作战中实现近战。可以安装<link;submachinegun;§o§n折叠式枪托§r;6>以提高瞄准速度。如果想消除可以吸引周围敌人的巨大枪声，可以为冲锋枪安装<link;submachinegun;§o§n消声器§r;4>。相反，枪管可以换成噪音更大但速度更高、穿透力更强的<link;submachinegun;§o§n重型枪管§r;3>.
+ie.manual.entry.submachinegun2=请记住，冲锋枪会随着与目标的距离变远而失去准确性。建议使用磁轨炮或榴弹炮打击远距离目标。
+ie.manual.entry.submachinegun_upgrade_sturdy_barrel=§6重型枪管§r是一种改进，以提高火炮的射击速度为代价，提高了火炮的精度和子弹速度。
+ie.manual.entry.submachinegun_upgrade_suppressor=§6消声器§r使枪声几乎无声，非常适合伏击和渗透。它不影响射速和穿透力。
+ie.manual.entry.submachinegun_upgrade_bottom_loading=§6底部装弹器§r可以将弹匣装载机构从右侧移动到底部，取代木制前握把。这使得两种弹匣都可以装载。
+ie.manual.entry.submachinegun_upgrade_folding_stock=§6折叠式枪托§r使冲锋枪更加紧凑，缩短了瞄准时间。非常适合伞兵和特种部队。
+
+ie.manual.entry.autorevolver_upgrade_heavy_springbox=The §6heavy springbox§r is an upgrade for the autorevolver. It uses mechanical power to compress the air in the bullet chamber, adding a lot of velocity to the bullets. The drawbacks are the slower reload speed and lower accuracy.
+
+ie.manual.entry.assault_rifle_upgrade_radio_marker=
+ie.manual.entry.assault_rifle_upgrade_rifle_grenade_launcher=
+ie.manual.entry.assault_rifle_upgrade_stereoscopic_rangefinder=
+
+ie.manual.entry.mortar.name=迫击炮
+ie.manual.entry.mortar.subtext=死神从天而降
+ie.manual.entry.mortar0=迫击炮是一种轻型、机动、间接的近距离火力支援武器。迫击炮也是所有火炮武器中射程最小的。然而，它的部署方便和出色的移动性弥补了这一点。
+ie.manual.entry.mortar1=为了操作迫击炮，玩家必须将其放置在地面上，面对敌人的方向，然后使用武器。玩家不能改变水平方向，可以通过按“W”或“S”来改变垂直角度。迫击炮配有内置的短程火炮瞄准器，可通过按住“Z”来使用。要发射炮弹，玩家必须在操作迫击炮时将迫击炮弹放在主手。
+
+ie.manual.entry.grenades.name=手榴弹（目前暂不能合成）
+ie.manual.entry.grenades.subtext=Achtung, Granate!
+ie.manual.entry.grenades0=棍式手榴弹是一种投掷的武器，含有爆炸物或其他接触时会触发的物质（引信）。
+ie.manual.entry.grenades1=磁轨炮炮弹是磁轨炮以及重型磁轨炮的一种弹药,可以当成普通金属棍一样发射出去。它们可以装满炸药或弹片，然后用作便携式火炮武器的弹药。
+
+#Reference to Rico, a penguin from the movie Madagascar
+ie.manual.entry.explosives_mines.name=地雷和爆炸
+ie.manual.entry.explosives_mines.subtext=Ka-boom?
+ie.manual.entry.explosives_mines_satchel0=当你的行动要求隐蔽和精确时，无线电引爆的挎包炸弹是正确的选择。无论是采矿作业、拆除建筑物还是破坏桥梁，炸药包是最常用的，受到战斗工程师和破坏者的喜爱。
+ie.manual.entry.explosives_mines_satchel1=引爆炸药的主要方法是：使用<link;radio_station;§o§n无线电信号§r;>。要做到这一点，炸药必须首先在<link;data_input_machine;§o§n数据输入机§r;>中用数据包进行编程。炸药只有在通过无线电接收到与编程数据包相同的数据包时才会引爆。此外，爆炸物可以在完全相同的条件下通过电缆接收数据，并充当数据中继。
+ie.manual.entry.explosives_mines_satchel2=炸药也可以使用红石引爆，类似于其他红石连接器，它们可以通过16个频道之一接收信号。要改变频道，请在放置的炸药包上使用工程师锤。
+ie.manual.entry.explosives_mines_satchel3=与其他爆炸物外壳不同，遥控炸药包需要精心制作。皮革在生存初期可能看起来很贵，但请记住，皮革可以使用一些<link;sawmill;§o§n锯末§r;>还有<link;cokeoven;§o§n杂酚油§r;>制作。
+
+ie.manual.entry.explosives_mines0=地雷通常被用作静态防御措施。它们的主要用途是阻止敌人进入某个区域，减缓他们的前进速度。<br>请记住，地雷不会区分目标，记住自己的雷区就显得十分重要，最好是有规划的而非随意放置地雷。
+ie.manual.entry.explosives_mines_landmine=经典、可靠且生产成本低廉：这类地雷是使用最广泛的地雷。它的工作方式非常简单：当敌人踩到它时，它就会爆炸，造成严重的伤害。然而，像掉落物和鸡这类轻小实体不会引起爆炸。
+ie.manual.entry.explosives_mines_landmine1=地雷的一个突出特点是能够将其挖掘到任何软的方块中，如放置地雷的泥土、沙砾和粘土。在地雷上面使用铲子可以将地雷埋入地下。尽管任何铲子都可以，但土木铲的工作速度要快得多<br>此外，在地雷顶部放置草以完全隐藏地雷。
+ie.manual.entry.explosives_mines_tripmine=绊雷，有时被称为“跳雷”，是一种爆炸装置，它不是通过重量压力，而是通过拉动顶部的金属丝来激活。引爆后，地雷会跳出外壳并爆炸。这种地雷需要与另一个地雷或绊线连接器连接来完成安装。用铲子也可以把绊雷挖到地里，就像普通的地雷一样。
+ie.manual.entry.explosives_mines_naval_mine=水雷是部署在水中的爆炸物，可以阻止船只和水上生物到达某个区域，有效地杀死它们。水雷内部有更多的炸药，这意味着爆炸比地雷更大，在大多数情况下都是致命的。
+ie.manual.entry.explosives_mines_naval_mine1=为了部署水雷，首先通过潜行和滚动设置链条长度。完成后，将地雷放在水上，它会部署一个锚车并用链条与水雷连接。锚车将潜入水中，但地雷将保持漂浮，直到达到最大链长或水面。<br>请注意，水雷在放置的几秒后才会生效，这意味着你可以安全地部署它们，而不会有自爆的风险。
+
+ie.manual.entry.explosives_mines_sign=虽然这个标志只是上面写了一些字的、简单的一块木板，但它似乎给你的对手灌输了一些恐惧感。<br>它的主要目的是指定友好和敌对的雷区，尽管有些人出于某种原因将其用作卧室装饰。嗯，工程师就是这样......
+
+ie.manual.entry.light_engineer_armor.name=工程师轻质装甲
+ie.manual.entry.light_engineer_armor.subtext=机动就绪！
+ie.manual.entry.light_engineer_armor0=工程师轻质装甲是一款重量轻、时尚且防护性强的套装。虽然它是由皮革和钢铁制成的，但由于制造的精度，它比钢铁和钻石盔甲更好地抵御你可能遇到的任何对手。这是每个作战工程师的必备品。
+ie.manual.entry.light_engineer_armor1=工程师轻质装甲的设计考虑到了多用途，可以使用模块系统™以适应各种各样的环境。 也就是说，该装甲是模块化的，可以进行升级：包括增强装甲的金属板、提高跑步速度的外骨骼、允许夜视的红外头盔和提供卓越机动性的脚蹼和雪拍，下面介绍它们的具体用途和使用场景。
+ie.manual.entry.light_engineer_armor_upgrade_gasmask=防毒面具是一种保护玩家免受危险气体伤害的盔甲升级。当面罩与附加氧气罐结合使用时，玩家可以在水下呼吸。
+ie.manual.entry.light_engineer_armor_upgrade_infiltrator_gear=夜视面罩是一种先进的间谍工具。可以放大图像并发射红外光，从而实现夜视。它可以与技师面罩组合在一起，以制作工程师面罩。
+ie.manual.entry.light_engineer_armor_upgrade_technician_gear=技师面罩是管理工厂的有用工具。它可以显示机器中包含的能量、旋转功率、存储的流体和数据等信息。它可以与夜视面罩组合，以创建工程师面罩。
+ie.manual.entry.light_engineer_armor_upgrade_engineer_gear=工程师面罩将夜视面罩和技师面罩的效果结合在一起。结果是：功耗增加了，但功能的数量也增加了。<br>它现在唯一缺少的就是一个罐头夹持器（？）。
+ie.manual.entry.light_engineer_armor_upgrade_steel_armor_plates=钢制防弹插板增加了装甲厚度和耐用性，并提供偏转箭和其他轻型投射物的能力。是时候向世界展示工业进步已经超过过时的弓箭了！由于它们的重量，每件装甲只能安装3块防弹插板。
+ie.manual.entry.light_engineer_armor_upgrade_composite_armor_plates=复合防弹插板比钢制防弹插板耐用得多，而且由于重量轻，可以获得更高的厚度。此外，用近战武器击中盔甲会对其造成严重伤害。每件装甲只能安装3块复合防弹插板。
+ie.manual.entry.light_engineer_armor_upgrade_hazmat_coating=危险品涂层是一种额外的内部防护层，可以防御辐射和酸性物质。是时候穿上工程师轻质装甲去散步了，这是一款重量轻、时尚但防护性很强的西装，虽然是由皮革和钢铁制成的。
+ie.manual.entry.light_engineer_armor_upgrade_heat_resistant_coating=耐热涂层允许在玩家高温液体中游泳，否则会灼伤穿着者。由于保护层重叠和热量分布，只有在与加固靴子一起穿着时才有效。
+ie.manual.entry.light_engineer_armor_upgrade_anti_static_mesh=防静电伪装网为玩家提供了免受电损伤的能力。它还干扰了近距离引信的瞄准，扰乱了它们。然而，由于这种涂层的特性，它特别容易受到任何电磁武器的攻击，造成的伤害比其他情况下更大。
+ie.manual.entry.light_engineer_armor_upgrade_camouflage_mesh= 伪装网是一种简单的网，上面附着着树叶，让穿着者在潜行时融入树叶。由于它是由树叶制成的，所以不建议点燃。特别适用于森林、花园和平原。
+ie.manual.entry.light_engineer_armor_upgrade_infrared_absorbing_mesh=红外吸收网吸收投射到其中的红外光，是躲避红外传感器的完美方式。然而，由于它的结构，被电磁武器击中会造成比平时更多的伤害。
+ie.manual.entry.light_engineer_armor_upgrade_scuba_tank=附加氧气罐能够让玩家在水下停留更长时间，而无需重新浮出水面换气。由于它的结构，使它可以填充一些燃料来操作工具<br>在水下施工时特别方便,需要佩戴防毒面具。
+ie.manual.entry.light_engineer_armor_upgrade_helipack=喷气背包允许玩家缓慢而稳定的飞行，需要汽油作为燃料。
+ie.manual.entry.light_engineer_armor_upgrade_exoskeleton=外骨骼升级可以让玩家能够更快地奔跑，这要归功于其复杂的电机和液压系统。作为安全预防措施，它仅在奔跑时激活。外骨骼需要能量才能运作。
+ie.manual.entry.light_engineer_armor_upgrade_boot_reinforcement=加固靴子升级由几块钢板组成，用皮带固定在一起。它增加了额外的护甲值，并保护玩家免受火焰伤害。
+ie.manual.entry.light_engineer_armor_upgrade_flippers=脚蹼允许玩家在流体中快速移动。它与附加氧气罐和防毒面具能够很好的配合在一起
+ie.manual.entry.light_engineer_armor_upgrade_snow_rackets=雪拍提高了在玩家雪地和冰面上行走的稳定性，使玩家能够穿越复杂的地形。
+ie.manual.entry.light_engineer_armor_upgrade_internal_springs=附加弹簧可抑制冲击力，保护玩家免受坠落伤害。可以与橡胶鞋底垫相结合，使脚步几乎无声。
+
+#Stronghold Reference (Tuneller unit)
+ie.manual.entry.trench_shovel.name=土木铲
+ie.manual.entry.trench_shovel.subtext=Into the blackness!
+ie.manual.entry.trench_shovel0=虽然在选择工具时通常被大多数人忽视，但土木铲是工程师武器库中的重要物件之一。与普通铲子相比，沟槽变得更紧凑、更锋利，因此具有更大的冲击力。由于其特别的设计，它可以更快的掩埋<link;explosives_mines;§o§n地雷§r;>比普通铲子快3倍。
+
+#The first Mine Detector was invented by J. Kosacki, a Pole, the word "pole" means literally "field" in Polish, making Poles "field people"
+#Surprisingly fitting for a field-sweeping device ^^
+ie.manual.entry.mine_detector.name=地雷探测器
+ie.manual.entry.mine_detector.subtext=由波兰人发明！
+ie.manual.entry.mine_detector=地雷探测器是一种用于探测地雷和隐藏爆炸装置的工具。它源于一次制造矿石探测器的失败尝试，但最终被证明是军队的救星。
+ie.manual.entry.mine_detector_demining0=为了探测地雷，你必须用主手拿着地雷探测器，并将其指向一个方块。地雷的存在与否由蜂鸣声表示，你离地雷越近，频率就越高<br>同样值得注意的是，探雷不是发生在玩家所在的的位置，而是发生在玩家准星对准的的位置。
+ie.manual.entry.mine_detector_demining1=成功检测到<link;explosives_mines;§o§n地雷或爆炸物§r;>后,使用剪线钳或者对应的电动工具。 完成后就可以安全的拆除这个爆炸物
+
+#First thing I thought was "The banners high", but I am aware of the consequences if I'd put that
+ie.manual.entry.flagpole.name=旗杆
+ie.manual.entry.flagpole.subtext=全体起立，奏唱国歌，敬礼！
+ie.manual.entry.flagpole0=旗杆是一个多方块结构，可以标记附近的领土，保持这个区块的加载，同时还可以展示一条时尚的旗帜，供朋友和敌人识别。用工程师锤敲击中间的刀片刺网完成建造。
+ie.manual.entry.flagpole1=旗杆会加载包括自身所在的区块以及周围的八个区块，不需要任何资源。<br>它的另一个功能是以横幅的形式显示旗帜。要放置旗帜，把旗帜右键防腐木旗杆就可以。如果你决定入侵他人的领土，或者只是想更新你的旗帜设计，你可以使用断线钳移除放置的旗帜。
+
+#Reference to Contra
+ie.manual.entry.emplacement.name=炮位
+ie.manual.entry.emplacement.subtext=锁定目标，装填弹药！
+ie.manual.entry.emplacement0=炮位是一种重型防御结构，可以用于保护要害区域周边（比如工厂）。用工程师锤敲击中间的沙袋完成建造。
+ie.manual.entry.emplacement1=与传统的炮塔相比，炮位需要更多的准备工作。默认情况下，炮位没有<link;emplacement_weapons;§o§n武器§r;>。相反，武器是使用扳手或电动扳手组装在炮位上的。在用扳手右击炮位后，可以选择要安装的模块，每个模块都需要消耗一些资源来安装。选择所选武器后，需要通过使用扳手与炮位再一次右击来组装它。注意，电动扳手组装武器的速度要快得多。
+ie.manual.entry.emplacement2=默认情况下，炮位需要电力、弹药和的红石信号才能运作。如果红石信号被切断，武器将收回到炮位内部。
+ie.manual.entry.emplacement3=炮位武器可以被损坏并自动修复。在进入修复状态之前，您可以设置炮位武器生命值的最小阈值<br>在修复过程中，它将隐藏在炮位内，不会对命令做出反应。请注意，如果武器本身受到足够的伤害，炮位可能会被摧毁，这也意味着你将损失建造武器时的资源。
+ie.manual.entry.emplacement4=炮位最多可存储4个任务。每个任务都有3个基本组，用于过滤实体。第一个是类型：生物、动物、车辆或炮弹，可以指定其他参数（id）。第二个是名字，第三个是团队。一个组中的参数使用OR连接，然后使用AND与其他组连接。例如：从团队“a”和“b”中选择所有名为“c”的生物或动物。
+ie.manual.entry.emplacement5=*沉浸智能™不对错误的目标输入造成的任何财产损失或人员伤亡负责*
+
+ie.manual.entry.emplacement_weapons.name=炮位武器
+ie.manual.entry.emplacement_weapons.subtext=炫耀武力！
+
+ie.manual.entry.emplacement_mg0=大型机枪是所有炮位武器中最基础、最便宜的。当使用穿甲弹时，它是对付软地面目标或轻型车辆的可靠选择。
+ie.manual.entry.emplacement_mg1=大型机枪有三种：普通机枪、重型枪管变种和水冷枪管变种，其功能与步兵版机枪相同<br>请注意，这种武器不使用弹匣，子弹必须通过炮位输入口提供。由于其俯仰有限，大型机枪是攻击空中目标时的糟糕选择。
+
+ie.manual.entry.emplacement_heavy_chem0=重型化学喷射器是一种专为近距离对抗密集敌人而设计的武器。与常规化学喷射器类似，重型化学喷射器可以从液体罐中填充各种液体。
+ie.manual.entry.emplacement_heavy_chem1=默认情况下，它会点燃流体，但可以使用数据包进行切换。重型化学喷射器的射程是所有炮位武器中最短的，不推荐用来瞄准空中目标。
+
+ie.manual.entry.emplacement_flak0=机关炮是一种标准的、全面的选择，用于处理各种目标。根据弹药的不同，它可以作为一个很好的标准选项来保护基地免受各种威胁。
+ie.manual.entry.emplacement_flak1=由于其高速和不同的俯仰和偏脚范围，机关炮对空中目标特别有效<br>与大型机枪相比，它的缺点是射速较慢，弹匣尺寸相对较小，迫使它经常重新装弹。最好将它与其他炮位武器结合起来。
+
+ie.manual.entry.emplacement_heavy_railgun0=重型磁轨炮用于依赖精度的远程作战。它最适合用于对付耐久性高的车辆和单个目标。损伤多大取决于制作杆的金属或磁轨炮手榴弹的成分。
+ie.manual.entry.emplacement_heavy_railgun1=由于它的射速、转弯率和弹匣容量都很低，所以对于对付集群的目标来说，它是一个糟糕的选择。它需要与其他炮位武器配对，以获得更好的保护<br>重型磁轨炮具有很高的穿甲能力，最适合用于装甲目标、车辆和钢墙后的目标。对它来说，不存在太坚硬的盔甲。
+
+ie.manual.entry.emplacement_cpds0=CPDS近防炮是计算机技术、机械技能和复杂瞄准软件的巅峰，是任何能飞的东西和后勤部门最可怕的敌人。
+ie.manual.entry.emplacement_cpds1=由于其惊人的射速，以及快速追踪和反应能力，空中目标几乎不可能躲避<br>由于其先进的瞄准系统，它是用于反炮弹的最佳武器，能够在半空中用子弹风暴击落炮弹。为了做到这一点，它需要连接到雷达或红外观测器，以最大限度地提高成功拦截的机会。
+ie.manual.entry.emplacement_cpds2=它唯一的缺点是由于其高射速而导致的巨大维护成本。<br>（后勤骂娘ing）<br>如果你正在努力为它提供足够的弹药，可以考虑将其作为一种特殊的、最后的武器来对抗投射物。
+
+ie.manual.entry.emplacement_tesla0=大型特斯拉线圈是特斯拉线圈的更大、更精细的版本。这种武器是对付那些碰巧靠得太近的目标的好选择。由于其先进的系统，该武器可以区分朋友和敌人，并在相比普通特斯拉线圈更大的范围内造成更高的伤害。
+ie.manual.entry.emplacement_tesla1=由于它是电驱动的，它不需要弹药，只需要持续的电力供应。它的缺点是攻击范围小，能耗高。
+
+ie.manual.entry.emplacement_ir_observer0=红外观测器是一种监视设备，用于从远处探测敌人，并与其他炮位共享他们的坐标。它被认为是最重要的炮位武器之一。
+ie.manual.entry.emplacement_ir_observer1=使用红外观测器，可以极大地扩大其他炮位的作战范围，通过超长距离的数据传输敌人的阵地坐标，并协调连接的炮位网络，从远处对一个目标进行精确聚焦射击，提高防御系统的整体潜力。
+ie.manual.entry.emplacement_ir_observer2=值得注意的是，红外观测器还可以探测到闪光并发送其坐标，这可以用于直接制导的精确炮击<br>观测器的视野只有180度，一旦设置好就无法转身，只能上下仰角。这意味着，一个观察者只能覆盖一个方向。当向观测器发送适当的数据包时，观测器可以转身，请注意，这需要拆卸并将其隐藏到炮位中。
+
+#Reference to Jess from Advance Wars, for most kids (me included) playing the game the shell she held was a giant pencil
+#When we grew up we realised ^^
+ie.manual.entry.bullet_production.name=弹药生产
+ie.manual.entry.bullet_production.subtext=这是个弹壳，不是铅笔！
+ie.manual.entry.bullet_production0=要生产弹药，需要两个部分：弹头——一个装炸药、弹片和其他部件的容器，以及将弹头放入其中的弹壳。这些零件的生产包括多个步骤，根据弹药的类型和复杂性而有所不同。
+ie.manual.entry.bullet_production1=让我们从弹壳开始。大多数弹壳都可以通过<link;metalPress;§o§n金属冲压机§r;>来制造，但也有一些，比如<link;explosives_mines;§o§n遥控炸弹§r;5>, ，需要手工制作<br>弹壳造好后，下一步是使用<link;filler;§o§n火药填充机§r;>往弹壳里装火药。弹壳现在已经完成，可以进行组装了。
+ie.manual.entry.bullet_production2=弹头可以在<link;projectile_workshop;§o§n弹头车间§r;>使用金属粒制作，记得使用<link;bullet_cores;§o§n这里§r;>的材料来制作：铀比黄铜具有更强的穿透力，但成分效应较小。另外一个可选的是<link;core_types;§o§n弹头类型§r;>，这决定了弹头可以存储多少个组件<br>弹头生产完成后，您可以使用另一个填充模式（用扳手右击弹头车间来安装该升级）的弹头车间为其填充炸药、白磷等成分。此步骤是可选的，弹头可以多次填充。
+ie.manual.entry.bullet_production3=最后一个步骤是<link;ammunition_workshop;§o§n弹药车间§r;>。在这里，您可以选择<link;bullet_fuses;§o§n导线类型§r;>。请记住，并非所有导线类型都有手榴弹和炸药等特定弹药支持<br>还有一个可选的下一个阶段-化学喷涂上色。弹药可以被喷漆，以便于识别。
+
+ie.manual.entry.ammunition_workshop.name=弹药车间
+ie.manual.entry.ammunition_workshop.subtext=战争机器的心脏
+ie.manual.entry.ammunition_workshop0=弹药车间进行的是<link;bullet_production;§o§n弹药生产§r;>的最后步骤-组装。用工程师锤敲击两条传送带中间的钢脚手架来完成建造。
+ie.manual.entry.ammunition_workshop1=弹药车间用<link;projectile_workshop;§o§n弹头车间§r;>和弹壳来制造弹药。它还可以设置引信，以确定其弹药在何种条件下引爆。硬性可以通过直接右击弹药车间或使用数据包进行设置。弹药车间需要电才能运转。
+
+#Reference to its purpose-changing upgrade
+ie.manual.entry.projectile_workshop.name=弹头车间
+ie.manual.entry.projectile_workshop.subtext=多个目的，多种功能。
+ie.manual.entry.projectile_workshop0=弹头车间是一种用于制造或填充弹头的机器，弹头是子弹的射击部件。用工程师锤敲击左侧的钢制储存箱来完成建造。
+ie.manual.entry.projectile_workshop1=默认情况下，<br>弹头车间使用<link;bullet_cores;§o§n金属粒§r;>来制造弹头。弹头车间需要电来运转。右击弹头车间可以设置生产的弹头和核心类型。使用数据系统也可以这样做。
+ie.manual.entry.projectile_workshop2=弹头车间可以升级为填充模式。这将车间改为使用<link;bullet_components;§o§n填充物§r;>来为弹头填充其他成分，以达到不同目的。可以右击弹头车间或通过数据系统指定要填充的量。最大填充量由弹头类型决定。
+#Reference to Dicker Bertha cannon
+ie.manual.entry.artillery_howitzer.name=榴弹炮
+ie.manual.entry.artillery_howitzer.subtext=“大贝莎”的妹妹
+ie.manual.entry.artillery_howitzer1=精准炮击装置，通常被称为§o榴弹炮§r，是一种间接火力武器，擅长攻击远距离目标。
+ie.manual.entry.artillery_howitzer2=榴弹炮由一个装有火炮的混凝土掩体、顶部两侧的指挥台和一扇榴弹炮门组成，门可以通过提供红石信号打开。弹药需要使用传送带输入（或者丢在榴弹炮自带的输入口上），并使用“load”命令进行装填，发射后，必须使用“unload”命令卸载空弹壳。榴弹炮需要大量的电才能运转。用工程师锤敲击顶部突出的混凝土完成建造。
+ie.manual.entry.artillery_howitzer.vars_in.c.main=操作模式
+ie.manual.entry.artillery_howitzer.vars_in.c.sub=可用的值: "load", "unload", "fire", "aim", "stop"
+ie.manual.entry.artillery_howitzer.vars_in.f.main=弹药引线长度
+ie.manual.entry.artillery_howitzer.vars_in.f.sub=弹药爆炸前的延迟，可以把它理解为弹药射出后延迟爆炸的时长。（以游戏刻为单位，20游戏刻=1秒），默认值为-1（无延迟）
+ie.manual.entry.artillery_howitzer.vars_in.y.main=炮管偏角
+ie.manual.entry.artillery_howitzer.vars_in.y.sub=可用0-360之间的任意数，但接受任何数字并对其进行规范化
+ie.manual.entry.artillery_howitzer2.vars_in.p.main=炮管仰角
+ie.manual.entry.artillery_howitzer2.vars_in.p.sub=可用的值: 0（炮管垂直向上）到-105（炮管向下最低角度，90为平射）
+
+ie.manual.entry.artillery_howitzer1.vars_callback.get_energy=返回能源储量
+ie.manual.entry.artillery_howitzer1.vars_callback.get_state=返回当前状态<br>§o可用的值: "idle","loading","unloading","shooting"§r
+ie.manual.entry.artillery_howitzer1.vars_callback.get_state_num=用数字返回当前状态br>§o可用的值: 0,1,2,3§r
+ie.manual.entry.artillery_howitzer1.vars_callback.get_state_progress=用百分数返回当前状态的进度
+
+ie.manual.entry.artillery_howitzer2.vars_callback.get_yaw=返回当前炮管偏角
+ie.manual.entry.artillery_howitzer2.vars_callback.get_pitch=返回当前炮管仰角
+ie.manual.entry.artillery_howitzer2.vars_callback.get_planned_yaw=返回计划炮管偏角
+ie.manual.entry.artillery_howitzer2.vars_callback.get_planned_pitch=返回计划炮管仰角
+ie.manual.entry.artillery_howitzer2.vars_callback.get_platform_height=返回当前平台高度
+
+ie.manual.entry.artillery_howitzer3.vars_callback.get_door_opened=返回榴弹炮门是否打开
+ie.manual.entry.artillery_howitzer3.vars_callback.get_door_closed=返回榴弹炮门是否关闭
+ie.manual.entry.artillery_howitzer3.vars_callback.get_door_opening=返回榴弹炮门是否正在打开/关闭
+
+ie.manual.entry.artillery_howitzer4.vars_callback.get_loaded_shell=返回当前所装的弹药种类
+ie.manual.entry.artillery_howitzer4.vars_callback.get_stored_shell=返回榴弹炮所存储的弹药<br>§o需要值为0-5的整数 'i' §r
+
+ie.manual.entry.ballistic_computer.name=弹道计算机
+ie.manual.entry.ballistic_computer.subtext=计算这个到那个
+ie.manual.entry.ballistic_computer0=弹道计算机是一种将位置矢量和弹药重量转换为偏角和仰角的设备，用于大多数需要数据驱动的武器。
+ie.manual.entry.ballistic_computer1=输入变量:<br>整数 'x','y','z' - 需要攻击的位置坐标<br>整数 'm' - 弹药重量<br>输出变量:<br>整数 'p' - 武器仰角角度<br>整数 'y' - 武器偏角角度
+ie.manual.entry.ballistic_computer.vars_in.x.main=开火坐标
+ie.manual.entry.ballistic_computer.vars_in.x.sub=相对于火炮中心
+ie.manual.entry.ballistic_computer.vars_in.m.main=弹药重量
+ie.manual.entry.ballistic_computer.vars_in.m.sub=因为不能输入浮点值，所以必须对数字进行四舍五入。
+
+ie.manual.entry.ballistic_computer.vars_out.y.main=偏角
+ie.manual.entry.ballistic_computer.vars_out.y.sub=可用0-360之间的任意数，但接受任何数字并对其进行规范化
+ie.manual.entry.ballistic_computer.vars_out.p.main=仰角
+ie.manual.entry.ballistic_computer.vars_out.p.sub=可用的值: 0（炮管垂直向上）到-105（炮管向下最低角度，90为平射）
+
+#Reference to the BluSunrize's general dislike of the machinegun and the ammunition crate
+ie.manual.entry.ammocrate.name=弹药箱
+ie.manual.entry.ammocrate.subtext=染成绿的，不要蓝的。
+ie.manual.entry.ammocrate0=弹药箱是存放子弹和空弹壳的便携式仓库。它可以用来装填左轮手枪或快速装弹器，通过创建装载模式并将子弹放入其中。要从弹药中取回左轮手枪，请空手使用。
+
+#Reference to Blacknight, author of the sprites for electric hammer and lighter, also the author of the idea of the chemical dispenser.
+ie.manual.entry.chemdispenser.name=化学喷洒机
+ie.manual.entry.chemdispenser.subtext=黑夜中的一把火
+ie.manual.entry.chemdispenser0=由设计电动工程师锤同一位工程师发明的一种设备，最初用于给作物浇水和灭火，它也可以用于精确地向一个位置喷洒可燃液体。
+ie.manual.entry.chemdispenser1=化学喷洒机需要通过连接到接线器的电线供电，需要一个数据信号（或恒定的红石信号）来决定其动作，并需要流体输入到背面的流体口。
+ie.manual.entry.chemdispenser.vars_in.a.main=流体喷射量
+ie.manual.entry.chemdispenser.vars_in.a.sub=以mB为单位
+ie.manual.entry.chemdispenser.vars_in.i.main=是否点燃所喷射的液体
+ie.manual.entry.chemdispenser.vars_in.i.sub=
+ie.manual.entry.chemdispenser.vars_in.y.main=喷嘴偏角
+ie.manual.entry.chemdispenser.vars_in.y.sub=可用的值: -45到45的整数
+ie.manual.entry.chemdispenser.vars_in.p.main=喷嘴仰角
+ie.manual.entry.chemdispenser.vars_in.p.sub=可用的值: -45到45的整数
+
+#Gandalf!
+ie.manual.entry.fortifications.name=防御工事
+ie.manual.entry.fortifications.subtext=他们应该过不去吧...
+ie.manual.entry.fortifications0=沙包是一种廉价的防护墙，可以抵抗小口径子弹和小型爆炸。它们在构建沟渠和战壕时非常有用，并用于建造<link;emplacement;§o§n炮位§r;>。
+ie.manual.entry.fortifications1=反坦克陷阱，也可以称为反坦克刺猬，是一种被动的反载具武器。其锋利的边缘能够破坏车辆的轮胎，并严重损坏试图撞击它们的轻型车辆。
+
+#Bullet cores & components
+ie.manual.entry.bullet_cores.name=弹头类型
+ie.manual.entry.bullet_cores.subtext=那个弹起来了！
+
+ie.manual.entry.bullet_core.core_brass=黄铜弹头
+ie.manual.entry.bullet_core.core_brass.lore=蒸汽朋克风
+ie.manual.entry.bullet_core.core_brass.desc=黄铜是一种穿透能力较差的重金属，但它大大增加了弹头内其他成分的效果。
+
+ie.manual.entry.bullet_core.core_lead=铅弹头
+ie.manual.entry.bullet_core.core_lead.lore=好的，坏的，丑的
+ie.manual.entry.bullet_core.core_lead.desc=铅是制造高伤害、中等穿透力的廉价子弹的好材料。
+
+ie.manual.entry.bullet_core.core_steel=钢弹头
+ie.manual.entry.bullet_core.core_steel.lore=《全金属外壳》
+ie.manual.entry.bullet_core.core_steel.desc=使用钢是提高弹头穿透能力的，一种不是很昂贵的方法，唯一的缺点是成分效应略有降低。
+
+ie.manual.entry.bullet_core.core_tungsten=钨弹头
+ie.manual.entry.bullet_core.core_tungsten.lore=穿甲弹准备!
+ie.manual.entry.bullet_core.core_tungsten.desc=钨比钢更擅长穿透物体，但它会降低弹头内其他成分的效果
+
+ie.manual.entry.bullet_core.core_uranium=铀弹头
+ie.manual.entry.bullet_core.core_uranium.lore=你什么意思，弹药耗尽了？
+ie.manual.entry.bullet_core.core_uranium.desc=低重量和低硬度使铀成为一种很好的穿甲材料，而不会失去携带爆炸材料的能力。不错，但价格昂贵。
+
+ie.manual.entry.bullet_components.name=弹药成分
+ie.manual.entry.bullet_components.subtext=Load APCRHEFSPTSD B-Capped!
+ie.manual.entry.bullet_components.dmg_mod=伤害: %sx
+ie.manual.entry.bullet_components.pen_mod=穿透力: %s vBH
+ie.manual.entry.bullet_components.blast_mod=爆炸半径: %sx
+ie.manual.entry.bullet_components.density=密度: %s
+ie.manual.entry.bullet_components.type=种类: %s
+
+#A quote from World in Conflict
+ie.manual.entry.bullet_component.firework=焰火之星
+ie.manual.entry.bullet_component.firework.lore=现在，解放天空！
+ie.manual.entry.bullet_component.firework.desc=烟花虽然以其美丽的焰火而闻名，但也可以用来压制和使敌人失明。
+
+#Quote from Company of Heroes/Market Garden campaign
+ie.manual.entry.bullet_component.tracer_powder=曳光剂
+ie.manual.entry.bullet_component.tracer_powder.lore=用曳光弹填满天空!
+ie.manual.entry.bullet_component.tracer_powder.desc=曳光剂是一种查看子弹飞行方向的好方式，这可以用于纯粹的装饰目的或校正枪支的射击角度。
+
+#Reference to Codename Panzers: Cold War
+ie.manual.entry.bullet_component.flare_powder=照明粉
+ie.manual.entry.bullet_component.flare_powder.lore=天亮了
+ie.manual.entry.bullet_component.flare_powder.desc=照明弹可用于照明或标记位置，这可用于指挥火炮
+
+#Reference to the book "Thus Spoke Zarathustra"
+ie.manual.entry.bullet_component.propaganda=传单
+ie.manual.entry.bullet_component.propaganda.lore=不能服从自己的人就要被人命令! ——《查拉图斯特拉如是说》
+ie.manual.entry.bullet_component.propaganda.desc=传单可以用来向你的敌人灌输恐惧，如果他们能看懂你写的话。
+
+#Fallout reference
+ie.manual.entry.bullet_component.nuke=核武器
+ie.manual.entry.bullet_component.nuke.lore=战争未曾改变过
+ie.manual.entry.bullet_component.nuke.desc=核爆炸物是人类已知的最强大、最具破坏性的爆炸物，只有厚厚的钢筋混凝土层才能抵御它的威力。此外，它所释放出的热量会融化周围的敌人，即使他们活下来，也会很快死于辐射。
+
+#Reference to a song
+ie.manual.entry.bullet_component.tnt=TNT（三硝基甲苯）
+ie.manual.entry.bullet_component.tnt.lore=成吨成吨的!
+ie.manual.entry.bullet_component.tnt.desc=TNT是一种破坏力较为普通的爆炸材料。因为它生产成本低廉，所以是机枪子弹和手榴弹的好选择。
+
+#CoH2 Reference
+ie.manual.entry.bullet_component.rdx=RDX（黑索金）
+ie.manual.entry.bullet_component.rdx.lore=炸弹爆炸了,敌人倒下了!
+ie.manual.entry.bullet_component.rdx.desc=RDX，也称为§s黑索金§r，是一种强大的高爆炸性材料。它的威力是TNT的两倍，甚至可以摧毁最结实的阵地。
+
+#There are many variants of HMX's full name, one of them is Her Majesty's Explosive
+ie.manual.entry.bullet_component.hmx=HMX（奥克托今）
+ie.manual.entry.bullet_component.hmx.lore=女王陛下的炸药
+ie.manual.entry.bullet_component.hmx.desc=HMX是最强大的常规炸药之一，它的威力是TNT的三倍，能够突破任何防御工事。
+
+#Reference to a song
+ie.manual.entry.bullet_component.white_phosphorus=白磷
+ie.manual.entry.bullet_component.white_phosphorus.lore=雷霆万钧，钢筋铁骨
+ie.manual.entry.bullet_component.white_phosphorus.desc=白磷是大多数燃烧弹的主要成分。它的高温使周围的敌人更加易燃，而燃烧的高温碎片会点燃周围的一切。
+
+#A reference to struggle between Tesla and Edison
+#similar to how the Finns made a cocktail for Molotov (soviet foreign affairs minister) during the Winter War, a tesla grenade would be a nice one for Edison
+ie.manual.entry.bullet_component.tesla=放电器
+ie.manual.entry.bullet_component.tesla.lore=给爱迪生的礼物
+ie.manual.entry.bullet_component.tesla.desc=放电器会产生一个干扰电流的场。可用于破坏工业设备、阵地和破坏能源生产。
+
+
+ie.manual.entry.bullet_component.shrapnel_aluminum=铝弹片
+ie.manual.entry.bullet_component.shrapnel_aluminum.lore=Amelinium, one does not simply paint it
+ie.manual.entry.bullet_component.shrapnel_aluminum.desc=铝不是制造弹片的最佳材料，但它足够便宜，可以在战斗中大量使用。
+
+ie.manual.entry.bullet_component.shrapnel_zinc=锌弹片
+ie.manual.entry.bullet_component.shrapnel_zinc.lore=不咋地的选择
+ie.manual.entry.bullet_component.shrapnel_zinc.desc=锌不是一种好的弹片材料，但当物资出现短缺时，任何东西都可以。
+
+#Reference to Terraria's coin gun
+ie.manual.entry.bullet_component.shrapnel_copper=铜弹片
+ie.manual.entry.bullet_component.shrapnel_copper.lore=让硬币成为你的弹药！——《泰拉瑞亚》
+ie.manual.entry.bullet_component.shrapnel_copper.desc=虽然向敌人扔铜不能贿赂他们，但可以几下干掉敌人<br>（物理层面上）。
+
+#Reference to JoJo, yes even in the II there has to be one
+ie.manual.entry.bullet_component.shrapnel_platinum=铂弹片
+ie.manual.entry.bullet_component.shrapnel_platinum.lore=白金之星！
+ie.manual.entry.bullet_component.shrapnel_platinum.desc=选择白金？是的，当然，让自己变穷是你想要的，不是我想要的。
+
+#Murica' fuck yeah
+ie.manual.entry.bullet_component.shrapnel_gold=金弹片
+ie.manual.entry.bullet_component.shrapnel_gold.lore=吸气要扣税，<br>呼气要扣税......<br>谁在乎纳税人呢？
+ie.manual.entry.bullet_component.shrapnel_gold.desc=啊，是的，浪费金钱的好方法—战争。虽然子弹有亿点贵，但它们似乎对敌人没有太大影响。
+
+ie.manual.entry.bullet_component.shrapnel_nickel=镍弹片
+ie.manual.entry.bullet_component.shrapnel_nickel.lore=真是个愚蠢的选择。<br>什么，战斗胜利了？那当我没说。
+ie.manual.entry.bullet_component.shrapnel_nickel.desc=镍是制作弹片的，一个糟糕的选择。它不会造成太大的伤害，但在困难时期它可以挽救局面。
+
+#Reference to the Netflix's Witcher series
+ie.manual.entry.bullet_component.shrapnel_silver=银弹片
+ie.manual.entry.bullet_component.shrapnel_silver.lore=给你的猎魔人一枚硬币吧 ——《猎魔人》
+ie.manual.entry.bullet_component.shrapnel_silver.desc=银弹片是对抗亡灵生物的好选择，弹片对他们造成更大的伤害并使他们减速。
+
+ie.manual.entry.bullet_component.shrapnel_electrum=琥珀金弹片
+ie.manual.entry.bullet_component.shrapnel_electrum.lore=突击部队已经来了。
+ie.manual.entry.bullet_component.shrapnel_electrum.desc=琥珀金弹片擅长导电，虽然不会造成太大伤害，但是被击中的敌人会受到能量武器（如特斯拉线圈）的更多伤害。
+
+#Reference to a post-ww2 poster for inter-country help in Western Europe
+ie.manual.entry.bullet_component.shrapnel_constantan=康铜弹片
+ie.manual.entry.bullet_component.shrapnel_constantan.lore=<br>无论怎样，我们都要一起杀敌。
+ie.manual.entry.bullet_component.shrapnel_constantan.desc=康铜以其导热特性而闻名，被击中的敌人在一段时间内更容易受到火焰伤害。
+
+#Reference to words by Otto von Bismarck
+ie.manual.entry.bullet_component.shrapnel_iron=铁弹片
+ie.manual.entry.bullet_component.shrapnel_iron.lore=这些问题只有用铁和血才能解决！<br>——奥托·冯·俾斯麦
+ie.manual.entry.bullet_component.shrapnel_iron.desc=铁是制作弹片的一个很好的选择，它很容易穿透穿着轻型盔甲的敌人。
+
+ie.manual.entry.bullet_component.shrapnel_lead=铅弹片
+ie.manual.entry.bullet_component.shrapnel_lead.lore=让铅如雨般下！
+ie.manual.entry.bullet_component.shrapnel_lead.desc=铅是一种很好的弹片材料，它密度很大，对没有装甲的敌人能造成很高的伤害。
+
+#Japanese "hagane" means steel, but the literal translation is "full metal", Hagane no Renkinjutsushi
+ie.manual.entry.bullet_component.shrapnel_steel=钢弹片
+ie.manual.entry.bullet_component.shrapnel_steel.lore=全金属的荣耀
+ie.manual.entry.bullet_component.shrapnel_steel.desc=钢是一种精细的弹片材料，良好的伤害、散射和速度使其对所有敌人都能造成有效伤害。
+
+ie.manual.entry.bullet_component.shrapnel_brass=黄铜弹片
+ie.manual.entry.bullet_component.shrapnel_brass.lore=“装饰性设计”
+ie.manual.entry.bullet_component.shrapnel_brass.desc=黄铜是制造弹片的糟糕选择，尽管它的高密度使它比其他弱金属造成更大的伤害。
+
+#A reference to Bear989sr. - a gregtech player, I just love when he says the word "steel", also some nice GT tutorials
+ie.manual.entry.bullet_component.shrapnel_tungsten=钨弹片
+ie.manual.entry.bullet_component.shrapnel_tungsten.lore=现在我们制作 *咳咳* 钨钢！
+ie.manual.entry.bullet_component.shrapnel_tungsten.desc=钨是一种很好的弹片材料，它很高的伤害可以将敌人直接撕成碎片。
+
+#Reference to Kuruma saying IEn's thorium railgun rods are the strongest railgun ammo
+ie.manual.entry.bullet_component.shrapnel_thorium=钍弹片
+ie.manual.entry.bullet_component.shrapnel_thorium.lore=做手榴弹，不是棍子！
+ie.manual.entry.bullet_component.shrapnel_thorium.desc=钍是一种很好也很昂贵的弹片材料，具有很高的伤害和穿透力。
+
+ie.manual.entry.bullet_component.shrapnel_HOPGraphite=HOP石墨弹片
+ie.manual.entry.bullet_component.shrapnel_HOPGraphite.lore=铅笔笔芯？
+ie.manual.entry.bullet_component.shrapnel_HOPGraphite.desc=石墨是一种非常好的弹片材料，其低重量和高穿透能力使其在战斗中非常有用。
+
+ie.manual.entry.bullet_component.shrapnel_uranium=铀弹片
+ie.manual.entry.bullet_component.shrapnel_uranium.lore=放 射 性 的
+ie.manual.entry.bullet_component.shrapnel_uranium.desc=铀是制造弹片的最佳材料之一，散射的碎片穿透装甲简直就是随随便便，可以对任何目标造成高伤害。
+
+
+#Logistics
+
+#Reference to Foxhole - a MMO game with a big persitent war in which logistics play a key role
+ie.manual.entry.logistics.name=物流
+ie.manual.entry.logistics.subtext=后勤，现在立刻马上给我基础材料！
+ie.manual.entry.logistics0=物流是一个独特的工程分支，专注于储存、传输和管理货物转移。一个好的物流系统包括一个仓库和附近的生产厂、工厂，以便快速制造所需的东西。有了最新的电子电气技术和一些老式的旋转机械，创造一个好的输送系统比以往任何时候都容易。
+
+#KISS is a rule used in programming, logistics and engineering
+ie.manual.entry.task_system.name=任务系统
+ie.manual.entry.task_system.subtext=请遵守KISS原则
+ie.manual.entry.task_system0=任务系统是通过单个可迭代任务来组织机器工作的系统。任务被许多数据设备使用，例如抓取机械手、封装机和数据路由器<br>任务分为：<br>作业-除非手动删除，否则将一直执行的任务<br>请求-临时任务，完成后将删除（即抓取机械手拾取一定数量的物品后）
+ie.manual.entry.task_system1=默认情况下，任务是从最旧到最新执行的。如果有任务无法执行，则会跳过该任务。在完成一个请求（成功与否）后，检查是否应该删除它。
+
+#Reference to Choroman's laziness, but also some hard work on the Packer model
+ie.manual.entry.packer.name=封装机
+ie.manual.entry.packer.subtext=更多的管道和隧道！
+ie.manual.entry.packer0=封装机用于批量将物品装载到储存箱或弹药箱。它需要电源和一个单独的数据信号来定义每次应该放多少东西。用工程师右击传送带上方的管道来完成建造。
+ie.manual.entry.packer1=默认情况下，封装机为有54个存储格用来存储弹药，它们可以通过机器背面的传送带输入。操作它需要电和一个装弹的容器，然后扔到3格长的传送带上。对于封装订单，机器使用任务系统：可以通过右击封装机或数据系统添加、删除和调整任务。
+ie.manual.entry.packer2=“封装”任务用于将物品封装到容器中。默认情况下，封装机可以接收任何物品（封装任务里的 * ）及其最大堆叠数量。这可以更改：通过选择不同的模式，您可以在物品格数量或物品数量之间进行选择。此数量可以在封装机界面中通过下面的输入字段指定。
+ie.manual.entry.packer3=“使用矿辞”确认是否匹配具有相同矿辞关键字的项目。比如封装不同种类的石头或木板。“NBT敏感”确认物品是否必须具有与任务指定物品相同的NBT标签。此选项默认情况下禁用。
+ie.manual.entry.packer4=“解包”、“填充”、“取出”、“充电”、“放电”任务的工作方式与“打包”任务类似（这些任务需要用扳手给封装机安装升级才可以执行）。对于流体，“物品格”是储罐，量是以mB为单位的流体量。对于能量，只考虑数量（以IF或者Flux为单位）。
+
+ie.manual.entry.packer.vars_in.c.main=指令
+ie.manual.entry.packer.vars_in.c.sub=可用的值: "add", "remove", "clear"
+ie.manual.entry.packer.vars_in.a.main=操作 (在"add"指令下使用)
+ie.manual.entry.packer.vars_in.a.sub=可用的值: "item", "fluid", "energy"
+ie.manual.entry.packer.vars_in.s.main=堆叠
+ie.manual.entry.packer.vars_in.s.sub=可选，使物品必须匹配任务指定物品的堆叠数量或矿辞。
+ie.manual.entry.packer.vars_in.m.main=模式 (在"add"指令下使用)
+ie.manual.entry.packer.vars_in.m.sub=可用的值: "amount", "slot", "all_possible". 可选,默认为 "all_possible".
+ie.manual.entry.packer.vars_in.e.main=何时结束 (在"add"指令下使用)
+ie.manual.entry.packer.vars_in.e.sub=可选，规定任务应该在多久之后结束。
+
+#Star Wars reference
+ie.manual.entry.advanced_powerpack.name=改进电容背包
+ie.manual.entry.advanced_powerpack.subtext=(几乎)无尽的能源
+ie.manual.entry.advanced_powerpack0=改进电容背包是<link;powerpack;§o§n电容背包§r;>的改良版，主要区别在于更大的能量储量以及可以被<link;teslaCoil;§o§n特斯拉线圈§r;>充电。
+ie.manual.entry.advanced_powerpack1=背包的无线充电能力还使玩家免受电损伤，无需佩戴防触电套装。背包还可以像皮革盔甲一样被染色。
+
+#Ziplines
+ie.manual.entry.skycrates.name=索道
+ie.manual.entry.skycrates.subtext=真 · 物流线
+ie.manual.entry.skycrates0=索道系统是传输物品的独特方法。它的速度比任何传送带都优越，而且用麻绳做成的线更便宜，更节省空间。它也有一些缺点：需要两边都有索道站，而且储存箱需要放入矿车。在较长距离上，索道比传送带更好，不鼓励在短距离（0-30米）使用。
+ie.manual.entry.skycrates1=索道站是索道的起点和终点。在中间的脚手架上使用工程师锤来完成建造。需要输入旋转能到它的侧面才能运行。放入齿轮可增加其运转效率，效果类似于 <link;rotary_power3;§o§n齿轮箱§r;>。
+ie.manual.entry.skycrates2=索道站使用载架来将储存箱挂上索道，所以需要在抓取机械臂（在后面，可能有点不起眼）后面放一个装有载架的箱子，抓取机械臂会自动将其取出使用。
+ie.manual.entry.skycrates3=缆车站是缆车线路的起点和终点。用工程师锤敲击中间的脚手架完成建造。为了发挥作用，它需要向侧面输入旋转能。放入齿轮可以增加其运转效率，效果类似于 <link;rotary_power3;§o§n齿轮箱§r;>。
+ie.manual.entry.skycrates4=缆车站使用载架来将储存箱挂上索道，所以需要在抓取机械臂（在后面，可能有点不起眼）后面放一个装有载架的箱子，抓取机械臂会自动将其取出使用。矿车只有在关卡竖起时才能进入索道站，并在索道站装卸好储存箱后自动驶出。输入红石信号可以强制让矿车驶出车站。缆车站会在将储存箱放上和取下索道后让矿车自动驶出车站。
+ie.manual.entry.skycrates5=索道中继点是索道两点之间的中继。它只能连接两根索道。用工程师锤右击栅栏来完成建造。（注：必须从中继点的背面点击栅栏）
+ie.manual.entry.skycrates6=储存箱矿车是通过索道运输物品的安全方式。可以把一个储存箱放入矿车，里面的物品不会丢失。可拆分成矿车和储存箱。
+ie.manual.entry.skycrates7=索道载架用于通过索道运输储存箱，有两种版本：基础型和电动型，电动型在经过激活的<link;tesla_coil;§o§n特斯拉线圈§r;>时会被充能，运输速度会大幅度提升。
+
+#TF2 Reference
+ie.manual.entry.medicrate.name=医疗箱
+ie.manual.entry.medicrate.subtext=对吧，阿基米德？
+ie.manual.entry.medicrate0=医疗箱是一种用于治疗受伤实体的设备。放置后，必须装满§l基础版§r再生药水才能发挥作用。
+ie.manual.entry.medicrate1=潜行并右键单击可以打开或关闭医疗箱：当它关闭时-可以查看药水储量，当它打开时-右键单击以得到效果。医疗箱还可以使用“铁之意志”增强效果，在移动时发射武器时增加机动性和注意力。如果要触发它，第二个空位必须填满金苹果。
+ie.manual.entry.medicrate2=抓取机械手可以安装在医疗箱的顶部。要做到这一点，请在一个封闭的板条箱上使用扳手，并选择适当的升级。安装后，医疗箱需要与一根低压电源线直接连接。安装的注射器机械手将会自动治疗周围的实体。
+
+#A "ministry of nuts and bolts" is a term for a government institution trying to regulate amounts of produced of a good, that's in high demand and cannot (and shouldn't) be measured, like nuts and bolts for construction
+ie.manual.entry.repair_crate.name=修理箱
+ie.manual.entry.repair_crate.subtext=由螺母和螺栓部批准
+ie.manual.entry.repair_crate0=修理箱是一种用于修理装备物品的设备，如果升级了，还用于修理附近的载具。放置后，必须提供钢板（不是UMP45）才能工作。
+ie.manual.entry.repair_crate1=潜行并右键单击将打开或关闭修理箱：当它关闭时-可以查看钢板储量，当它打开时-右键单击维修工具。维修箱将维修玩家持有的和磨损的所有物品。
+ie.manual.entry.repair_crate2=抓取机械手可以安装在修理箱的顶部。要做到这一点，请在一个封闭的修理箱上使用扳手，并选择适当的升级。安装后，修理箱需要与低压一根电源线直接连接。安装的焊机机械手将自动修复周围的设备、载具和方块。
+
+#Motorworks
+
+ie.manual.entry.motorworks.name=汽车工程
+ie.manual.entry.motorworks.subtext=全速前进！
+ie.manual.entry.motorworks=汽车工程是一个工程分支，专注于载具的建造，以提高其他任务的性能。车辆提高了人员和货物的运输速度，从而提高了工厂的整体效率。车辆也可以用来在战斗中获得优势。
+
+#Bob Ross reference
+ie.manual.entry.rubber_production.name=橡胶制造
+ie.manual.entry.rubber_production.subtext=快乐的小树
+ie.manual.entry.rubber_production0=橡胶生产的第一步是寻找和采集丛林生物群系中的§6橡胶树§r的树苗。这些树是乳胶的宝贵来源，乳胶是一种白色液体，是工业橡胶的主要成分。
+ie.manual.entry.rubber_production1=第二步是建造一个橡胶种植园，当树苗生长时，用斧头右击有提取孔的原木。然后把一个乳胶收集器放在树旁边，用桶在收集器上收集乳胶。
+ie.manual.entry.rubber_production2=如果树旁边有不止一个收集器，乳胶就会在所有收集器之间平摊。桶满后，右击收集器以回收桶。<br>要开始将乳胶凝结成生橡胶，需要两件事：§6甲酸§r和<link;coagulator;§o§n乳胶凝固机§r;>。生产甲酸需要在<link;refinery;§o§n炼油厂§r;>里将一氧化碳与甲醇混合来得到。
+ie.manual.entry.rubber_production3=一氧化碳可以通过电解二氧化碳产生，二氧化碳需要用§6二氧化碳过滤器§r收集，二氧化碳过滤器需要放在强化高炉的顶端来收集二氧化碳。
+ie.manual.entry.rubber_production4=甲醇可以通过将镍或铂与氢气混合来生产，氢气是通过电解水产生的。最后一步是使用<link;refinery;§o§n炼油厂§r;>将其与一氧化碳混合。
+ie.manual.entry.rubber_production5=有了乳胶和甲酸，是时候将其混合了。使用乳胶凝固机制作§6生橡胶§r，然后使用<link;metalPress;§o§n金属冲压机§r;>将其制作成天然橡胶板。
+ie.manual.entry.rubber_production6=最后一步是对天然橡胶板进行硫化。使用<link;vulcanizer;§o§n硫化机§r;>生产橡胶轮胎或橡胶皮带。
+
+ie.manual.entry.vehicle_workshop.name=载具车间[WIP，功能未实现]
+ie.manual.entry.vehicle_workshop.subtext=兜风的起点
+ie.manual.entry.vehicle_workshop0=工业进步带来了新的交通工具，取代了马等传统交通工具。载具车间使您能够制造它们，最值得注意的是-<link;motorbike;§o§nThe §o§n摩托车§r;>。用工程师锤敲击左侧的铝质脚手架来完成建造。
+ie.manual.entry.vehicle_workshop1=该机器需要<config;b;petroleumHere;§6柴油§r或者;>§6生物柴油§r以及运行所需的电力，可通过机器侧面和顶部的对应接口提供。要制造车辆，请右击载具车间选择适当的选项，提供显示的材料，并确保平台上没有停放车辆。如果满足所有条件，按下界面中的条纹按钮，车间将开始组装您的车辆。
+ie.manual.entry.vehicle_workshop2=如果车辆使用燃油，将使用车间的内部油箱进行中途加油。但是这点燃料撑不了那么久，所以可以考虑建立一个<link;§o§n燃油站§r;fuel_station;>.。
+ie.manual.entry.vehicle_workshop3=车辆也可以升级。要应用升级，请将车辆驾驶到平台上，并通过界面选择可用的的升级。安装和卸载升级需要提供电力和柴油。
+
+ie.manual.entry.fuel_station.name=燃料站
+ie.manual.entry.fuel_station.subtext=这里不卖热狗！
+ie.manual.entry.fuel_station0=燃料站是用于附近车辆自动加油的装置。用工程师锤敲击左侧的轻型工程块来完成建造。
+ie.manual.entry.fuel_station1=燃料站需要电源才能运行。所需的燃料取决于载具类型。大部分车辆，如摩托车，使用柴油<config;b;petroleumHere;, 但是摩托艇使用汽油;>.。
+
+ie.manual.entry.vulcanizer.name=硫化机
+ie.manual.entry.vulcanizer.subtext=精心设计的烟雾发射器
+ie.manual.entry.vulcanizer0=硫化机是<link;rubber_production;§o§n橡胶生产§r;>过程中重要的机器。用工程师锤敲击离钢板金属块最近的钢块来完成建造。
+ie.manual.entry.vulcanizer1=硫化机利用热量、压力、硫化模具和一组额外的硫化物将天然橡胶板转化为人们熟悉的工业橡胶，用于制造许多新机器，最显著的是更快的传送带、更高效的电机皮带，这对轮式车辆生产至关重要。加工橡胶需要3种成分：提供给铁板金属块上部端口的天然橡胶板、提供给下部端口的硫化合物和输入到钢板金属块端口的硫磺。
+ie.manual.entry.vulcanizer2=操作这台机器需要一个硫化模具来决定最终的产品，以及维持机器运转的电力。
+ie.manual.entry.vulcanizer3=硫化模具可以在<link;workbench;§o§n工程师装配台§r;>上，使用上面的配方来合成。
+ie.manual.entry.vulcanizer4=硫化物由改善橡胶性能的添加剂组成，它可以通过以上两种配方制作。
+
+ie.manual.entry.coagulator.name=乳胶凝固机
+ie.manual.entry.coagulator.subtext=强力搅拌公司荣誉出品
+ie.manual.entry.coagulator0=乳胶凝固机是一种用于凝结乳胶并形成生橡胶以供进一步加工的机器。用工程师锤敲击背面中心的铁板金属块来完成建造。
+ie.manual.entry.coagulator1=乳胶凝固机需要供电，并稳定供应乳胶（右罐）和甲酸（左罐）。在乳胶与酸混合并形成上层“夸克”层后，起重机会拿起其中一个桶，将其浸没并放回原处，同时自动设置计时器。一段时间后，乳胶会凝固成生橡胶，由一个固定水桶的机构输出。生橡胶会掉到铲斗旁边的地上。
+
+#Other
+
+#Reference to a certain picture i've seen on reddit few years ago
+ie.manual.entry.electric_tools.name=电动工具
+ie.manual.entry.electric_tools.subtext=工作要做的更巧，而不是更辛苦
+ie.manual.entry.electric_tools0=工程师电动锤是对工程师锤的直接升级。由于其强度和速度的提高，这种锤子可以构建高级多方块结构，如<link;radio_station;§o§n无线电基站§r;>。
+ie.manual.entry.electric_tools1=工程师电扳手是工程师扳手的增强版。它制造机器升级和炮位武器的速度比手动扳手快得多。
+ie.manual.entry.electric_tools2=工程师电动钳是工程师剪线钳的改进版本。它们能更快地切割方块，如刀片刺网。
+
+#Reference to a certain picture i've seen on reddit few years ago
+ie.manual.entry.sawmill.name=锯床
+ie.manual.entry.sawmill.subtext=转转转！
+ie.manual.entry.sawmill0=锯床是一种由旋转能驱动的木工机器，由一个桌子，一个机械手和锯架组成。用工程师锤敲击中间的木制脚手架来完成建造。
+ie.manual.entry.sawmill1=锯床可以安装不同材料制成的锯片。虽然每一种锯片都能有效地切割木材，但用钢和钨等硬质材料制成的锯片还可以切割金属（未实装）。
+ie.manual.entry.sawmill2=锯床需要不断地向其侧面提供旋转能。物品可以从桌子的右侧输入，加工好的物品会输出到地面上的木制储物箱
+
+ie.manual.entry.rotary_power.name=旋转能
+ie.manual.entry.rotary_power.subtext=转起来了!
+ie.manual.entry.rotary_power0=旋转动力是一种老式的电力替代品。用轮子和马达皮带代替电线和连接器，动力系统包括2个参数：扭矩-单位为牛顿米（Nm）和转速-单位为转/分钟（RPM）。机器需要不同的扭矩和转速才能有效工作。
+ie.manual.entry.rotary_power1=如果这些值中的任何一个超过限制，机器就会爆炸。动力可以通过<link;rotary_power3;§o§n齿轮箱§r;>来合并或分离。
+ie.manual.entry.rotary_power2=传动轮可用于在设备之间传递机械（旋转）动力。放置后，可以使用传动带将其连接到另一个传动轮上，这与用电线连接继电器的方式相同。
+ie.manual.entry.rotary_power3=传动带是每个旋转动力系统的主要传动部件。它们的大小和传递的速度有所不同。如果传动带的扭矩或转速太高，它就会从传动轮上脱落掉在地上。可以根据不同的需要使用不同的材料-钢能承受更高的转矩，但功率损耗也更高。
+ie.manual.entry.rotary_power4=齿轮箱用来连接多个传动轮，他们的侧面可以配置为输入，输出或空。所有输入的输入转矩相加，然后在所有输出之间平均分配。您可以使用齿轮箱合并扭矩，使其更高，或在2个或以上传动轮之间分配扭矩。齿轮箱要求齿轮具有一定的承受扭矩和转速的能力来以满功率运行。
+ie.manual.entry.rotary_power5=变速箱用于连接使用不同轴的机械设备，它们也可以将风车或水车连接到传动带网或向发电机输出机械能。
+ie.manual.entry.rotary_power6=扳手和电动扳手可用于打开机械装置的界面，以便进行维护，例如在齿轮箱中更换齿轮。
+
+#Reference to a certain polish eastern, well... house dweller
+ie.manual.entry.chain_fences.name=链式围栏和栅栏门
+ie.manual.entry.chain_fences.subtext=三米长！
+ie.manual.entry.chain_fences0=链式围栏可以作为工厂区域之间时尚的屏障。它们对全面入侵提供了少量保护，但足以阻止不想要的客人进入你的基地。有多种外观可供选择。
+ie.manual.entry.chain_fences1=大型木制栅栏门为您的工厂综合体提供了一个时尚、复古的入口。它们可以使用内侧的红石激活。就像栅栏一样，有很多版本可供选择。
+ie.manual.entry.chain_fences2=大型木质链条栅栏门为您的工厂综合体提供了一个时尚、复古的入口。它们可以使用内侧的红石激活。就像栅栏一样，有很多外观可供选择。
+ie.manual.entry.chain_fences3=钢质大型栅栏门为您的工厂综合体提供了一个时尚、工业风的入口。它们可以使用内侧的红石激活。就像栅栏一样，有很多外观可供选择。
+ie.manual.entry.chain_fences4=大型钢链栅栏门为您的工厂综合体提供了一个时尚、工业风的入口。它们可以使用内侧的红石激活。就像栅栏一样，有很多外观可供选择。
+ie.manual.entry.chain_fences5=大型铝制栅栏门为您的工厂综合体提供了一个时尚、亮色的的入口。它们可以使用内侧的红石激活。就像栅栏一样，有很多外观可供选择。
+ie.manual.entry.chain_fences6=大型铝链栅栏门为您的工厂综合体提供了一个时尚、亮色的入口。它们可以使用内侧的红石激活。就像栅栏一样，有很多外观可供选择。
+
+death.attack.iiBullet=%1$s被%2$s射杀。
+death.attack.iiBulletNoShooter=%1$s中枪身亡。
+death.attack.iiBulletHeadShot=%1$s被%2$s爆头了。
+death.attack.iiBulletHeadShotNoShooter=%1$s头部中枪。
+death.attack.iiShrapnel=%1$s被%2$s发射的弹片撕裂了。
+death.attack.iiShrapnelNoShooter=%1$s被弹片撕裂了。
+death.attack.iiSawmill=%1$s被锯床锯成了片。
+death.attack.iiRadiation=%1$s沐浴在核辐射中身亡了。
+death.attack.iiNuclearHeat=%1$s没能练成金刚不坏之身，被核弹炸死了。
+death.attack.iiMotorbike=%1$s被%2$s开摩托碾压。
+death.attack.iiMotorbikeNoRider=%1$s被摩头车碾压。
+death.attack.iiMotorbikeExplicit=%2$s把%1$s当成了免费停车位
+death.attack.iiMotorbikeSuicide=%1$s决定从一辆行驶中的摩托车上跳下来，事实证明这是个愚蠢的决定。
+death.attack.iiPanzer1=%1$s被装甲车压得粉碎。
+death.attack.iiPanzer2=坚固的装甲车碾碎了%1$s。

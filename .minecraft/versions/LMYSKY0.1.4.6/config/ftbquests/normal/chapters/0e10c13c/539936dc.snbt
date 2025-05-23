@@ -1,0 +1,12 @@
+{
+	x: 2.5d,
+	y: 1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "da39225e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ma_lou"
+		}]
+	}]
+}

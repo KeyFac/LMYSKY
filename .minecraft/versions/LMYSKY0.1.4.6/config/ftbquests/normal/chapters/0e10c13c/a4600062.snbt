@@ -1,0 +1,12 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "049839ad",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rastrshine"
+		}]
+	}]
+}

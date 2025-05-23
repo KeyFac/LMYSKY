@@ -1,0 +1,12 @@
+[2025-05-24 04:26:22] [pool-4-thread-1 INFO] CustomSkinLoader 14.8
+[2025-05-24 04:26:22] [pool-4-thread-1 INFO] DataDir: D:\Users\Documents\Github\LMYSKY\.minecraft\versions\LMYSKY0.1.4.6\CustomSkinLoader
+[2025-05-24 04:26:22] [pool-4-thread-1 INFO] Minecraft: 0.1.4(LMYSKY0.1.4.6 LMYSKY0.1.4.6)
+[2025-05-24 04:26:22] [pool-4-thread-1 INFO] Config File: D:\Users\Documents\Github\LMYSKY\.minecraft\versions\LMYSKY0.1.4.6\CustomSkinLoader\CustomSkinLoader.json
+[2025-05-24 04:26:22] [pool-4-thread-1 INFO] Try to load config.
+[2025-05-24 04:26:22] [pool-4-thread-1 INFO] Successfully load config.
+[2025-05-24 04:26:22] [pool-4-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:20, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:5
+[2025-05-24 04:26:22] [KeyFac INFO] Loading KeyFac's profile.
+[2025-05-24 04:26:22] [KeyFac INFO] 1/5 Try to load profile from 'Mojang'.
+[2025-05-24 04:26:22] [KeyFac INFO] Default profile will be used.
+[2025-05-24 04:26:22] [KeyFac INFO] KeyFac's profile loaded.
+[2025-05-24 04:26:22] [KeyFac INFO] (SkinUrl: http://textures.minecraft.net/texture/7a672e2dfe264bcfe28d328b98616b53a52d5f7a0d0d619c726d99d3a7248c1a , Model: default , CapeUrl: http://textures.minecraft.net/texture/cd9d82ab17fd92022dbd4a86cde4c382a7540e117fae7b9a2853658505a80625  , Expiry: 1748032003)

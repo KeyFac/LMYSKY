@@ -1,0 +1,40 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"可与含有\"lmyTool\"矿词的物品合成",
+		"在jei内搜索$lmyTool即可",
+		"若无法搜索则是没有打开矿词搜索选项。点开jei扳手，选择搜索选项，将$矿物词典调成enabled"
+	],
+	dependencies: [
+		"92f49fc0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "89dfb8fa",
+		type: "item",
+		items: [{
+			id: "akashictome:tome",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b43d30f8",
+		type: "item",
+		item: {
+			id: "mekanism:mektool",
+			tag: {
+				mekData: {
+					energyStored: 1.0E7d
+				}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	}]
+}

@@ -1,0 +1,16 @@
+{
+    "registryname": "assembly_line",
+    "localizedname": "assembly_line",
+    "requires-blueprint": false,
+    "color": "3E3731",
+    "failure-action": "still",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:grass@0"
+            ]
+        }
+    ]}

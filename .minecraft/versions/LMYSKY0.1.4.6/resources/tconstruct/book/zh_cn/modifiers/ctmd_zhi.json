@@ -1,0 +1,17 @@
+{
+  "modifier": "ctmd_zhi",
+  "text": [
+    {
+      "text": "传统美德:智"
+    }
+  ],
+  "effects": [
+    "攻击生物时给玩家提供5秒力量2与速度2",
+    "有40%概率恢复造成伤害数值的血量",
+    "智慧比金刚。",
+    "只能强化一次"
+  ],
+  "demoTool": [
+    "tconstruct:broadsword"
+  ]
+}

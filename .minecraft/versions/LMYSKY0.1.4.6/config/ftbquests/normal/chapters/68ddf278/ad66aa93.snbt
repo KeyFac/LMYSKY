@@ -1,0 +1,22 @@
+{
+	x: 3.0d,
+	y: 2.0d,
+	text: [
+		"含有一键搭建,背包内有所有材料时手持模块化机械一键搭建手杖右键控制器一键搭建(就算缺少部分材料也会搭建,不过能一次拿完就一次拿完)"
+	],
+	dependencies: [
+		"ceec52b2"
+	],
+	tasks: [{
+		uid: "c28eb8c0",
+		type: "item",
+		items: [{
+			item: "modularmachinery:gaoji_jiaolu_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "e78d8a6f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

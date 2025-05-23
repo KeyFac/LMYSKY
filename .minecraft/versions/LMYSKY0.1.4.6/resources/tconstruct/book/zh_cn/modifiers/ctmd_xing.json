@@ -1,0 +1,16 @@
+{
+  "modifier": "ctmd_xing",
+  "text": [
+    {
+      "text": "传统美德:信"
+    }
+  ],
+  "effects": [
+    "被攻击的怪物额外受到一段攻击力数值的伤害",
+    "君子一言。",
+    "只能强化一次"
+  ],
+  "demoTool": [
+    "tconstruct:broadsword"
+  ]
+}

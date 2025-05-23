@@ -1,0 +1,16 @@
+{
+  "modifier": "ctmd_yi",
+  "text": [
+    {
+      "text": "传统美德:义"
+    }
+  ],
+  "effects": [
+    "怪物被攻击时半径5格内同种类怪物一起受到伤害",
+    "忠义垂青脉。",
+    "只能强化一次"
+  ],
+  "demoTool": [
+    "tconstruct:broadsword"
+  ]
+}

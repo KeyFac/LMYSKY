@@ -1,0 +1,3 @@
+装上该mod后请在启动器的参数头上加上
+-XX：+AggressiveOpts -XX：+UseConcMarkSweepGC -XX：+UseParNewGC -XX：+CMSConcurrentMTEnabled -XX：ParallelGCThreads=4 -Dsun.rmi.dgc.server.gcInterval=1800000 -XX：+UnlockExperimentalVMOptions -XX：+ExplicitGCInvokesConcurrent -XX：MaxGCPauseMillis=50 -XX：+AlwaysPreTouch -XX：+UseStringDeduplication -Dfml.ignorePatchDiscrepanceies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX：-OmitStackTraceInFastThrow -XX：+OptimizeStringConcat -XX：+UseAdaptiveGCBoundary -XX：NewRatio=3 -Dfml.readTimeout=90 -XX：+UseFastAccessorMethods
+加上该参数头后仅能启动1.12.2，若要启动其他版本请删除该参数头

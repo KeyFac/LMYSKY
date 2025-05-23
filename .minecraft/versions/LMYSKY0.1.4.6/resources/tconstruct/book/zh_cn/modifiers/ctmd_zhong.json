@@ -1,0 +1,17 @@
+{
+  "modifier": "ctmd_zhong",
+  "text": [
+    {
+      "text": "传统美德:忠"
+    }
+  ],
+  "effects": [
+    "手持武器时半径20格内的生物不会主动攻击玩家",
+    "被攻击生物不会攻击玩家",
+    "忠诚难可宣。",
+    "只能强化一次"
+  ],
+  "demoTool": [
+    "tconstruct:broadsword"
+  ]
+}

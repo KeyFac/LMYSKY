@@ -1,0 +1,12 @@
+{
+	x: -3.5d,
+	y: 1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "66b505fb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:hazza"
+		}]
+	}]
+}

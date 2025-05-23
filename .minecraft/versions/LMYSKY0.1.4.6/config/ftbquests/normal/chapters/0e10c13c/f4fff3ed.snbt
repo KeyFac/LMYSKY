@@ -1,0 +1,12 @@
+{
+	x: 2.5d,
+	y: 2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "08c74d90",
+		type: "item",
+		items: [{
+			item: "contenttweaker:a90ni"
+		}]
+	}]
+}

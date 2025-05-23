@@ -1,0 +1,12 @@
+{
+	x: 2.5d,
+	y: -2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "8142977a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mosong"
+		}]
+	}]
+}

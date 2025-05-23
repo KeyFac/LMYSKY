@@ -1,0 +1,12 @@
+{
+	x: -2.5d,
+	y: -1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "e844a783",
+		type: "item",
+		items: [{
+			item: "contenttweaker:liuming324"
+		}]
+	}]
+}

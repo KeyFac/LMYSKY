@@ -1,0 +1,24 @@
+{
+  "ccl_marker": 1,
+  "texture_domain": "avaritiaitem",
+  "defaults": {
+    "transform": "ccl:default-item",
+    "textures": {
+      "layer0": "minecraft:dirt"
+    },
+    "model": "builtin/generated"
+  },
+  "variant_sets": [
+    "type"
+  ],
+  "variants": {
+    "type": {
+      "infinity_otto": {
+        "textures": {
+          "layer0": "items/infinity_otto",
+          "layer1": "items/infinity_otto1"
+        }
+      }
+    }
+  }
+}
